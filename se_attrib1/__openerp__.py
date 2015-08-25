@@ -37,7 +37,7 @@
     # Categories can be used to filter modules in modules listing
     # Check http://goo.gl/0TfwzD for the full list
     'category': 'Uncategorized',
-    'version': '0.0.0.0.3',
+    'version': '0.0.0.0.4',
     # any module necessary for this one to work correctly
     'depends': ['base','product'],
     'license': 'AGPL-3',
