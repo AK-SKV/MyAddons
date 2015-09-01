@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<data><xpath expr="//form" position="attributes">
+                    <attribute name="name">Product Template</attribute>
+                </xpath>
+                <field name="active" position="after">
+                    <field name="ean13" attrs="{'invisible': [('product_variant_count', '&gt;', 1)]}"/>
+                    <field name="default_code" attrs="{'invisible': [('product_variant_count', '&gt;', 1)]}"/>
+                    <field  name="x_tvrid"/>
+                    <field  name="x_picturl"/>
+                </field>
+                <xpath expr="//page[@string='Sales']" position="after">
+                    <page name="variants" string="Variants">
+                        <div class="oe_right">
+                            <button class="oe_inline oe_stat_button" string="Variant Prices" name="122" type="action" icon="fa-strikethrough"/>
+                            <button class="oe_inline oe_stat_button" name="124" type="action" icon="fa-sitemap">
+                                <field string="List of Variants" name="product_variant_count" widget="statinfo"/>
+                            </button>
+                        </div>
+                        <p class="oe_grey">
+                            <strong>Warning</strong>: adding or deleting attributes
+                            will delete and recreate existing variants and lead
+                            to the loss of their possible customizations.
+                        </p>
+                        <field name="attribute_line_ids" widget="one2many_list" context="{'show_attribute': False}">
+                            <tree string="Variants" editable="bottom">
+                                <field name="attribute_id"/>
+                                <field name="value_ids" widget="many2many_tags" options="{'no_create_edit': True}" domain="[('attribute_id', '=', attribute_id)]" context="{'default_attribute_id': attribute_id}"/>
+                            </tree>
+                        </field>
+                    </page>
+                </xpath>
+            </data>

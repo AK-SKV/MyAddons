@@ -14,5 +14,9 @@ class se_product(models.Model):
 class se_partner(models.Model):
     _inherit = 'res.partner'
     ef_id = fields.Integer('Код контрагента из ЛО')
+class product_pricelist(models.Model):
+    _inherit = 'product.pricelist'
+    ef_is_comp = fields.Boolean('ЭтоАкция')
+    ef_PartnerId = fields.Many2one('res.partner', ondelete='set null', string='Контрагент',)
 
 

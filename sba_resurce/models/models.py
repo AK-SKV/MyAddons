@@ -1,0 +1,49 @@
+# -*- coding: utf-8 -*-
+##############################################################################
+#
+#    OpenERP, Open Source Management Solution
+#    Copyright (C) 2004-2010 Tiny SPRL (<http://tiny.be>).
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU Affero General Public License as
+#    published by the Free Software Foundation, either version 3 of the
+#    License, or (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU Affero General Public License for more details.
+#
+#    You should have received a copy of the GNU Affero General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+##############################################################################
+
+from openerp import models, fields, api, tools, _
+# from openerp.osv import fields as fields_old
+# import openerp.addons.decimal_precision as dp
+
+
+class SaleOrder(models.Model):
+    _name = 'sale.order'
+    _inherit = [
+        'sale.order',
+        
+    ]
+    _description = 'Sales Order'
+    sale_order_line_resource_ids = fields.One2many('sale.order.line.resource', 'sale_order_id', string='Sales order line resource',)
+    hr_employee_id = fields.Many2one('hr.employee', ondelete='set null', string='Employee',)
+    
+    
+
+
+class SaleOrderLineResource(models.Model):
+    _name = 'sale.order.line.resource'
+    _description = 'Sales Order Line Resource'
+    sale_order_id = fields.Many2one('sale.order', ondelete='set null', string='Sales order',)
+    start_date = fields.Datetime( string='Start Date',)
+    end_date = fields.Datetime( string='End Date',)
+    product_template_id = fields.Many2one('product.template', ondelete='set null', string='Product template',)
+    
+    
+
