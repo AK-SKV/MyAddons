@@ -41,5 +41,5 @@
     # any module necessary for this one to work correctly
     'depends': ['base','product'],
     'data': ['se_views_menu.xml',],
-    'license': 'AGPL-3',
+    'license': 'AGPL-3', 
 }
