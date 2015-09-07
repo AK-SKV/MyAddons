@@ -14,7 +14,6 @@ class se_product(models.Model):
 class se_partner(models.Model):
     _inherit = 'res.partner'
     ef_id = fields.Integer('Код контрагента из ЛО')
-    ef_id_adr = fields.Integer('Код адреса из KLN_ADK')
 class product_pricelist(models.Model):
     _inherit = 'product.pricelist'
     ef_is_comp = fields.Boolean('ЭтоАкция')
