@@ -15,9 +15,23 @@ class se_partner(models.Model):
     _inherit = 'res.partner'
     ef_id = fields.Integer('Код контрагента из ЛО')
     ef_id_adr = fields.Integer('Код адреса из KLN_ADK')
+    ef_id_sot = fields.Integer('Код сотрудника из ЛО')
 class product_pricelist(models.Model):
     _inherit = 'product.pricelist'
     ef_is_comp = fields.Boolean('ЭтоАкция')
     ef_PartnerId = fields.Many2one('res.partner', ondelete='set null', string='Контрагент',)
+class hr_department(models.Model):
+    _inherit = 'hr.department'
+    ef_id = fields.Integer('Код отдела из ЛО')
+class hr_employee(models.Model):
+    _inherit = 'hr.employee'
+    ef_id = fields.Integer('Код сотрудника из ЛО')
+class res_user(models.Model):
+    _inherit = 'res.user'
+    ef_id_sot = fields.Integer('Код сотрудника из ЛО')
+class resource_resource(models.Model):
+    _inherit = 'resource.resource'
+    ef_id_sot = fields.Integer('Код сотрудника из ЛО')
+
 
 
