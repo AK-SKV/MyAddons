@@ -26,12 +26,12 @@ class hr_department(models.Model):
 class hr_employee(models.Model):
     _inherit = 'hr.employee'
     ef_id = fields.Integer('Код сотрудника из ЛО')
-class res_user(models.Model):
-    _inherit = 'res.user'
+class res_users(models.Model):
+    _inherit = 'res.users'
     ef_id_sot = fields.Integer('Код сотрудника из ЛО')
 class resource_resource(models.Model):
     _inherit = 'resource.resource'
     ef_id_sot = fields.Integer('Код сотрудника из ЛО')
-
-
-
+class res_company(models.Model):
+    _inherit = 'res.company'
+    ef_id = fields.Integer('Код клиента из KAT_KLN ЛО')
