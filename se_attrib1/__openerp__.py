@@ -39,7 +39,7 @@
     'category': 'Uncategorized',
     'version': '0.0.0.0.4',
     # any module necessary for this one to work correctly
-    'depends': ['base','product'],
+    'depends': ['base','product','account_voucher',],
     'data': ['se_views_menu.xml',],
     'license': 'AGPL-3', 
 }

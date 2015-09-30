@@ -23,27 +23,23 @@ from openerp import models, fields, api, tools, _
 # from openerp.osv import fields as fields_old
 # import openerp.addons.decimal_precision as dp
 
-
+class SaleOrderLineResource(models.Model):
+    _name = 'sale.order.line.resource'
+    _description = 'Sales Order Line Resource'
+    sale_order_id = fields.Many2one('sale.order', ondelete='set null', string='Sales order',)
+    sale_order_line_id = fields.Many2one('sale.order.line', ondelete='set null', string='Sales order line',)
+    start_date = fields.Datetime( string='Start Date',)
+    end_date = fields.Datetime( string='End Date',)
+    product_template_id = fields.Many2one('product.template', ondelete='set null', string='Product template',)
 class SaleOrder(models.Model):
     _name = 'sale.order'
     _inherit = [
         'sale.order',
-        
     ]
     _description = 'Sales Order'
     sale_order_line_resource_ids = fields.One2many('sale.order.line.resource', 'sale_order_id', string='Sales order line resource',)
     hr_employee_id = fields.Many2one('hr.employee', ondelete='set null', string='Employee',)
     
-    
-
-
-class SaleOrderLineResource(models.Model):
-    _name = 'sale.order.line.resource'
-    _description = 'Sales Order Line Resource'
-    sale_order_id = fields.Many2one('sale.order', ondelete='set null', string='Sales order',)
-    start_date = fields.Datetime( string='Start Date',)
-    end_date = fields.Datetime( string='End Date',)
-    product_template_id = fields.Many2one('product.template', ondelete='set null', string='Product template',)
     
     
 

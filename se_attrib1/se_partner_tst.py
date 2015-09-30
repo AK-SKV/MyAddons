@@ -35,3 +35,6 @@ class resource_resource(models.Model):
 class res_company(models.Model):
     _inherit = 'res.company'
     ef_id = fields.Integer('Код клиента из KAT_KLN ЛО')
+class res_company(models.Model):
+    _inherit = 'account.bank.statement '
+    rch_b = fields.Char('Расчетный счет из ЛО', 20)
