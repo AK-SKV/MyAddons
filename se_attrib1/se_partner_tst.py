@@ -35,7 +35,13 @@ class resource_resource(models.Model):
 class res_company(models.Model):
     _inherit = 'res.company'
     ef_id = fields.Integer('Код клиента из KAT_KLN ЛО')
-class res_company(models.Model):
+class account_bank_statement(models.Model):
     _inherit = 'account.bank.statement'
     rch_b = fields.Char('Расчетный счет из ЛО',size=20)
-    
+class account_invoice(models.Model):
+    _inherit = 'account.invoice'
+    ef_id = fields.Integer('Код строки из LIST_SKL ЛО')
+class account_invoice_line(models.Model):
+    _inherit = 'account.invoice.line'
+    ef_id = fields.Integer('Код строки из HIST_SKL ЛО')
+        
