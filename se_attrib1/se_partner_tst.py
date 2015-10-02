@@ -40,8 +40,14 @@ class account_bank_statement(models.Model):
     rch_b = fields.Char('Расчетный счет из ЛО',size=20)
 class account_invoice(models.Model):
     _inherit = 'account.invoice'
-    ef_id = fields.Integer('Код строки из LIST_SKL ЛО')
+ #   ef_id = fields.Integer('Код строки из LIST_SKL ЛО')
+  #  ставим вручную bigint
 class account_invoice_line(models.Model):
     _inherit = 'account.invoice.line'
-    ef_id = fields.Integer('Код строки из HIST_SKL ЛО')
-        
+  #  ef_id = fields.Integer('Код строки из HIST_SKL ЛО')
+  #  ef_list_id = fields.Integer('Код строки из LIST_SKL ЛО')
+  #  ставим вручную bigint
+class stock_warehouse(models.Model):
+    _inherit = 'stock.warehouse'
+    ef_id = fields.Integer('Код строки из KAT_SKL ЛО')
+    
