@@ -12,25 +12,21 @@
 	</list>
 	<section name="GitCommitMessageComponent">
 		<list key="/home/boss/workspace/ODOO_addons/.git">
-			<item value="false"/>
-			<item value="boss &lt;bossboss@front.ru&gt;"/>
-			<item value="1 перенос данных&#x0A;&#x0A;Signed-off-by: boss &lt;bossboss@front.ru&gt;"/>
-			<item value="boss &lt;bossboss@front.ru&gt;"/>
-			<item value="7e023c6b33432e13840b79e630f79de33841f058"/>
+			<item value="empty"/>
 		</list>
 	</section>
 	<section name="org.eclipse.egit.ui.internal.fetch.FetchResultDialog.dialogBounds">
 		<item value="613" key="DIALOG_WIDTH"/>
 		<item value="109" key="DIALOG_Y_ORIGIN"/>
-		<item value="473" key="DIALOG_HEIGHT"/>
 		<item value="495" key="DIALOG_X_ORIGIN"/>
+		<item value="473" key="DIALOG_HEIGHT"/>
 		<item value="1|Cantarell|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
 		<item value="942" key="DIALOG_WIDTH"/>
 		<item value="100" key="DIALOG_Y_ORIGIN"/>
-		<item value="388" key="DIALOG_HEIGHT"/>
 		<item value="330" key="DIALOG_X_ORIGIN"/>
+		<item value="394" key="DIALOG_HEIGHT"/>
 		<item value="1|Cantarell|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="FetchGerritChangePage">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="20" version="2.0">
+<workbench progressCount="11" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="0" y="27">
 <fastViewData fastViewLocation="1024">
@@ -16,16 +16,18 @@
 <coolItem id="group.file" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="144" y="30"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="60" y="30"/>
-<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.python.pydev.editor.PythonEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.python.pydev.editor.PythonEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -38,31 +40,21 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
-<part id="3"/>
-<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.python.pydev.editor.PythonEditor" name="se_partner_tst.py" partName="se_partner_tst" title="se_partner_tst" tooltip="/home/boss/workspace/ODOO_addons/se_attrib1/se_partner_tst.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/se_partner_tst.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="660" selectionTopPixel="0"/>
-</editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="__init__.py" partName="se_attrib1" title="se_attrib1" tooltip="/home/boss/workspace/ODOO_addons/se_attrib1/__init__.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/__init__.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="test_view.xml" partName="test_view.xml" title="test_view.xml" tooltip="/home/boss/workspace/ODOO_addons/sba_resurce/test_view.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/boss/workspace/ODOO_addons/sba_resurce/test_view.xml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1346"/>
 </editor>
 <editor id="org.python.pydev.editor.PythonEditor" name="__openerp__.py" partName="__openerp__" title="__openerp__" tooltip="/home/boss/workspace/ODOO_addons/se_attrib1/__openerp__.py" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/__openerp__.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1449" selectionTopPixel="26"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="781" selectionTopPixel="142"/>
 </editor>
-<editor id="org.python.pydev.editor.PythonEditor" name="models.py" partName="models" title="models" tooltip="/home/boss/workspace/ODOO_addons/sba_resurce/models/models.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/boss/workspace/ODOO_addons/sba_resurce/models/models.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1960" selectionTopPixel="101"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.ui.DefaultTextEditor" name="test_view.xml" partName="test_view.xml" title="test_view.xml" tooltip="/home/boss/workspace/ODOO_addons/sba_resurce/test_view.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/boss/workspace/ODOO_addons/sba_resurce/test_view.xml"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1346"/>
+<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="se_partner_tst.py" partName="se_partner_tst" title="se_partner_tst" tooltip="/home/boss/workspace/ODOO_addons/se_attrib1/se_partner_tst.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/se_partner_tst.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2426" selectionTopPixel="232"/>
 </editor>
 </editors>
 <views>
@@ -104,11 +96,8 @@
 <view id="org.eclipse.egit.ui.RepositoriesView" partName="Git Repositories">
 <viewState CommonNavigator.LINKING_ENABLED="1"/>
 </view>
-<view id="org.eclipse.egit.ui.ReflogView" partName="Git Reflog">
-<viewState/>
-</view>
 </views>
-<perspectives activePart="org.eclipse.ui.DefaultTextEditor" activePerspective="org.eclipse.egit.ui.GitRepositoryExploring">
+<perspectives activePart="org.python.pydev.editor.PythonEditor" activePerspective="org.eclipse.egit.ui.GitRepositoryExploring">
 <perspective editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -140,36 +129,26 @@
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="topLeft">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.internal.presentations.classic.WorkbenchPresentationFactoryClassic"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1ba52c2a" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1ba52c2a" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.internal.presentations.classic.WorkbenchPresentationFactoryClassic"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25940594" ratioLeft="262" ratioRight="748" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.65876776" ratioLeft="417" ratioRight="216" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<info folder="true" part="bottomRight" ratio="0.65876776" ratioLeft="417" ratioRight="216" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.internal.presentations.classic.WorkbenchPresentationFactoryClassic"/>
 </folder>
 </info>
-<info folder="true" part="bottomLeft" ratio="0.49921012" ratioLeft="316" ratioRight="317" relationship="4" relative="topLeft">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<info folder="true" part="bottomLeft" ratio="0.49921012" ratioLeft="316" ratioRight="317" relationship="4" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.internal.presentations.classic.WorkbenchPresentationFactoryClassic"/>
 </folder>
@@ -197,9 +176,8 @@
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <fastViews>
-<view id="org.eclipse.egit.ui.ReflogView" ratio="0.2996231"/>
 <view id="org.eclipse.egit.ui.StagingView" ratio="0.2996231"/>
-<view id="org.eclipse.jdt.ui.PackageExplorer" ratio="0.2996231"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer" ratio="0.298995"/>
 <view id="org.eclipse.team.sync.views.SynchronizeView" ratio="0.25"/>
 <view id="org.eclipse.egit.ui.RepositoriesView" ratio="0.298995"/>
 </fastViews>
@@ -244,156 +222,169 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/controllers.py"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/demo.xml"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/__init__.py"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/models.py"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/__openerp__.py"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/se_partner_tst.py"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/templates.xml"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/controllers.py"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/__init__.py"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/models.py"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/demo.xml"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/__openerp__.py"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/models.py"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/se_partner_tst.py"/>
-<editor commit="7e023c6b33432e13840b79e630f79de33841f058" factoryID="org.eclipse.egit.ui.internal.commit.CommitEditorInputFactory" id="org.eclipse.egit.ui.commitEditor" path="/home/boss/workspace/ODOO_addons/.git"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/home/boss/workspace/ODOO_addons/.metadata/.log"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/usr/lib/python2.7/zipfile.py"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/home/boss/workspace/ODOO_addons/sba_resurce/models/__init__.py"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/home/boss/workspace/ODOO_addons/sba_resurce/models/models.py"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/home/boss/workspace/ODOO_addons/sba_resurce/test_view.xml"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/se_partner_tst.py"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/__init__.py"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/home/boss/workspace/ODOO_addons/sba_resurce/models/models.py"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/__openerp__.py"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/home/boss/odoo-ru/odooru_contact_partner/controllers/main.py"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/models.py"/>
 </editors>
-<item historyLabel="controllers" index="0">
+<item historyLabel="se_attrib1" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="demo.xml" index="1">
+<item historyLabel="__openerp__" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="controllers" index="0">
-<position info="not_deleted" x="48" y="0"/>
+<item historyLabel="se_partner_tst" index="2">
+<position info="not_deleted" x="606" y="0"/>
 </item>
-<item historyLabel="demo.xml" index="1">
+<item historyLabel="se_attrib1" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="se_attrib1" index="2">
+<item historyLabel="__openerp__" index="1">
+<position info="not_deleted" x="1449" y="0"/>
+</item>
+<item historyLabel="se_partner_tst" index="2">
+<position info="not_deleted" x="606" y="0"/>
+</item>
+<item historyLabel="se_attrib1" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="models" index="3">
+<item historyLabel="se_partner_tst" index="2">
+<position info="not_deleted" x="386" y="0"/>
+</item>
+<item historyLabel="__openerp__" index="1">
+<position info="not_deleted" x="1449" y="0"/>
+</item>
+<item historyLabel="se_partner_tst" index="2">
+<position info="not_deleted" x="660" y="0"/>
+</item>
+<item historyLabel="zipfile" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="__openerp__" index="4">
+<item historyLabel="zipfile" index="3">
+<position info="not_deleted" x="1485" y="0"/>
+</item>
+<item historyLabel="zipfile" index="3">
+<position info="not_deleted" x="42106" y="0"/>
+</item>
+<item historyLabel="zipfile" index="3">
+<position info="not_deleted" x="42135" y="0"/>
+</item>
+<item historyLabel="zipfile" index="3">
+<position info="not_deleted" x="41291" y="0"/>
+</item>
+<item historyLabel="se_partner_tst" index="2">
+<position info="not_deleted" x="660" y="0"/>
+</item>
+<item historyLabel="models" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="se_partner_tst" index="5">
+<item historyLabel="models" index="5">
+<position info="not_deleted" x="1960" y="0"/>
+</item>
+<item historyLabel="test_view.xml" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="templates.xml" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="controllers" index="7">
-<position info="not_deleted" x="48" y="0"/>
+<item historyLabel="se_partner_tst" index="7">
+<position/>
 </item>
 <item historyLabel="se_attrib1" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="models" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="controllers" index="7">
-<position info="not_deleted" x="48" y="0"/>
-</item>
-<item historyLabel="demo.xml" index="10">
-<position info="not_deleted" x="0" y="0"/>
+<position info="not_deleted" x="1960" y="0"/>
 </item>
 <item historyLabel="se_attrib1" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
+<item historyLabel="__openerp__" index="10">
+<position/>
+</item>
 <item historyLabel="models" index="9">
+<position info="not_deleted" x="1960" y="0"/>
+</item>
+<item historyLabel="main" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="__openerp__" index="11">
+<item historyLabel="models" index="9">
+<position info="not_deleted" x="1960" y="0"/>
+</item>
+<item historyLabel="__openerp__" index="10">
+<position/>
+</item>
+<item historyLabel="se_attrib1" index="8">
 <position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="se_partner_tst" index="7">
+<position/>
 </item>
 <item historyLabel="models" index="12">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="se_partner_tst" index="13">
-<position info="not_deleted" x="659" y="0"/>
-</item>
-<item historyLabel="7e023c6b [ODOO_addons]" index="14"/>
-<item historyLabel="se_partner_tst" index="13">
-<position info="not_deleted" x="659" y="0"/>
-</item>
-<item historyLabel=".log" index="15">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="se_partner_tst" index="13">
-<position info="not_deleted" x="659" y="0"/>
-</item>
-<item historyLabel="se_partner_tst" index="13">
+<item historyLabel="se_partner_tst" index="7">
 <position/>
 </item>
-<item historyLabel="se_partner_tst" index="13">
-<position info="not_deleted" x="606" y="0"/>
-</item>
 <item historyLabel="se_attrib1" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="__openerp__" index="11">
+<item historyLabel="se_partner_tst" index="7">
+<position/>
+</item>
+<item historyLabel="__openerp__" index="10">
+<position/>
+</item>
+<item historyLabel="se_partner_tst" index="7">
+<position/>
+</item>
+<item historyLabel="__openerp__" index="10">
+<position/>
+</item>
+<item historyLabel="se_partner_tst" index="7">
+<position/>
+</item>
+<item historyLabel="models (models)" index="9">
+<position info="not_deleted" x="1706" y="0"/>
+</item>
+<item historyLabel="se_partner_tst" index="7">
+<position info="not_deleted" x="1566" y="410"/>
+</item>
+<item historyLabel="__openerp__" index="10">
+<position info="not_deleted" x="1514" y="59"/>
+</item>
+<item historyLabel="se_partner_tst" index="7">
+<position info="not_deleted" x="1566" y="410"/>
+</item>
+<item historyLabel="models (models)" index="9">
+<position info="not_deleted" x="1657" y="0"/>
+</item>
+<item historyLabel="test_view.xml" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="se_partner_tst" index="13">
-<position info="not_deleted" x="606" y="0"/>
+<item historyLabel="__openerp__" index="10">
+<position info="not_deleted" x="1574" y="0"/>
 </item>
-<item historyLabel="se_attrib1" index="8">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="se_partner_tst" index="7">
+<position/>
 </item>
-<item historyLabel="__openerp__" index="11">
-<position info="not_deleted" x="1449" y="0"/>
+<item historyLabel="__openerp__" index="10">
+<position info="not_deleted" x="1587" y="0"/>
 </item>
-<item historyLabel="se_partner_tst" index="13">
-<position info="not_deleted" x="606" y="0"/>
+<item historyLabel="se_partner_tst" index="7">
+<position info="not_deleted" x="2215" y="0"/>
 </item>
-<item historyLabel="se_attrib1" index="8">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="__openerp__" index="10">
+<position info="not_deleted" x="781" y="0"/>
 </item>
-<item historyLabel="se_partner_tst" index="13">
-<position info="not_deleted" x="386" y="0"/>
-</item>
-<item historyLabel="__openerp__" index="11">
-<position info="not_deleted" x="1449" y="0"/>
-</item>
-<item historyLabel="se_partner_tst" index="13">
-<position info="not_deleted" x="660" y="0"/>
-</item>
-<item historyLabel="zipfile" index="16">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="zipfile" index="16">
-<position info="not_deleted" x="1485" y="0"/>
-</item>
-<item historyLabel="zipfile" index="16">
-<position info="not_deleted" x="42106" y="0"/>
-</item>
-<item historyLabel="zipfile" index="16">
-<position info="not_deleted" x="42135" y="0"/>
-</item>
-<item historyLabel="zipfile" index="16">
-<position info="not_deleted" x="41291" y="0"/>
-</item>
-<item historyLabel="se_partner_tst" index="13">
-<position info="not_deleted" x="660" y="0"/>
-</item>
-<item historyLabel="models" index="17">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="models" index="18">
-<position info="not_deleted" x="1960" y="0"/>
-</item>
-<item active="true" historyLabel="test_view.xml" index="19">
-<position info="not_deleted" x="0" y="0"/>
+<item active="true" historyLabel="se_partner_tst" index="7">
+<position info="not_deleted" x="2432" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -412,6 +403,18 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="se_partner_tst.py" tooltip="/home/boss/workspace/ODOO_addons/se_attrib1/se_partner_tst.py">
+<persistable uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/se_partner_tst.py"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="__openerp__.py" tooltip="/home/boss/workspace/ODOO_addons/se_attrib1/__openerp__.py">
+<persistable uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/__openerp__.py"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="models.py" tooltip="/home/boss/workspace/ODOO_addons/se_attrib1/models.py">
+<persistable uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/models.py"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="main.py" tooltip="/home/boss/odoo-ru/odooru_contact_partner/controllers/main.py">
+<persistable uri="file:/home/boss/odoo-ru/odooru_contact_partner/controllers/main.py"/>
+</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="test_view.xml" tooltip="/home/boss/workspace/ODOO_addons/sba_resurce/test_view.xml">
 <persistable uri="file:/home/boss/workspace/ODOO_addons/sba_resurce/test_view.xml"/>
 </file>
@@ -424,9 +427,6 @@
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="zipfile.py" tooltip="/usr/lib/python2.7/zipfile.py">
 <persistable uri="file:/usr/lib/python2.7/zipfile.py"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="__openerp__.py" tooltip="/home/boss/workspace/ODOO_addons/se_attrib1/__openerp__.py">
-<persistable uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/__openerp__.py"/>
-</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="__init__.py" tooltip="/home/boss/workspace/ODOO_addons/se_attrib1/__init__.py">
 <persistable uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/__init__.py"/>
 </file>
@@ -435,12 +435,6 @@
 </file>
 <file factoryID="org.eclipse.egit.ui.internal.commit.CommitEditorInputFactory" id="org.eclipse.egit.ui.commitEditor" name="7e023c6b [ODOO_addons]" tooltip="Commit 7e023c6b33432e13840b79e630f79de33841f058 in repository ODOO_addons">
 <persistable commit="7e023c6b33432e13840b79e630f79de33841f058" path="/home/boss/workspace/ODOO_addons/.git"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="se_partner_tst.py" tooltip="/home/boss/workspace/ODOO_addons/se_attrib1/se_partner_tst.py">
-<persistable uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/se_partner_tst.py"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="models.py" tooltip="/home/boss/workspace/ODOO_addons/se_attrib1/models.py">
-<persistable uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/models.py"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="templates.xml" tooltip="/home/boss/workspace/ODOO_addons/se_attrib1/templates.xml">
 <persistable uri="file:/home/boss/workspace/ODOO_addons/se_attrib1/templates.xml"/>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="-57" key="DIALOG_Y_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
 		<item value="477" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="NewWizardAction">
 	</section>
 	<section name="InstallationDialogSettings">
 		<item value="802" key="DIALOG_WIDTH"/>
 		<item value="-155" key="DIALOG_Y_ORIGIN"/>
-		<item value="846" key="DIALOG_HEIGHT"/>
 		<item value="156" key="DIALOG_X_ORIGIN"/>
+		<item value="846" key="DIALOG_HEIGHT"/>
 		<item value="1|Cantarell|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
-	</section>
-	<section name="NewWizardAction">
 	</section>
 	<section name="ShowViewDialog">
 		<item value="374" key="DIALOG_WIDTH"/>
 		<item value="org.eclipse.egit.ui.RepositoriesView" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
 		<item value="111" key="DIALOG_Y_ORIGIN"/>
-		<item value="459" key="DIALOG_HEIGHT"/>
 		<item value="614" key="DIALOG_X_ORIGIN"/>
+		<item value="459" key="DIALOG_HEIGHT"/>
 		<item value="1|Cantarell|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.egit.ui.GitCategory"/>

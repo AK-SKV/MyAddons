@@ -2733,3 +2733,113 @@ java.io.UnsupportedEncodingException: The encoding found: >>utf-<< on /usr/lib/p
 	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.setInfos(AbstractInterpreterManager.java:619)
 	at org.python.pydev.ui.pythonpathconf.AbstractInterpreterPreferencesPage$3.run(AbstractInterpreterPreferencesPage.java:253)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2015-10-15 15:25:57.280 -----------------------------------------------
+eclipse.buildId=I20120502-2000
+java.version=1.6.0_36
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ru_RU
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-10-15 15:26:30.077
+!MESSAGE The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment/models/payment_acquirer.py is not a valid encoding.
+!STACK 0
+java.io.UnsupportedEncodingException: The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment/models/payment_acquirer.py is not a valid encoding.
+	at org.python.pydev.shared_core.io.FileUtils.getValidEncoding(FileUtils.java:787)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:748)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:818)
+	at org.python.pydev.core.FileUtilsFileBuffer.getCustomReturnFromFile(FileUtilsFileBuffer.java:161)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalTokensInfo.addAstInfo(AbstractAdditionalTokensInfo.java:280)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:221)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder$InterpreterBuilderJob.run(InterpreterInfoBuilder.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-10-15 15:26:30.087
+!MESSAGE The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_adyen/models/adyen.py is not a valid encoding.
+!STACK 0
+java.io.UnsupportedEncodingException: The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_adyen/models/adyen.py is not a valid encoding.
+	at org.python.pydev.shared_core.io.FileUtils.getValidEncoding(FileUtils.java:787)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:748)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:818)
+	at org.python.pydev.core.FileUtilsFileBuffer.getCustomReturnFromFile(FileUtilsFileBuffer.java:161)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalTokensInfo.addAstInfo(AbstractAdditionalTokensInfo.java:280)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:221)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder$InterpreterBuilderJob.run(InterpreterInfoBuilder.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-10-15 15:26:30.093
+!MESSAGE The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_authorize/models/authorize.py is not a valid encoding.
+!STACK 0
+java.io.UnsupportedEncodingException: The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_authorize/models/authorize.py is not a valid encoding.
+	at org.python.pydev.shared_core.io.FileUtils.getValidEncoding(FileUtils.java:787)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:748)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:818)
+	at org.python.pydev.core.FileUtilsFileBuffer.getCustomReturnFromFile(FileUtilsFileBuffer.java:161)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalTokensInfo.addAstInfo(AbstractAdditionalTokensInfo.java:280)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:221)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder$InterpreterBuilderJob.run(InterpreterInfoBuilder.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-10-15 15:26:30.097
+!MESSAGE The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_buckaroo/models/buckaroo.py is not a valid encoding.
+!STACK 0
+java.io.UnsupportedEncodingException: The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_buckaroo/models/buckaroo.py is not a valid encoding.
+	at org.python.pydev.shared_core.io.FileUtils.getValidEncoding(FileUtils.java:787)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:748)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:818)
+	at org.python.pydev.core.FileUtilsFileBuffer.getCustomReturnFromFile(FileUtilsFileBuffer.java:161)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalTokensInfo.addAstInfo(AbstractAdditionalTokensInfo.java:280)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:221)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder$InterpreterBuilderJob.run(InterpreterInfoBuilder.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-10-15 15:26:30.114
+!MESSAGE The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_ogone/models/ogone.py is not a valid encoding.
+!STACK 0
+java.io.UnsupportedEncodingException: The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_ogone/models/ogone.py is not a valid encoding.
+	at org.python.pydev.shared_core.io.FileUtils.getValidEncoding(FileUtils.java:787)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:748)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:818)
+	at org.python.pydev.core.FileUtilsFileBuffer.getCustomReturnFromFile(FileUtilsFileBuffer.java:161)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalTokensInfo.addAstInfo(AbstractAdditionalTokensInfo.java:280)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:221)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder$InterpreterBuilderJob.run(InterpreterInfoBuilder.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-10-15 15:26:30.118
+!MESSAGE The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_paypal/models/paypal.py is not a valid encoding.
+!STACK 0
+java.io.UnsupportedEncodingException: The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_paypal/models/paypal.py is not a valid encoding.
+	at org.python.pydev.shared_core.io.FileUtils.getValidEncoding(FileUtils.java:787)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:748)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:818)
+	at org.python.pydev.core.FileUtilsFileBuffer.getCustomReturnFromFile(FileUtilsFileBuffer.java:161)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalTokensInfo.addAstInfo(AbstractAdditionalTokensInfo.java:280)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:221)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder$InterpreterBuilderJob.run(InterpreterInfoBuilder.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-10-15 15:26:30.124
+!MESSAGE The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_sips/models/sips.py is not a valid encoding.
+!STACK 0
+java.io.UnsupportedEncodingException: The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_sips/models/sips.py is not a valid encoding.
+	at org.python.pydev.shared_core.io.FileUtils.getValidEncoding(FileUtils.java:787)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:748)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:818)
+	at org.python.pydev.core.FileUtilsFileBuffer.getCustomReturnFromFile(FileUtilsFileBuffer.java:161)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalTokensInfo.addAstInfo(AbstractAdditionalTokensInfo.java:280)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:221)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder$InterpreterBuilderJob.run(InterpreterInfoBuilder.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-10-15 15:26:30.127
+!MESSAGE The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_transfer/models/payment_acquirer.py is not a valid encoding.
+!STACK 0
+java.io.UnsupportedEncodingException: The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_transfer/models/payment_acquirer.py is not a valid encoding.
+	at org.python.pydev.shared_core.io.FileUtils.getValidEncoding(FileUtils.java:787)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:748)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:818)
+	at org.python.pydev.core.FileUtilsFileBuffer.getCustomReturnFromFile(FileUtilsFileBuffer.java:161)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalTokensInfo.addAstInfo(AbstractAdditionalTokensInfo.java:280)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:221)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder$InterpreterBuilderJob.run(InterpreterInfoBuilder.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

@@ -54,8 +54,8 @@
             </field>
         </record>
 
-         <!-- record id="product_pricelist_action2" model="ir.actions.act_window">
-            <field name="name">Pricelists</field>
+         <record id="product_pricelist_flat_action" model="ir.actions.act_window">
+            <field name="name">PricelistsFlat</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">product.pricelist</field>
             <field name="view_type">form</field>
@@ -75,11 +75,12 @@
                 the supplier price multiplied by 1.80).
               </p>
             </field>
-        </record-->
-       
-       <!-- menuitem
-            id="menu_product_pricelist_action2" action="product_pricelist_action2" 
-            parent="product.menu_product_pricelist_main" sequence="1" groups="product.group_sale_pricelist"/-->
-   
-    </data>
+        </record>
+        <menuitem
+            id="menu_product_pricelist_flat" action="product_pricelist_flat_action" 
+            parent="product.menu_product_pricelist_main" sequence="4" groups="product.group_sale_pricelist"/>
+        <menuitem
+            id="menu_product_pricelist_flat" action="product_pricelist_flat_action" 
+            parent="purchase.menu_purchase_config_pricelist" sequence="4" groups="product.group_purchase_pricelist"/>
+      </data>
 </openerp>
