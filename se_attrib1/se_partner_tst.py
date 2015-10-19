@@ -8,9 +8,11 @@ class se_category(models.Model):
 class se_template(models.Model):
     _inherit = 'product.template'
     ef_id = fields.Integer('Код продукта из ЛО', select=True)
+    ef_def_code = fields.Char('Артикул из ЛО', size=10, select=True)
 class se_product(models.Model):
     _inherit = 'product.product'
     ef_id = fields.Integer('Код продукта из ЛО', select=True)
+#    ef_def_code = fields.Char('Артикул из ЛО', size=10, select=True)
 class se_partner(models.Model):
     _inherit = 'res.partner'
     ef_id = fields.Integer('Код контрагента из ЛО', select=True)
@@ -50,4 +52,13 @@ class account_invoice_line(models.Model):
 class stock_warehouse(models.Model):
     _inherit = 'stock.warehouse'
     ef_id = fields.Integer('Код строки из KAT_SKL ЛО', select=True)
+class account_se_import(osv.osv_memory):
+    _name = 'account.rus.import'
+    _description = 'Import Russian statements file'
+    _columns = {
+        'file_data': fields.binary('Import statements File', required=True),
+        'file_fname': fields.char('Import statements Filename', size=128, required=True),
+        'note': fields.text('Log'),
+    }
+
     

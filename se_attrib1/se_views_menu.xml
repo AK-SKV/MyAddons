@@ -3,7 +3,7 @@
  
  <!-- ВАЖНО:  для применения изменений достаточно перегрузить модуль (ODOO перегружать не обязательно) -->
     <data>
-         <record model="ir.ui.view" id="product_pricelist_view_tree1">
+         <record id="product_pricelist_view_tree1" model="ir.ui.view">
             <field name="name">product.pricelist.tree</field>
             <field name="model">product.pricelist</field>
             <field name="priority">15</field>
@@ -82,5 +82,56 @@
         <menuitem
             id="menu_product_pricelist_flat" action="product_pricelist_flat_action" 
             parent="purchase.menu_purchase_config_pricelist" sequence="4" groups="product.group_purchase_pricelist"/>
+
+         <record id="product_pricelist_item_tree_flat_view" model="ir.ui.view">
+            <field name="name">product.pricelist.item</field>
+            <!-- field name="model">product.pricelist</field-->
+            <field name="model">product.pricelist.item</field>
+            <field name="priority">15</field>
+            <field name="arch" type="xml">
+				<!-- editable="bottom" /-->
+				<tree string="Products Listprices Items" editable="bottom">
+				                    <field name="sequence"/>
+				                    <!--field colspan="4" name="name"/-->
+				                    <field name="categ_id"/>
+				                    <field name="product_id"/>
+				                    <!--field name="product_tmpl_id"/-->
+				                    <field name="price_discount"/>
+				                    <field name="price_surcharge"/>
+				                    <field name="min_quantity"/>
+				                    <field name="base"/>
+				                    <field name="base_pricelist_id"/>
+				                </tree>
+	            </field>
+	        </record>
+
+        <record id="PriceList_import_view" model="ir.ui.view">
+	      <field name="name">Import PriceList File</field>
+	      <field name="model">account.rus.import</field>
+	      <field name="priority">1</field>
+	      <field name="arch" type="xml">
+	        <form string="Import PriceList File" version="8.0">
+	            <group col="2">
+	                <field name="file_data" filename="file_fname"/>
+	            </group>
+	            <footer>
+	                <button name="file_parsing" string="_Import" type="object" class="oe_highlight"/>
+	                or
+	                <button string="Cancel" class="oe_link" special="cancel"/>
+	            </footer>
+	        </form>
+	      </field>
+    	</record>
+        <record id="action_PriceList_SE_import" model="ir.actions.act_window">
+	      <field name="name">Import PriceList File</field>
+	      <field name="type">ir.actions.act_window</field>
+	      <field name="res_model">account.rus.import</field>
+	      <field name="view_type">form</field>
+	      <field name="view_mode">form</field>
+	      <field name="target">new</field>
+	      <field name="view_id" ref="PriceList_import_view"/>
+    	</record>
+        <menuitem name="Import PriseList File" parent="purchase.menu_purchase_config_pricelist" id="menu_PriceList_SE_import" action="action_PriceList_SE_import" sequence="10"/>
+	        
       </data>
 </openerp>
