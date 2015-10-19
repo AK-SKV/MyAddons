@@ -125,7 +125,7 @@
         <record id="action_PriceList_SE_import" model="ir.actions.act_window">
 	      <field name="name">Import PriceList File</field>
 	      <field name="type">ir.actions.act_window</field>
-	      <field name="res_model">account.rus.import</field>
+	      <field name="res_model">product.pricelist.import</field>
 	      <field name="view_type">form</field>
 	      <field name="view_mode">form</field>
 	      <field name="target">new</field>
