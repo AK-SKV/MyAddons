@@ -1,5 +1,16 @@
 # -*- coding: utf-8 -*-
-from openerp import models, fields, api
+
+import base64
+
+import time
+from datetime import datetime, timedelta
+from dateutil.relativedelta import relativedelta
+
+
+from openerp.osv import fields, osv
+from openerp.tools.translate import _
+
+from openerp import models, fields, api, tools
 class se_category(models.Model):
     _inherit = 'product.category'
     ef_grpt = fields.Integer('Группа продукта', select=True)
@@ -52,18 +63,18 @@ class account_invoice_line(models.Model):
 class stock_warehouse(models.Model):
     _inherit = 'stock.warehouse'
     ef_id = fields.Integer('Код строки из KAT_SKL ЛО', select=True)
-class account_se_import(osv.osv_memory):
+
+class pricelist_se_import(models.Model):
     _name = 'product.pricelist.import'
     _description = 'Import PriceList file'
-    _columns = {
-        'file_data': fields.binary('Import PriceList File', required=True),
-        'file_fname': fields.char('Import PriceList Filename', size=128, required=True),
-        'note': fields.text('Log'),
-    }
+    file_data  = fields.Binary('Import PriceList File') , required=True)
+    file_fname = fields.Char('Import PriceList Filename', size=128, required=True)
+    note = fields.Text('Log')
 
     _defaults = {
         'file_fname': lambda *a: '',
     }
+
     def file_parsing(self, cr, uid, ids, context=None, batch=False, rfile=None, rfilename=None):
         if context is None:
             context = {}

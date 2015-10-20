@@ -82,7 +82,7 @@
         <menuitem
             id="menu_product_pricelist_flat" action="product_pricelist_flat_action" 
             parent="purchase.menu_purchase_config_pricelist" sequence="4" groups="product.group_purchase_pricelist"/>
-
+            
          <record id="product_pricelist_item_tree_flat_view" model="ir.ui.view">
             <field name="name">product.pricelist.item</field>
             <!-- field name="model">product.pricelist</field-->
@@ -106,14 +106,16 @@
 	        </record>
 
         <record id="PriceList_import_view" model="ir.ui.view">
-	      <field name="name">Import PriceList File</field>
-	      <field name="model">account.rus.import</field>
+	      <field name="name">Import PriceList Excel File</field>
+	      <field name="model">product.pricelist.import</field>
 	      <field name="priority">1</field>
 	      <field name="arch" type="xml">
-	        <form string="Import PriceList File" version="8.0">
-	            <group col="2">
-	                <field name="file_data" filename="file_fname"/>
-	            </group>
+	      <form string="Import PriceList Excel File" width="2000">
+ 	            <!--group col="2" width="2000"-->
+                    <separator string="Import PriceList Excel File"/>
+                        <!--field height="300" width="700" name="line_ids" domain="[('account_id.type','in',['receivable','payable']),('reconcile_id','=',False), ('reconcile_partial_id','=',False), ('state', '=', 'valid')]"/-->
+	                <field height="300" width="700" name="file_data" filename="file_fname" placeholder="Название файла, содержащего прайс"/>
+	            <!--/group-->
 	            <footer>
 	                <button name="file_parsing" string="_Import" type="object" class="oe_highlight"/>
 	                or
@@ -123,15 +125,15 @@
 	      </field>
     	</record>
         <record id="action_PriceList_SE_import" model="ir.actions.act_window">
-	      <field name="name">Import PriceList File</field>
+	      <field name="name">Import PriceList Excel File</field>
 	      <field name="type">ir.actions.act_window</field>
 	      <field name="res_model">product.pricelist.import</field>
+	      <!--field name="res_model">product.pricelist.import</field-->
 	      <field name="view_type">form</field>
 	      <field name="view_mode">form</field>
 	      <field name="target">new</field>
 	      <field name="view_id" ref="PriceList_import_view"/>
     	</record>
-        <menuitem name="Import PriseList File" parent="purchase.menu_purchase_config_pricelist" id="menu_PriceList_SE_import" action="action_PriceList_SE_import" sequence="10"/>
-	        
+        <menuitem name="Import PriseList Excel File" parent="purchase.menu_purchase_config_pricelist" id="menu_PriceList_SE_import" action="action_PriceList_SE_import" sequence="10"/>
       </data>
 </openerp>
