@@ -12,8 +12,92 @@
                     <field name="name" />
                     <field name="type" />
                     <field name="currency_id" groups="base.group_multi_currency" invisible="1" />
-                    <field name="active" /><field name="ef_PartnerId" string="Контрагент"> </field>
+                    <field name="active" /><field name="ef_partnerid" string="Контрагент"> </field>
                 </tree>
+            </field>
+        </record>
+
+
+         <record id="product_pricelist_version_kanban" model="ir.ui.view">
+            <field name="name">product.pricelist.version.canban</field>
+            <field name="model">product.pricelist.version</field>
+            <field name="priority">15</field>
+            <field name="arch" type="xml">
+				<kanban default_group_by="state">
+                    <field name="state"/>
+                    <field name="active"/>
+                    <field name="create_uid"/>
+                    <templates>
+                        <field name="date_end"/>
+                        <t t-name="kanban-box">
+                            <div t-attf-class="oe_kanban_color_#{kanban_getcolor(record.pricelist_id)} oe_kanban_card oe_kanban_global_click">
+                               <div class="oe_dropdown_toggle oe_dropdown_kanban">
+                                    <span class="oe_e">í</span>
+                                    <ul class="oe_dropdown_menu">
+                                        <t t-if="widget.view.is_action_enabled('edit')"><li><a type="edit">Edit...</a></li></t>
+                                        <t t-if="widget.view.is_action_enabled('delete')"><li><a type="delete">Delete</a></li></t>
+                                        <li><a name="87" type="action">Send Email</a></li>
+                                        <li><a type="action" name="491">Calls</a></li>
+                                        <li><ul class="oe_kanban_colorpicker" data-field="pricelist_id"/></li>
+                                    </ul>
+                                </div>
+                                <div class="oe_kanban_content">
+                                    <div>
+                                        <field name="company_id"/>
+                                    </div>
+                                    <div style="padding-left: 0.5em">
+                                        <t t-if="record.date_end.raw_value and record.date_end.raw_value lt (new Date())" t-set="red">oe_kanban_text_red</t>
+                                        <span t-attf-class="#{red || ''}"><field name="date_start"/></span>
+                                        <t t-if="record.date_start.raw_value"> : </t>
+                                        <field name="name"/>
+                                    </div>
+                                    <div class="oe_kanban_bottom_right">
+                                        <!--  img t-att-src="kanban_image('res.users', 'image_small', record.create_uid.raw_value)" t-att-title="record.create_uid.raw_value" width="24" height="24" class="oe_kanban_avatar pull-right"/-->
+                                    </div>
+                                </div>
+                                <div class="oe_clear"/>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+        </record>
+
+
+
+         <record id="product_pricelist_version_form2" model="ir.ui.view">
+            <field name="name">product.pricelist.version.form2</field>
+            <field name="model">product.pricelist.version</field>
+            <field name="priority">15</field>
+            <field name="arch" type="xml">
+  				<form string="Pricelist Version">
+                   <!--The header tag is built to add buttons within. This puts them at the top -->
+                    <header>
+                       <button string="В черновик"  name="draft"      states="confirmed,progress,finished"/>
+                       <button string="Утверждено"  name="confirmed"  states="draft,progress,finished"/>
+                       <button string="Действующая" name="progress"   states="draft,confirmed,finished"/>
+                       <button string="Завершена"   name="finished_progressbar"  states="draft,confirmed,progress"/>
+                       <!--This will create the statusbar, thanks to the widget. -->
+                       <field name="state" widget="statusbar"/>
+                    </header>
+                    <group>
+                       <group>
+                            <field name="name"/>
+                            <field name="pricelist_id"/>
+                            <field name="company_id" groups="base.group_multi_company" widget="selection"/>
+                        </group>
+                        <group>
+                            <field name="date_start"/>
+                            <field name="date_end"/>
+                            <field name="active"/>
+                        </group>
+                    </group>
+                    <notebook>
+                    <page string="Item List">
+                        <field name="items_id"/>
+                    </page>
+                    </notebook>
+                </form>
             </field>
         </record>
         
@@ -28,10 +112,10 @@
                     </h1>
                     <group col="4">
                         <field name="active" />
-                         <field name="type" />
+                        <field name="type" />
                         <field name="ef_is_comp" string="Это акция"/>
                         <field name="company_id" required="1" groups="base.group_multi_company"   widget="selection" string="Наша Фирма" />
-                        <field name="ef_PartnerId" string="Контрагент" />
+                        <field name="ef_partnerid" string="Контрагент" />
                    </group>
                     <field name="version_id" context="{'type':type}">
                         <form string="Pricelist Version">
@@ -41,7 +125,7 @@
                                 <field name="date_start" />
                                 <field name="date_end" />
                             </group>
-                            <field name="items_id" context="{'type':type}" />
+						    <field name="items_id" context="{'type':type}" />
                         </form>
                         <tree string="Pricelist Version">
                             <field name="name" />

@@ -32,7 +32,49 @@ class se_partner(models.Model):
 class product_pricelist(models.Model):
     _inherit = 'product.pricelist'
     ef_is_comp = fields.Boolean('ЭтоАкция', select=True)
-    ef_PartnerId = fields.Many2one('res.partner', ondelete='set null', string='Контрагент', select=True)
+    ef_partnerid = fields.Many2one('res.partner', ondelete='set null', string='Контрагент', select=True)
+class product_pricelist_version(models.Model):
+    _inherit = 'product.pricelist.version'
+    state = fields.Selection([
+            ('draft', 'Черновик'),
+            ('confirmed', 'Утвержден'),
+            ('progress', 'Действующая'),
+            ('finished', 'ЗАВЕРШЕНА'),
+            ],default='draft', size=10, select=True)
+    #This function is triggered when the user clicks on the button 'Черновик'
+    #@api.one
+    def draft_progressbar(self):
+        self.write({
+            'state': 'draft',
+        })
+     
+    #This function is triggered when the user clicks on the button 'Утвержден'
+    #@api.one
+    def confirmed_progressbar11(self):
+        self.write({
+        'state': 'confirmed'
+        })
+     
+    #This function is triggered when the user clicks on the button 'Действующая'
+    @api.one
+    def progress_progressbar(self):
+        self.satate = 'progress'
+        return True
+     #   self.write({
+     #   'state': 'progress'
+     #   })
+     
+    #This function is triggered when the user clicks on the button 'ЗАВЕРШЕНА'
+    @api.one
+    def finished_progressbar(self):
+        self.satate = 'finished'
+        return True
+    
+    '''
+        self.write({
+        'state': 'finished',
+        })
+    '''
 class hr_department(models.Model):
     _inherit = 'hr.department'
     ef_id = fields.Integer('Код отдела из ЛО', select=True)
@@ -67,14 +109,14 @@ class stock_warehouse(models.Model):
 class pricelist_se_import(models.Model):
     _name = 'product.pricelist.import'
     _description = 'Import PriceList file'
-    file_data  = fields.Binary('Import PriceList File') , required=True)
+    file_data  = fields.Binary('Import PriceList File' , required=True)
     file_fname = fields.Char('Import PriceList Filename', size=128, required=True)
     note = fields.Text('Log')
 
     _defaults = {
         'file_fname': lambda *a: '',
     }
-
+""""
     def file_parsing(self, cr, uid, ids, context=None, batch=False, rfile=None, rfilename=None):
         if context is None:
             context = {}
@@ -376,4 +418,22 @@ class pricelist_se_import(models.Model):
         }
 
 def rmspaces(s):
-    return " ".join(s.split())    
+    return " ".join(s.split())
+"""    
+
+
+'''
+                               <!--The header tag is built to add buttons within. This puts them at the top -->
+                            <header>
+                                <button string="В черновик" type="object" name="draft_progressbar" attrs="{'invisible': [('state', '=', 'draft')]}"/>
+                                <!--The oe_highlight class gives the button a red color when it is saved.
+                                It is usually used to indicate the expected behaviour. -->
+                                <button string="Утверждено" type="object" name="confirmed_progressbar" class="oe_highlight" attrs="{'invisible': [('state','!=','draft')]}"/>
+                                <button string="Действующая" type="object" name="progress_progressbar" attrs="{'invisible': [('state','=','progress')]}"/>
+                                <button string="Завершена" type="object" name="finished_progressbar" attrs="{'invisible': [('state','=','finished')]}"/>
+                                <!--This will create the statusbar, thanks to the widget. -->
+                                <field name="state" widget="statusbar"/>
+                            </header>
+   Заготовка для бара                         
+                            
+'''
