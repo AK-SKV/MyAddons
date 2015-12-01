@@ -17,11 +17,20 @@
             </field>
         </record>
 
+         <record id="product_pricelist_version_gantt" model="ir.ui.view">
+            <field name="name">product.pricelist.version.gantt</field>
+            <field name="model">product.pricelist.version</field>
+            <field name="priority">99</field>
+            <field name="arch" type="xml">
+				<gantt default_group_by="state" date_start="date_start" date_stop="date_end"/>
+             </field>
+        </record>
+
 
          <record id="product_pricelist_version_kanban" model="ir.ui.view">
-            <field name="name">product.pricelist.version.canban</field>
+            <field name="name">product.pricelist.version.kanban</field>
             <field name="model">product.pricelist.version</field>
-            <field name="priority">15</field>
+            <field name="priority">99</field>
             <field name="arch" type="xml">
 				<kanban default_group_by="state">
                     <field name="state"/>
