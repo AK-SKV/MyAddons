@@ -3147,3 +3147,276 @@ org.eclipse.core.internal.resources.ResourceException: File not found: /home/bos
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 !SUBENTRY 2 org.eclipse.core.resources 4 271 2015-10-31 22:51:33.439
 !MESSAGE File not found: /home/boss/odoo/debian/openerp-server.conf.
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-12-02 16:01:30.207
+!MESSAGE Info: Rebuilding internal caches: /home/boss/workspace/ODOO_addons/.metadata/.plugins/org.eclipse.core.resources/.projects/Builder/com.python.pydev.analysis/AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-12-02 16:05:17.855
+!MESSAGE Info: Rebuilding internal caches: /home/boss/workspace/ODOO_addons/.metadata/.plugins/org.eclipse.core.resources/.projects/builder/com.python.pydev.analysis/AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-12-04 13:05:28.979
+!MESSAGE Info: Rebuilding internal caches: /home/boss/workspace/ODOO_addons/.metadata/.plugins/org.eclipse.core.resources/.projects/odoo_base/com.python.pydev.analysis/AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-12-04 14:02:55.660
+!MESSAGE Expected to find 'from' token as the current temporary token (begin col/line can be wrong)!
+!STACK 0
+java.lang.RuntimeException: Expected to find 'from' token as the current temporary token (begin col/line can be wrong)!
+	at org.python.pydev.core.log.Log.log(Log.java:50)
+	at org.python.pydev.parser.grammarcommon.AbstractTreeBuilder.makeImportFrom25Onwards(AbstractTreeBuilder.java:703)
+	at org.python.pydev.parser.grammar27.TreeBuilder27.onCloseNode(TreeBuilder27.java:418)
+	at org.python.pydev.parser.grammarcommon.AbstractTreeBuilder.closeNode(AbstractTreeBuilder.java:615)
+	at org.python.pydev.parser.grammarcommon.JJTPythonGrammarState.closeNodeScope(JJTPythonGrammarState.java:212)
+	at org.python.pydev.parser.grammar27.PythonGrammar27.ImportFrom(PythonGrammar27.java:2772)
+	at org.python.pydev.parser.grammar27.PythonGrammar27.import_stmt(PythonGrammar27.java:2585)
+	at org.python.pydev.parser.grammar27.PythonGrammar27.small_stmt(PythonGrammar27.java:944)
+	at org.python.pydev.parser.grammar27.PythonGrammar27.simple_stmt(PythonGrammar27.java:863)
+	at org.python.pydev.parser.grammar27.PythonGrammar27.stmt(PythonGrammar27.java:838)
+	at org.python.pydev.parser.grammar27.PythonGrammar27.file_input(PythonGrammar27.java:204)
+	at org.python.pydev.parser.grammar27.PythonGrammar27.file_input(PythonGrammar27.java:1)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:485)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:243)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:1)
+	at org.python.pydev.shared_core.parsing.ParserScheduler.reparseDocument(ParserScheduler.java:159)
+	at org.python.pydev.shared_core.parsing.ParsingThread.run(ParsingThread.java:53)
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-12-04 16:39:11.355
+!MESSAGE Terminate failed
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.model.RuntimeProcess.terminate(RuntimeProcess.java:224)
+	at org.python.pydev.debug.model.PyDebugTarget.terminate(PyDebugTarget.java:100)
+	at org.eclipse.debug.internal.core.commands.TerminateCommand.execute(TerminateCommand.java:30)
+	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:31)
+	at org.eclipse.debug.core.commands.AbstractDebugCommand$1.run(AbstractDebugCommand.java:213)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2015-12-04 16:39:11.355
+!MESSAGE Terminate failed
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-12-04 16:42:11.976
+!MESSAGE Terminate failed
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.model.RuntimeProcess.terminate(RuntimeProcess.java:224)
+	at org.python.pydev.debug.model.PyDebugTarget.terminate(PyDebugTarget.java:100)
+	at org.eclipse.debug.internal.core.commands.TerminateCommand.execute(TerminateCommand.java:30)
+	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:31)
+	at org.eclipse.debug.core.commands.AbstractDebugCommand$1.run(AbstractDebugCommand.java:213)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2015-12-04 16:42:11.976
+!MESSAGE Terminate failed
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-12-04 16:45:36.632
+!MESSAGE Terminate failed
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.model.RuntimeProcess.terminate(RuntimeProcess.java:224)
+	at org.python.pydev.debug.model.PyDebugTarget.terminate(PyDebugTarget.java:100)
+	at org.eclipse.debug.internal.core.commands.TerminateCommand.execute(TerminateCommand.java:30)
+	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:31)
+	at org.eclipse.debug.core.commands.AbstractDebugCommand$1.run(AbstractDebugCommand.java:213)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2015-12-04 16:45:36.633
+!MESSAGE Terminate failed
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-12-04 17:11:06.648
+!MESSAGE Terminate failed
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.model.RuntimeProcess.terminate(RuntimeProcess.java:224)
+	at org.python.pydev.debug.model.PyDebugTarget.terminate(PyDebugTarget.java:100)
+	at org.eclipse.debug.internal.core.commands.TerminateCommand.execute(TerminateCommand.java:30)
+	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:31)
+	at org.eclipse.debug.core.commands.AbstractDebugCommand$1.run(AbstractDebugCommand.java:213)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2015-12-04 17:11:06.648
+!MESSAGE Terminate failed
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-12-04 17:25:07.469
+!MESSAGE Terminate failed
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.model.RuntimeProcess.terminate(RuntimeProcess.java:224)
+	at org.python.pydev.debug.model.PyDebugTarget.terminate(PyDebugTarget.java:100)
+	at org.eclipse.debug.internal.core.commands.TerminateCommand.execute(TerminateCommand.java:30)
+	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:31)
+	at org.eclipse.debug.core.commands.AbstractDebugCommand$1.run(AbstractDebugCommand.java:213)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2015-12-04 17:25:07.470
+!MESSAGE Terminate failed
+
+!ENTRY org.python.pydev.shared_core 1 1 2015-12-04 17:40:14.556
+!MESSAGE Not saving ast manager for: P/odoo_dev. No write area available.
+!SESSION 2015-12-04 17:47:49.116 -----------------------------------------------
+eclipse.buildId=I20120502-2000
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ru_RU
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2015-12-04 17:48:15.013
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-12-04 17:48:15.013
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(com.python.pydev.analysis.actions.pyGlobalsBrowserWorkbench,Python Show Global Tokens (Global),
+		Python Show Global Tokens (Global),
+		Category(org.python.pydev.ui.category.source,PyDev - Editor,PyDev editor category,true),
+		ActionDelegateHandlerProxy(null,com.python.pydev.analysis.actions.PyGlobalsBrowserWorkbench),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.python.pydev.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.python.pydev.editor.actions.pyShowBrowser,Python Show Global Tokens (Editor),
+		Python Show Global Tokens (Editor),
+		Category(org.python.pydev.ui.category.source,PyDev - Editor,PyDev editor category,true),
+		ActionDelegateHandlerProxy(null,org.python.pydev.editor.actions.PyShowBrowser),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.python.pydev.ui.editor.scope,,,system)
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-12-04 17:48:23.274
+!MESSAGE The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment/models/payment_acquirer.py is not a valid encoding.
+!STACK 0
+java.io.UnsupportedEncodingException: The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment/models/payment_acquirer.py is not a valid encoding.
+	at org.python.pydev.shared_core.io.FileUtils.getValidEncoding(FileUtils.java:787)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:748)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:818)
+	at org.python.pydev.core.FileUtilsFileBuffer.getCustomReturnFromFile(FileUtilsFileBuffer.java:161)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalTokensInfo.addAstInfo(AbstractAdditionalTokensInfo.java:280)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:221)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder$InterpreterBuilderJob.run(InterpreterInfoBuilder.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-12-04 17:48:23.282
+!MESSAGE The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_adyen/models/adyen.py is not a valid encoding.
+!STACK 0
+java.io.UnsupportedEncodingException: The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_adyen/models/adyen.py is not a valid encoding.
+	at org.python.pydev.shared_core.io.FileUtils.getValidEncoding(FileUtils.java:787)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:748)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:818)
+	at org.python.pydev.core.FileUtilsFileBuffer.getCustomReturnFromFile(FileUtilsFileBuffer.java:161)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalTokensInfo.addAstInfo(AbstractAdditionalTokensInfo.java:280)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:221)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder$InterpreterBuilderJob.run(InterpreterInfoBuilder.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-12-04 17:48:23.287
+!MESSAGE The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_authorize/models/authorize.py is not a valid encoding.
+!STACK 0
+java.io.UnsupportedEncodingException: The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_authorize/models/authorize.py is not a valid encoding.
+	at org.python.pydev.shared_core.io.FileUtils.getValidEncoding(FileUtils.java:787)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:748)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:818)
+	at org.python.pydev.core.FileUtilsFileBuffer.getCustomReturnFromFile(FileUtilsFileBuffer.java:161)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalTokensInfo.addAstInfo(AbstractAdditionalTokensInfo.java:280)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:221)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder$InterpreterBuilderJob.run(InterpreterInfoBuilder.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-12-04 17:48:23.293
+!MESSAGE The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_buckaroo/models/buckaroo.py is not a valid encoding.
+!STACK 0
+java.io.UnsupportedEncodingException: The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_buckaroo/models/buckaroo.py is not a valid encoding.
+	at org.python.pydev.shared_core.io.FileUtils.getValidEncoding(FileUtils.java:787)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:748)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:818)
+	at org.python.pydev.core.FileUtilsFileBuffer.getCustomReturnFromFile(FileUtilsFileBuffer.java:161)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalTokensInfo.addAstInfo(AbstractAdditionalTokensInfo.java:280)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:221)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder$InterpreterBuilderJob.run(InterpreterInfoBuilder.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-12-04 17:48:23.299
+!MESSAGE The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_ogone/models/ogone.py is not a valid encoding.
+!STACK 0
+java.io.UnsupportedEncodingException: The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_ogone/models/ogone.py is not a valid encoding.
+	at org.python.pydev.shared_core.io.FileUtils.getValidEncoding(FileUtils.java:787)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:748)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:818)
+	at org.python.pydev.core.FileUtilsFileBuffer.getCustomReturnFromFile(FileUtilsFileBuffer.java:161)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalTokensInfo.addAstInfo(AbstractAdditionalTokensInfo.java:280)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:221)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder$InterpreterBuilderJob.run(InterpreterInfoBuilder.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-12-04 17:48:23.304
+!MESSAGE The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_paypal/models/paypal.py is not a valid encoding.
+!STACK 0
+java.io.UnsupportedEncodingException: The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_paypal/models/paypal.py is not a valid encoding.
+	at org.python.pydev.shared_core.io.FileUtils.getValidEncoding(FileUtils.java:787)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:748)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:818)
+	at org.python.pydev.core.FileUtilsFileBuffer.getCustomReturnFromFile(FileUtilsFileBuffer.java:161)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalTokensInfo.addAstInfo(AbstractAdditionalTokensInfo.java:280)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:221)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder$InterpreterBuilderJob.run(InterpreterInfoBuilder.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-12-04 17:48:23.310
+!MESSAGE The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_sips/models/sips.py is not a valid encoding.
+!STACK 0
+java.io.UnsupportedEncodingException: The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_sips/models/sips.py is not a valid encoding.
+	at org.python.pydev.shared_core.io.FileUtils.getValidEncoding(FileUtils.java:787)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:748)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:818)
+	at org.python.pydev.core.FileUtilsFileBuffer.getCustomReturnFromFile(FileUtilsFileBuffer.java:161)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalTokensInfo.addAstInfo(AbstractAdditionalTokensInfo.java:280)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:221)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder$InterpreterBuilderJob.run(InterpreterInfoBuilder.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2015-12-04 17:48:23.313
+!MESSAGE The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_transfer/models/payment_acquirer.py is not a valid encoding.
+!STACK 0
+java.io.UnsupportedEncodingException: The encoding found: >>utf-<< on /usr/lib/python2.7/dist-packages/openerp/addons/payment_transfer/models/payment_acquirer.py is not a valid encoding.
+	at org.python.pydev.shared_core.io.FileUtils.getValidEncoding(FileUtils.java:787)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:748)
+	at org.python.pydev.shared_core.io.FileUtils.getPythonFileEncoding(FileUtils.java:818)
+	at org.python.pydev.core.FileUtilsFileBuffer.getCustomReturnFromFile(FileUtilsFileBuffer.java:161)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalTokensInfo.addAstInfo(AbstractAdditionalTokensInfo.java:280)
+	at com.python.pydev.analysis.additionalinfo.AbstractAdditionalDependencyInfo.updateKeysIfNeededAndSave(AbstractAdditionalDependencyInfo.java:221)
+	at com.python.pydev.analysis.system_info_builder.InterpreterInfoBuilder$InterpreterBuilderJob.run(InterpreterInfoBuilder.java:90)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2015-12-04 18:57:40.746 -----------------------------------------------
+eclipse.buildId=I20120502-2000
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ru_RU
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2015-12-04 18:58:48.015
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-12-04 18:58:48.015
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(com.python.pydev.analysis.actions.pyGlobalsBrowserWorkbench,Python Show Global Tokens (Global),
+		Python Show Global Tokens (Global),
+		Category(org.python.pydev.ui.category.source,PyDev - Editor,PyDev editor category,true),
+		ActionDelegateHandlerProxy(null,com.python.pydev.analysis.actions.PyGlobalsBrowserWorkbench),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.python.pydev.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.python.pydev.editor.actions.pyShowBrowser,Python Show Global Tokens (Editor),
+		Python Show Global Tokens (Editor),
+		Category(org.python.pydev.ui.category.source,PyDev - Editor,PyDev editor category,true),
+		ActionDelegateHandlerProxy(null,org.python.pydev.editor.actions.PyShowBrowser),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.python.pydev.ui.editor.scope,,,system)
