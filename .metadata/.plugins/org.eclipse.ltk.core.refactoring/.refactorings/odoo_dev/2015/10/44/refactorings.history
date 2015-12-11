@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;odoo_dev/debian/openerp-server.conf&apos; to &apos;openerp-server.conf_old&apos;" description="Rename resource &apos;openerp-server.conf&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="debian/openerp-server.conf" name="openerp-server.conf_old" stamp="1445860993619" updateReferences="true"/>
+</session>

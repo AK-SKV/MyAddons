@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+encoding//addons/__init__.py=utf-8
+encoding//cli/deploy.py=utf-8
+encoding//cli/scaffold.py=utf-8
+encoding//cli/server.py=utf-8
+encoding//cli/start.py=utf-8
+encoding//conf/__init__.py=utf-8
+encoding//conf/deprecation.py=utf-8
+encoding//modules/__init__.py=utf-8
+encoding//modules/db.py=utf-8
+encoding//modules/module.py=utf-8
+encoding//tools/config.py=utf-8
+encoding//tools/func.py=utf-8
+encoding/__init__.py=utf-8
+encoding/api.py=utf-8
+encoding/http.py=utf-8
+encoding/loglevels.py=utf-8
