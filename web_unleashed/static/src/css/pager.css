@@ -1,0 +1,7 @@
+.oe_pager_group a.disabled {
+    color: #999;
+    cursor: initial !important;
+}
+.oe_pager_value .range-selector {
+    display: none;
+}
