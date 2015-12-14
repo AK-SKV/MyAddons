@@ -37,7 +37,7 @@ class Pofatt(models.Model):
     Owner_id = fields.Many2one('hr.employee', ondelete='set null', string='Owner',)
     Emithent_id = fields.Many2one('hr.employee', ondelete='set null', string='Emithent',)
     direction = fields.Selection( string='Direction', selection=[(u'-1', u'Output'), (u'1', u'Input')],)
-    state = fields.Selection( string='State', selection=[(u'0', u'Draft'), (u'2', u'Used'), (u'3', u'Canceled'), (u'1', u'Confirmed')],)
+    state = fields.Selection( string='Стадия', selection=[(u'0', u'Draft'), (u'2', u'Used'), (u'3', u'Canceled'), (u'1', u'Confirmed')],)
     note = fields.Text( string='Note',)
     base = fields.Text( string='Base',)
     pofatt_lines_ids = fields.One2many('pofatt_lines', 'pofatt_id', string='Pofatt_lines',)
@@ -51,8 +51,8 @@ class PofattLines(models.Model):
     _name = 'pofatt_lines'
     _description = 'pofatt_lines'
     pofatt_id = fields.Many2one('pofatt', ondelete='set null', string='Power of attorney', index=True,)
-    product_uom_id = fields.Many2one('product.uom', ondelete='set null', string='Product unit of measure',)
     product_product_id = fields.Many2one('product.product', ondelete='set null', string='Product',)
+    product_uom_id = fields.Many2one('product.uom', ondelete='set null', string='Product unit of measure',)
     price = fields.Float( digits=(15, 4), string='Price',)
     qtt = fields.Float( digits=(15, 4), string='qtt',)
     pofatt_id = fields.Many2one('pofatt', ondelete='set null', string='Power of attorney', index=True,)
