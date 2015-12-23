@@ -8,6 +8,7 @@
     'depends': ['web', 'share', 'disable_openerp_online', 'mail_delete_sent_by_footer'],
     'data': [
         'views.xml',
+        'js.xml',
         ],
     'qweb': [
         'templ.xml',
