@@ -41,5 +41,10 @@
 			</div>
 		</xpath>
 	</template>    
+	<template id="website.layout_favicon" inherit_id="website.layout" name="Website Favicon">
+		<xpath expr="//head//link" position="after">
+	           <link rel="shortcut icon" href="/web_sba_debrand/static/src/img/favicon.ico" type="image/x-icon"/>
+		</xpath>
+	</template>    
   </data>
 </openerp>

@@ -33,9 +33,8 @@ openerp.web_sba_debrand = function(instance) {
         };
         this.update_promise = this.update_promise.then(fct, fct);
     },
- }); 
+ });
 };
-
 
 /*
     do_update: function () {
