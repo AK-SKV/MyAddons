@@ -1,4 +1,5 @@
 openerp.web_sba_debrand = function(instance) {
+// меняем заголовок закладки в броузере	
 	instance.web.WebClient.include({
 	    init: function(parent, client_options) {
         this._super(parent, client_options);
@@ -7,6 +8,7 @@ openerp.web_sba_debrand = function(instance) {
     },
  }); 
 	instance.web.UserMenu.include({
+// добавляем название БД в логине		
 	    do_update: function () {
         var self = this;
         var fct = function() {

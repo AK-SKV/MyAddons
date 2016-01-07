@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="theme_sba_0001" name="SBA Site Theme" inherit_id="website.layout">
+		    <xpath expr="link[last()]" position="after">
+                <link rel="stylesheet"        href="theme_sbasite/static/src/css/sbasite.css"></script>
+            </xpath>
+        </template>
+    </data>
+</openerp>
