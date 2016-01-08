@@ -6,8 +6,12 @@
     'category': 'Debranding',
     'website': 'https://sba-group.ru',
     'depends': ['web', 'share', 'disable_openerp_online', 'mail_delete_sent_by_footer'],
+    'data': [
+        'views.xml',
+        'js.xml',
+        ],
     'qweb': [
-        'theme_templ.xml',
+        'templ.xml',
         ],
     'auto_install': False,
     'installable': True

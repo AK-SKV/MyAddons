@@ -35,7 +35,7 @@ theme_sbasite
     "depends": [
                 'website',
     ],
-    "qweb" : [
+    "data" : [
         'theme_templ.xml',
         ],
     "demo" : [],

@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
-        <template id="theme_sba_0001" name="SBA Site Theme" inherit_id="website.layout">
-		    <xpath expr="link[last()]" position="after">
-                <link rel="stylesheet"        href="theme_sbasite/static/src/css/sbasite.css"></script>
+        <template id="website.theme_sba_0001" name="SBA Site Theme" inherit_id="website.assets_frontend">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet"         href="/theme_sbasite/static/src/css/sbasite.css"/>
+                <script type="text/javascript" src="/theme_sbasite/static/src/js/Modernizr.js"></script>
+                <script type="text/javascript" src="/theme_sbasite/static/src/js/webfont.js"></script>
+                <script type="text/javascript" src="/theme_sbasite/static/src/js/web_sbasite.js"></script>
             </xpath>
         </template>
     </data>
