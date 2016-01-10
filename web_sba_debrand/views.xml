@@ -33,18 +33,18 @@
 	<template id="website.layout_footer_copyright" inherit_id="website.layout" name="Footer Copyright">
 		<xpath expr="//footer" position="inside">
 			<!-- div class="container mt16 mb8"-->
-			<div class="row">
-				<div class="ccol-md-4 text-center">
+			<div class="FooterBot">
+				<div class="col-md-4 .foot21">
                         <h4>
                         <a href="https://www.sba-group.ru" target="_blank">Copyright © 2001-TODAY </a>
                         </h4>
 				</div>
-				<div class="col-md-4 text-center">
+				<div class="col-md-4 .foot22">
                         <h4>
                         <a href="https://www.sba-group.ru" target="_blank"> SBA Web Solutions </a>
                         </h4>
 				</div>
-				<div class="col-md-4 text-center">
+				<div class="col-md-4 .foot23">
                         <h4>
                         <a href="https://www.sba-group.ru" target="_blank"><span t-field="res_company.name" ></span>.   All Rights Reserved</a>
                        <!-- <a href="https://www.sba-group.ru" target="_blank">Copyright © 2001-TODAY SBA-group. All Rights Reserved. <span t-field="res_company.name" ></span></a> -->

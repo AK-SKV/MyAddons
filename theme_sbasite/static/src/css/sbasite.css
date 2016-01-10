@@ -1,4 +1,4 @@
-/* Generated on: Thu Jan 07 2016 13:49:03 GMT+0000 (UTC) */
+/* Generated on: Sat Jan 09 2016 14:13:04 GMT+0000 (UTC) */
 
 
 /* ==========================================================================
@@ -7,7 +7,7 @@
 
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-/*
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -224,11 +224,11 @@ th {
     padding: 0
 }
 
-*/
+
 /* ==========================================================================
    Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the boilerplate and see the unminified code below.
    ========================================================================== */
-/*
+
 @font-face {
     font-family: 'webflow-icons';
     src: url(data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg6SAy0AAAC8AAAAYGNtYXAaVcxaAAABHAAAAExnYXNwAAAAEAAAAWgAAAAIZ2x5ZgscV1gAAAFwAAABhGhlYWQCkFKvAAAC9AAAADZoaGVhB0MDyQAAAywAAAAkaG10eBIAA10AAANQAAAAIGxvY2EBMADyAAADcAAAABJtYXhwAAwATQAAA4QAAAAgbmFtZWTuiIAAAAOkAAABe3Bvc3QAAwAAAAAFIAAAACAAAwQAAZAABQAAApkCzAAAAI8CmQLMAAAB6wAzAQkAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAABAAADmAwPA/8D/wAPAAEAAAAABAAAAAAAAAAAAAAAgAAAAAAACAAAAAwAAABQAAwABAAAAFAAEADgAAAAKAAgAAgACAAEAIOYD//3//wAAAAAAIOYA//3//wAB/+MaBAADAAEAAAAAAAAAAAAAAAEAAf//AA8AAQAAAAAAAAAAAAIAADc5AQAAAAABAAAAAAAAAAAAAgAANzkBAAAAAAEAAAAAAAAAAAACAAA3OQEAAAAAAQEgAAADIAOAAAUAAAkBBwkBFwMg/kBAAYD+gEABwAHAQP6A/oBAAAEA4AAAAuADgAAFAAATARcJAQfgAcBA/oABgEABwAHAQP6A/oBAAAADAMAA4ANAAsAAGAAxAEoAAAEhIg4CHQEUHgIzITI+Aj0BNC4CIxUhIg4CHQEUHgIzITI+Aj0BNC4CIxUhIg4CHQEUHgIzITI+Aj0BNC4CIwMg/cAHCwkFBQkLBwJABwsJBQUJCwf9wAcLCQUFCQsHAkAHCwkFBQkLB/3ABwsJBQUJCwcCQAcLCQUFCQsHAsAFCQsHIAcLCQUFCQsHIAcLCQXABQkLByAHCwkFBQkLByAHCwkFwAUJCwcgBwsJBQUJCwcgBwsJBQAAAAABAJ0AtAOBApUABQAACQIHCQEDJP7r/upcAXEBcgKU/usBFFv+egGGAAAAAAEAAAABAADSLAJOXw889QALBAAAAAAAz/iHGQAAAADP+IcZAAAAAAOBA4AAAAAIAAIAAAAAAAAAAQAAA8D/wAAABAAAAAAAA4EAAQAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAACAAAABAABIAQAAOAEAADABAAAnQAAAAAACgAUAB4AMgBGAKwAwgAAAAEAAAAIAEsAAwAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAOAK4AAQAAAAAAAQAaAAAAAQAAAAAAAgAOAHEAAQAAAAAAAwAaADAAAQAAAAAABAAaAH8AAQAAAAAABQAWABoAAQAAAAAABgANAEoAAQAAAAAACgA0AJkAAwABBAkAAQAaAAAAAwABBAkAAgAOAHEAAwABBAkAAwAaADAAAwABBAkABAAaAH8AAwABBAkABQAWABoAAwABBAkABgAaAFcAAwABBAkACgA0AJkAdwBlAGIAZgBsAG8AdwAtAGkAYwBvAG4AcwBWAGUAcgBzAGkAbwBuACAAMQAuADAAdwBlAGIAZgBsAG8AdwAtAGkAYwBvAG4Ac3dlYmZsb3ctaWNvbnMAdwBlAGIAZgBsAG8AdwAtAGkAYwBvAG4AcwBSAGUAZwB1AGwAYQByAHcAZQBiAGYAbABvAHcALQBpAGMAbwBuAHMARgBvAG4AdAAgAGcAZQBuAGUAcgBhAHQAZQBkACAAYgB5ACAASQBjAG8ATQBvAG8AbgAuAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA) format('truetype'), url(data:application/font-woff;charset=utf-8;base64,d09GRk9UVE8AAAVcAAoAAAAABRQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABDRkYgAAAA9AAAAZMAAAGTuzUomU9TLzIAAAKIAAAAYAAAAGAOkgMtY21hcAAAAugAAABMAAAATBpVzFpnYXNwAAADNAAAAAgAAAAIAAAAEGhlYWQAAAM8AAAANgAAADYCkFKvaGhlYQAAA3QAAAAkAAAAJAdDA8lobXR4AAADmAAAACAAAAAgEgADXW1heHAAAAO4AAAABgAAAAYACFAAbmFtZQAAA8AAAAF7AAABe2TuiIBwb3N0AAAFPAAAACAAAAAgAAMAAAEABAQAAQEBDndlYmZsb3ctaWNvbnMAAQIAAQA6+BwC+BsD+BgEHgoACXf/i4seCgAJd/+LiwwHi0v6lPpUBR0AAACaDx0AAACfER0AAAAJHQAAAYoSAAkBAQ4bHR8iJywxNndlYmZsb3ctaWNvbnN3ZWJmbG93LWljb25zdTB1MXUyMHVFNjAwdUU2MDF1RTYwMnVFNjAzAAACAYkABgAIAQEEBwoNJDvH4P6UDv6UDv6UDvyUDvm0+FQV/FT4VEtL+BT8FPwU/BTLSwUO93T4VBX4VPhUy0v8FPwU+BT8FEtLBQ75tPlUFfzUiwV5i319i3kIi2sFi3mZfZ2LCPjUiwWdi5mZi50Ii6sFi519mXmLCIv7VBX81IsFeYt9fYt5CItrBYt5mX2diwj41IsFnYuZmYudCIurBYudfZl5iwiL+1QV/NSLBXmLfX2LeQiLawWLeZl9nYsI+NSLBZ2LmZmLnQiLqwWLnX2ZeYsIDvm4+SkV+6n7qvuq96ovLvgG/Bj4BvgYBQ76lBT6lBWLDAoAAAMEAAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAA5gMDwP/A/8ADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAgAAAAMAAAAUAAMAAQAAABQABAA4AAAACgAIAAIAAgABACDmA//9//8AAAAAACDmAP/9//8AAf/jGgQAAwABAAAAAAAAAAAAAAABAAH//wAPAAEAAAABAAC1pQTjXw889QALBAAAAAAAz/iHGQAAAADP+IcZAAAAAAOBA4AAAAAIAAIAAAAAAAAAAQAAA8D/wAAABAAAAAAAA4EAAQAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAACAAAABAABIAQAAOAEAADABAAAnQAAUAAACAAAAAAADgCuAAEAAAAAAAEAGgAAAAEAAAAAAAIADgBxAAEAAAAAAAMAGgAwAAEAAAAAAAQAGgB/AAEAAAAAAAUAFgAaAAEAAAAAAAYADQBKAAEAAAAAAAoANACZAAMAAQQJAAEAGgAAAAMAAQQJAAIADgBxAAMAAQQJAAMAGgAwAAMAAQQJAAQAGgB/AAMAAQQJAAUAFgAaAAMAAQQJAAYAGgBXAAMAAQQJAAoANACZAHcAZQBiAGYAbABvAHcALQBpAGMAbwBuAHMAVgBlAHIAcwBpAG8AbgAgADEALgAwAHcAZQBiAGYAbABvAHcALQBpAGMAbwBuAHN3ZWJmbG93LWljb25zAHcAZQBiAGYAbABvAHcALQBpAGMAbwBuAHMAUgBlAGcAdQBsAGEAcgB3AGUAYgBmAGwAbwB3AC0AaQBjAG8AbgBzAEYAbwBuAHQAIABnAGUAbgBlAHIAYQB0AGUAZAAgAGIAeQAgAEkAYwBvAE0AbwBvAG4ALgAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==) format('woff');
@@ -2394,18 +2394,17 @@ textarea.w-select {
 .w-condition-invisible {
     display: none !important
 }
-*/
+
 
 /* ==========================================================================
    Start of custom Webflow CSS
    ========================================================================== */
 
-.sect1 {
-    margin-top: 68px;
-    padding-top: 0px;
+.body {
+    background-color: rgba(29, 155, 245, 0.79);
 }
 
-.txt2 {
+.txt1 {
     display: block;
     margin-top: 74px;
     margin-right: auto;
@@ -2417,4 +2416,282 @@ textarea.w-select {
     color: rgba(255, 255, 255, 0.42);
     font-size: 23px;
     font-weight: 400;
+}
+
+.logoplace {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logopic {
+    display: block;
+    margin: auto auto 8px 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.navbar {
+    position: relative;
+    display: block;
+    background-color: white;
+}
+
+.brandplace {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navmenu {
+    z-index: 0;
+    margin-top: 19px;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    color: #e03a10;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.navmenu:hover {
+    color: rgba(224, 57, 16, 0.9);
+}
+
+.menubut {
+    top: auto;
+    margin: auto;
+}
+
+.menubut.w--open {
+    background-color: white;
+}
+
+.smallnav {
+    display: block;
+    margin: 8px auto auto;
+    color: #e03a10;
+}
+
+.maincaption {
+    display: block;
+    width: 352px;
+    margin-top: 34px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 0px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.colcaption {
+    position: static;
+    color: #e03a10;
+    text-align: center;
+}
+
+.compname {
+    position: relative;
+    left: 0px;
+    top: -18px;
+    right: 0px;
+    display: inline-block;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.compslog {
+    position: static;
+    left: 0px;
+    top: -25px;
+    right: 0px;
+    bottom: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 0px;
+    padding-bottom: 1px;
+}
+
+.navlogo {
+    display: block;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: 8px;
+    padding-top: 5px;
+}
+
+header {
+    padding-top: 29px;
+    padding-bottom: 15px;
+    background-image: -webkit-linear-gradient(#1d9df6, white 76%);
+    background-image: linear-gradient(#1d9df6, white 76%);
+    font-family: 'Open Sans', sans-serif;
+    color: #e03a10;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+header:hover {
+    color: rgba(5, 5, 204, 0.81);
+}
+
+.txtcompname {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer {
+    position: static;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-image: -webkit-linear-gradient(283deg, white, #1d9df6);
+    background-image: linear-gradient(167deg, white, #1d9df6);
+}
+
+.linkcopyr {
+    font-family: 'Open Sans', sans-serif;
+    color: #e03a10;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: right;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.foot23 {
+    position: static;
+    right: 10px;
+    bottom: 0px;
+    z-index: 0;
+    text-align: right;
+}
+
+.foot11 {
+    padding-left: 10px;
+}
+
+.foot22 {
+    text-align: center;
+}
+
+.sectheader {
+    font-family: 'Open Sans', sans-serif;
+    color: #ff0700;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: none;
+}
+
+.sectelement {
+    font-family: 'Open Sans', sans-serif;
+    color: #003133;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sectelement._1 {
+    margin-top: 14px;
+    font-weight: 300;
+}
+
+.footerebot {
+    margin-top: 10px;
+    margin-bottom: 9px;
+}
+
+.langlink {
+    margin-left: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.mainpict {
+    height: 600px;
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/568b9a80cfa1254e684c8be3/568ff34960473ef566718d6d_monitor-862110_1920.jpg");
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.cntmain {
+    display: block;
+    margin-top: auto;
+    padding-top: 0px;
+}
+
+.h1 {
+    display: block;
+    padding-top: 7px;
+}
+
+.mainsect {
+    padding-top: 61px;
+}
+
+@media (max-width: 991px) {
+    .logopic {
+        margin-top: 22px;
+    }
+    .smallnav {
+        margin-top: 43px;
+    }
+}
+
+@media (max-width: 767px) {
+    .logopic {
+        margin-top: 7px;
+    }
+    .menubut {
+        display: block;
+        margin: auto;
+    }
+    .smallnav {
+        margin-top: auto;
+    }
+    .logosmall {
+        margin-top: 24px;
+    }
+}
+
+@media (max-width: 479px) {
+    .logopic {
+        display: block;
+        margin-top: 8px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .menubut {
+        padding: 10px;
+    }
+    .smallnav {
+        margin-top: 19px;
+    }
+    .maincaption {
+        letter-spacing: 2px;
+    }
+    .colnavbar {
+        padding-right: 0px;
+    }
+    .compslog {
+        top: -47px;
+    }
+    .mainpict {
+        background-size: 960px;
+        opacity: 1;
+        -webkit-transform-origin: -174% 50% 0px;
+        -ms-transform-origin: -174% 50% 0px;
+        transform-origin: -174% 50% 0px;
+    }
 }
