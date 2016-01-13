@@ -276,26 +276,30 @@
 // 3.1 GENERAL LAYOUT ==========
 // =============================
 
-@body-bg    : #FEFEFE;
+@body-bg    : rgba(203, 62, 62, 0.72);   //#FEFEFE;
 @text-color : @gray;
 
 #wrap { 
   margin-top: 20px;
 }
 
-main { background-color: #FEFEFE;}
-
+main { background-color: rgba(203, 62, 62, 0.72);}
+//#FEFEFE
 
 // =============================
 // 3.2 TYPOGRAPHY ==============
 // =============================
+//Open Sans
+//@font-family-base:        "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; ;
 
-@font-family-base:        "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; ;
+@font-family-base:        "Open Sans", Helvetica, Arial, "Lucida Grande", sans-serif; ;
 
 @font-family-sans-serif:  @font-family-base; 
-@font-family-serif:       "Georgia", "Garamond", "Palatino", serif;
+//@font-family-serif:       "Georgia", "Garamond", "Palatino", serif;
+@font-family-serif:       "Open Sans", serif;
 
-@font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+//@font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+@font-family-monospace:   "Open Sans", monospace;
 
 
 @headings-font-family:    inherit;
@@ -712,7 +716,7 @@ button.btn{
 // =============================
 // === HEADER ==================
 // =============================
-
+//    background-color: rgba(0, 0, 0, 0);
 
 #graph_header, #graph_header_affix {
   font-family: @font-family-sans-serif;
@@ -723,7 +727,7 @@ button.btn{
   }
 
   .navbar {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(203, 62, 62, 0.72);
     border-color: rgba(0, 0, 0, 0);
     padding: 20px 0 4px;
 
@@ -774,7 +778,7 @@ button.btn{
   margin-top: -200px;
   width: 100%;
   z-index: 1000;
-  background: white;
+  background: rgba(203, 62, 62, 0.72); //white
   border-bottom: 1px solid @gray-lighter;
   .transition(margin-top 500ms ease);
 
@@ -820,7 +824,7 @@ div#website-top-navbar *:not(.fa) {
   .cke_toolbar {
     top: 4px;
     .cke_toolgroup, .cke_combo_button{
-      background: #FFF;
+      background: white;
       background-image: none;
       border: none;
       border-radius: 2px;
