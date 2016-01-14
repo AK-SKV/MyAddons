@@ -22,7 +22,6 @@
 # noinspection PyStatementEffect
 {
     "name" : "theme_sbasite",
-    
     "author" : "VGlukhov",
     "website" : "sba-group.ru",
     "category" : "Theme",
