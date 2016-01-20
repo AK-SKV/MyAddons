@@ -1,17 +1,14 @@
 {
-    'name': "sba_change_aboutus",
-    'summary': "Change the description of the contents of the bottom of the main page",
+    'name': "sba_mail_send",
+    'summary': 'Inherits mail_mail and send mails without bounce',
     'version': '1.0.0',
     'author': 'SBA Glukhov',
     'license': 'GPL-3',
-    'category': 'Debranding',
     'website': 'https://sba-group.ru',
-    'depends': ['web', 'share'],
+    'depends': ['sale',],
     'data': [
-        'views.xml',
         ],
     'qweb': [
-        'templ.xml',
         ],
     'auto_install': False,
     'installable': True

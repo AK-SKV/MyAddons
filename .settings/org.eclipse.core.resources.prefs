@@ -1,6 +1,9 @@
 eclipse.preferences.version=1
 encoding//demo_todo/__openerp__.py=utf-8
 encoding//pofatt/models/models.py=utf-8
+encoding//sba_mail_send/mail_mail_inh.py=utf-8
+encoding//se_attrib1/models.py=utf-8
+encoding//se_attrib1/se_partner_tst.py=utf-8
 encoding//theme_sbasite/__init__.py=utf-8
 encoding//theme_sbasite/__openerp__.py=utf-8
 encoding//web_sheet_full_width/__openerp__.py=utf-8

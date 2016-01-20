@@ -1,6 +1,6 @@
 {
-    'name': "sba_change_aboutus",
-    'summary': "Change the description of the contents of the bottom of the main page",
+    'name': "sba_mail_sign",
+    'summary': "Change the signup of the email",
     'version': '1.0.0',
     'author': 'SBA Glukhov',
     'license': 'GPL-3',
