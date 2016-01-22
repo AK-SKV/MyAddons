@@ -6,7 +6,47 @@ openerp.web_sba_debrand = function(instance) {
         this.set('title_part', {"zopenerp": 'SBA'});
    //     console.log("000000000000");
     },
- }); 
+ });
+
+	instance.web.CrashManager.include({
+		// убираем Odoo из диалога ошибок
+	    show_warning: function(error) {
+        if (!this.active) {
+            return;
+        }
+        if (error.data.exception_type === "except_osv") {
+            error = _.extend({}, error, {data: _.extend({}, error.data, {message: error.data.arguments[0] + "\n\n" + error.data.arguments[1]})});
+        }
+        new instance.web.Dialog(this, {
+            size: 'medium',
+            title: "SbaErp " + (_.str.capitalize(error.type) || "Warning"),
+            buttons: [
+                {text: _t("Ok"), click: function() { this.parents('.modal').modal('hide'); }}
+            ],
+        }, $('<div>' + QWeb.render('CrashManager.warning', {error: error}) + '</div>')).open();
+    },
+    show_error: function(error) {
+        if (!this.active) {
+            return;
+        }
+        var buttons = {};
+        buttons[_t("Ok")] = function() {
+            this.parents('.modal').modal('hide');
+        };
+        new instance.web.Dialog(this, {
+            title: "SbaErp " + _.str.capitalize(error.type),
+            buttons: buttons
+        }, QWeb.render('CrashManager.error', {session: instance.session, error: error})).open();
+    },
+    show_message: function(exception) {
+        this.show_error({
+            type: _t("Client Error"),
+            message: exception,
+            data: {debug: ""}
+        });
+    },
+	});
+
 	instance.web.UserMenu.include({
 // добавляем название БД в логине		
 	    do_update: function () {

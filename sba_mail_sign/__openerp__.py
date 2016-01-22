@@ -10,9 +10,6 @@
     'data': [
         'views.xml',
         ],
-    'qweb': [
-        'templ.xml',
-        ],
     'auto_install': False,
     'installable': True
 }

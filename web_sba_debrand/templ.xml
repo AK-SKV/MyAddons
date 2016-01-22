@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <templates xml:space="preserve">
    <t t-extend="UserMenu.about">
+        <!-- a class="oe_activate_debug_mode oe_right label label-primary" href="?debug" >Activate the developer mode</a-->
+    	<t t-jquery="a.oe_activate_debug_mode" t-operation="replace">
+                <a>Activate the developer mode web?debug=</a>
+	   	</t>
     	<t t-jquery="div.user-image" t-operation="replace">
             <div class="user-image">
                             <br/><span class="help-block"> </span>
