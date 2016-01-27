@@ -5,7 +5,7 @@
     'license': 'GPL-3',
     'category': 'Debranding',
     'website': 'https://sba-group.ru',
-    'depends': ['web', ],
+    'depends': ['web',  'disable_openerp_online', 'mail_delete_sent_by_footer'],
     'data': [
         'views.xml',
         'js.xml',

@@ -25,7 +25,7 @@
                         <a href="https://www.sba-group.ru" target="_blank">Powered by <span>SBA</span></a>
        </xpath-->
                          <!--a href="https://www.odoo.com" target="_blank">Powered by <span>Odoo</span></a-->
-      <xpath expr="//a[@href='https://www.odoo.com']" position="replace">
+      <xpath expr="//a[@class='https://www.odoo.com']" position="replace">
                         <a href="http://sba.realstore.ru" target="_blank">Powered by <span>SBA</span></a>
        </xpath>
     </template>
