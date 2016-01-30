@@ -25,6 +25,7 @@
                             <group>
                                 <group string="Status Bar">
                                     <field name="show_status_bar"/>
+                                    <field name="show_header"/>
                                     <field name="states_clickable"
                                            attrs="{'invisible': ['|', ('show_status_bar', '=', False), ('special_states_field_id', '=', False)]}"/>
                                     <field name="visible_states"
@@ -40,10 +41,11 @@
                                 </group>
                             </group>
                         </page>
+                                 <!-- context="{'default_special_states_field_id': parent.special_states_field_id, 'default_model_id': model_id}"-->
                         <page string="Fields" attrs="{'invisible': [('inherit_view', '=', True)]}">
                             <field name="field_ids" nolabel="1" domain="[('model_id', '=', model_id)]">
                                 <tree string="Fields"
-                                      context="{'default_special_states_field_id': parent.special_states_field_id, 'default_model_id': model_id}">
+                                      context="{'default_special_states_field_id': special_states_field_id, 'default_model_id': model_id}">
                                     <field name="sequence" widget="handle"/>
                                     <field name="field_id"/>
                                     <field name="widget"/>
@@ -51,7 +53,10 @@
                                     <field name="invisible"/>
                                     <field name="readonly"/>
                                     <field name="states"/>
+                                    <field name="in_header"/>
                                     <field name="page"/>
+                                    <field name="subgroup_"/>
+                                    <field name="group_name"/>
                                 </tree>
                             </field>
                         </page>
@@ -205,7 +210,10 @@
                         <group>
                             <field name="special_states_field_id" invisible="1"/>
                             <field name="model_id" invisible="1"/>
-                            <field name="field_id" domain="[('model_id', '=', model_id)]"
+                            <!-- field name="field_id" domain="[('model_id', '=', model_id)]"
+                                   options="{'no_create': True}"/-->
+                            <field name="field_id"
+                                   domain="[('model_id', '=', model_id), ('ttype', 'not in', ['one2many', 'many2many'])]"
                                    options="{'no_create': True}"/>
                             <field name="field_ttype" invisible="1"/>
                             <field name="widget"/>
@@ -226,6 +234,11 @@
                             <field name="readonly"/>
                             <field name="readonly_condition" attrs="{'invisible': [('readonly', '=', False)]}"/>
                         </group>
+                       <group>
+                            <field name="in_header"/>
+                            <field name="subgroup_"/>
+                            <field name="group_name"/>
+                       </group> 
                     </group>
                     <group attrs="{'invisible': [('field_ttype', 'not in', ['one2many', 'many2many'])]}">
                         <group>

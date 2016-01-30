@@ -1,6 +1,10 @@
 eclipse.preferences.version=1
 encoding//demo_todo/__openerp__.py=utf-8
+encoding//l10n_ru/__openerp__.py=utf-8
+encoding//pofatt/__openerp__.py=utf-8
 encoding//pofatt/models/models.py=utf-8
+encoding//pofatt_work_rezerve20160122/__openerp__.py=utf-8
+encoding//pofatt_work_rezerve20160122/models/models.py=utf-8
 encoding//sba_mail_send/mail_mail_inh.py=utf-8
 encoding//se_attrib1/models.py=utf-8
 encoding//se_attrib1/se_partner_tst.py=utf-8

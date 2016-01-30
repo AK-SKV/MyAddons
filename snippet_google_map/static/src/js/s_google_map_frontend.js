@@ -25,8 +25,9 @@
 
             // Default options, will be overwritten by the user 
             var myOptions = { 
-                zoom:12,
-                center:new google.maps.LatLng(50.854975,4.3753899),
+                zoom:19,
+            //    center:new google.maps.LatLng(50.854975,4.3753899),
+                center:new google.maps.LatLng(56.81544444,60.61288789),
                 mapTypeId: google.maps.MapTypeId.ROADMAP,
                 panControl: false,
                 zoomControl: false,

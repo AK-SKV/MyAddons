@@ -23,7 +23,8 @@
                 google.maps.event.addListener(autocomplete, 'place_changed', function() {
                     var place = autocomplete.getPlace();
                     if (!place.geometry) {
-                      self.$modal.find("#placeBk").val("(50.854975,4.3753899)");
+               //         self.$modal.find("#placeBk").val("(50.854975,4.3753899)");
+                        self.$modal.find("#placeBk").val("(50.854975,4.3753899)");
                     } else {
                         self.$modal.find("#placeBk").val(place.geometry.location);
                     }
@@ -32,6 +33,7 @@
 
             self.$modal.find("#sub_map").on('click', function () {
                 if (!self.$modal.find("#placeBk").val()) {
+               //     self.$modal.find("#placeBk").val("(50.854975,4.3753899)")
                     self.$modal.find("#placeBk").val("(50.854975,4.3753899)")
                 }         
                 self.$target.attr('data-map-gps', (self.$modal.find("#placeBk").val()));         

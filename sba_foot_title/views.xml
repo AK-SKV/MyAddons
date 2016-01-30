@@ -49,5 +49,17 @@
            </section>
        </xpath>
     </template>
-  </data>
+<!-- корректируем данные на карте -->
+	<template id="sbas_google_map" inherit_id="snippet_google_map.s_google_map" customize_show="True" name="SBA google map">
+	    <xpath expr="//section[@class='s_google_map']" position="replace">
+		    <section class="s_google_map" data-map-type="ROADMAP" data-map-color="" data-map-zoom="19" data-map-gps="(56.81544444,60.61288789)" data-pin-style="flat" style="height: 488px; overflow: hidden;">
+		      <div class="map_container"/> 
+		      <div class="description">
+		        <font>Visit us:</font>
+		        <span> Our office is located in the center of Yekaterinburg. TEL (343) 372 3209 </span>
+		      </div>
+		    </section>
+	    </xpath>
+	</template>
+	</data>
 </openerp>

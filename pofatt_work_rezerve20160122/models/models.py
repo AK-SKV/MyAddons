@@ -37,21 +37,13 @@ class Pofatt(models.Model):
     Owner_id = fields.Many2one('hr.employee', ondelete='set null', string='Owner',)
     Emithent_id = fields.Many2one('hr.employee', ondelete='set null', string='Emithent',)
     direction = fields.Selection( string='Direction', selection=[(u'-1', u'Output'), (u'1', u'Input')],)
-    State = fields.Selection( string='State', selection=[(u'0', u'Draft'), (u'2', u'Used'), (u'3', u'Canceled'), (u'1', u'Confirmed')],default='_default_state',)
+    state = fields.Selection( string='Стадия', selection=[(u'0', u'Draft'), (u'2', u'Used'), (u'3', u'Canceled'), (u'1', u'Confirmed')],)
     note = fields.Text( string='Note',)
     base = fields.Text( string='Base',)
     pofatt_lines_ids = fields.One2many('pofatt_lines', 'pofatt_id', string='Pofatt_lines',)
+    pofatt_lines_ids = fields.One2many('pofatt_lines', 'pofatt_id', string='Pofatt_lines',)
+    pofatt_lines_ids = fields.One2many('pofatt_lines', 'pofatt_id', string='Pofatt_lines',)
     
- #   @api.model
- #   def _default_state(self):
- #       return False
-
-    
-    @api.model
-    def _default_state(self):
-        raise NotImplementedError
-    
-
     
 
 

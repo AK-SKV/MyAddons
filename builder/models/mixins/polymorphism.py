@@ -39,6 +39,7 @@ class Superclass(models.AbstractModel):
     def get_formview_action(self, cr, uid, id, context=None):
         """
         @return <ir.actions.act_window>
+      
         """
 
         record = self.browse(cr, uid, id, context=context)[0]

@@ -21,6 +21,8 @@ class FormView(models.Model):
     states_clickable = fields.Boolean('States Clickable', default=False)
     show_status_bar = fields.Boolean('Show Status Bar', default=False)
     visible_states = fields.Char('Visible States')
+    show_header = fields.Boolean('Show Header Bar', default=False)
+    
 
     statusbar_button_ids = fields.One2many('builder.views.form.statusbar.button', 'view_id', 'Status Bar Buttons', copy=True)
     button_ids = fields.One2many('builder.views.form.button', 'view_id', 'Buttons', copy=True)
@@ -90,6 +92,12 @@ class FormView(models.Model):
 
     @property
     def flat_fields(self):
+        return [
+            field for field in self.field_ids if not field.page
+        ]
+
+    @property
+    def header_fields(self):
         return [
             field for field in self.field_ids if not field.page
         ]
@@ -171,6 +179,10 @@ class FormField(models.Model):
     readonly_condition = fields.Char('Readonly Condition')
 
     states = fields.Char('States')
+
+    in_header = fields.Boolean('Is field in Header?', default=False)
+    subgroup_ = fields.Char('Sub_Group Name')
+    group_name = fields.Char('Main Group Name')
 
     @api.one
     @api.depends('field_id.ttype')

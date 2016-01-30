@@ -19,31 +19,4 @@
 #
 ##############################################################################
  
-# noinspection PyStatementEffect
-{
-    "name" : "pofatt_",
-    
-    "author" : "VGlukhov",
-    "website" : "http://sba-group.ru",
-    "category" : "Custom Module",
-    "licence" : "AGPL-3",
-    "description": """
-pofatt_
-====================================
-Power Of Attorney
-                    """,
-    "depends" : ['base', 'account_analytic_default', 'product', 'account', 'hr'],
-    "data" : [
-        'security/security.xml',
-        'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/actions.xml',
-        'views/menu.xml',
-        'views/website_themes.xml',
-        'views/website_snippets.xml',
-        ],
-    "demo" : [],
-    "installable": True,
-    "auto_install": False,
-    "application": False,
-}
+from . import models

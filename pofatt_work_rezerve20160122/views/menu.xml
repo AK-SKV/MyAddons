@@ -2,8 +2,7 @@
 <openerp>
     <data>
         
-        <menuitem id="pofatt.menu_action_pofatt_root" name="Работа с Доверенностями"  sequence="10"
-                parent="base.menu_base_partner"
+        <menuitem id="pofatt.menu_action_pofatt_root" name="Доверенности"  sequence="10"
                 groups="base.group_user,base.group_sale_manager,purchase.group_purchase_manager"/>
 
     

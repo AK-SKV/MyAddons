@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+        
+    
+            
+    <record model="ir.ui.view" id="pofatt.view_pofatt_form">
+        <field name="name">power of attorney</field>
+        <field name="model">pofatt</field>
+        
+        
+        <field name="arch" type="xml">
+                
+            <form string="power of attorney" >
+            
+                <header>
+                
+                
+                    
+                    <field name="state" nolabel="0" widget="statusbar" clickable="1" />
+                
+                </header>
+            
+                <sheet>
+                
+                <group col="4">
+                
+                    <field name="direction" widget="selection"  attrs="{'required': True}" />
+                    <field name="department_id" widget="many2one"  attrs="{'required': True}" />
+                    <field name="number"  />
+                    <field name="Emithent_id"  />
+                    <field name="Owner_id" string="Owner_id"   />
+                    <field name="partner_id" string="partner_id"   />
+                    <field name="part_hr_employee_id" string="part_hr_employee_id"   />
+                    <field name="date_start" widget="date"   />
+                    <field name="date_end" widget="date"   />
+                </group>
+            
+                <notebook>
+                    <page string="Details">
+                               <group  col="4">
+        				<field name="pofatt_lines_ids" widget="one2many_list"  nolabel="1"   context="{'form_view_id': 'view_pofatt_lines_form', 'tree_view_id': 'view_pofatt_lines_tree'}" />
+        
+                
+                               </group>
+                    </page>
+                    <page string="2 Text">
+                               <group  col="4">
+        				<field name="note" string="Note"   />
+        				<field name="base" string="Base"   />
+                               </group>
+                    </page>
+                </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    
+            
+    <record model="ir.ui.view" id="pofatt.view_pofatt_tree">
+        <field name="name">power of attorney</field>
+        <field name="model">pofatt</field>
+        
+        
+        <field name="arch" type="xml">
+                
+            <tree string="power of attorney">
+                <field name="direction" />
+                <field name="number" />
+                <field name="date_start" />
+                <field name="date_end" />
+                <field name="state" />
+                <field name="department_id" />
+                <field name="partner_id" />
+                <field name="Owner_id" />
+                <field name="Emithent_id" />
+            </tree>
+                
+        </field>
+    </record>
+
+    
+            
+    <record model="ir.ui.view" id="pofatt.view_pofatt_lines_form">
+        <field name="name">pofatt_lines</field>
+        <field name="model">pofatt_lines</field>
+        
+        
+        <field name="arch" type="xml">
+                
+            <form string="pofatt_lines" >
+            
+                <sheet>
+                
+                <group col="4">
+                
+                    <field name="product_product_id" widget="many2one"  attrs="{'required': True}" />
+                    <field name="price"  />
+                    <field name="qtt"  />
+                    <field name="product_uom_id" widget="many2one"   />
+                </group>
+            
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    
+            
+    <record model="ir.ui.view" id="pofatt.view_pofatt_lines_tree">
+        <field name="name">pofatt_lines</field>
+        <field name="model">pofatt_lines</field>
+        
+        
+        <field name="arch" type="xml">
+                
+            <tree string="pofatt_lines">
+                <field name="product_product_id" readonly="True"  />
+                <field name="price" readonly="True"  />
+                <field name="qtt" readonly="True"  />
+                <field name="product_uom_id" readonly="True"  />
+            </tree>
+                
+        </field>
+    </record>
+
+    
+
+    </data>
+</openerp>

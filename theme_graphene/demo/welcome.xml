@@ -95,11 +95,11 @@
           </section>
 
 
-          <section class="s_google_map" data-map-type="ROADMAP" data-map-color="blueMap" data-map-zoom="16" data-map-gps="(48.856614, 2.3522219000000177)" data-pin-title="Discover Our Office:" data-pin-desc="Our office is loceated in the northeast of Brussels. TEL (555) 43W2 2e365" data-pin-style="flat" style="height: 488px; overflow: hidden;">
+          <section class="s_google_map" data-map-type="ROADMAP" data-map-color="blueMap" data-map-zoom="19" data-map-gps="(56.81544444,60.61288789)" data-pin-title="Discover Our Office:" data-pin-desc="Our office is loceated in the center of Yekaterinburg. TEL (343) 372 3209" data-pin-style="flat" style="height: 488px; overflow: hidden;">
             <div class="map_container" />
             <div class="description">
               <font>Visit us:</font>
-              <span> Our office is located in the northeast of Brussels. TEL (555) 432 2365 </span>
+              <span> Our office is located in the center of Yekaterinburg. TEL (343) 372 3209 </span>
             </div>
           </section>
 

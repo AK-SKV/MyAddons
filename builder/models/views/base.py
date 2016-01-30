@@ -197,6 +197,7 @@ class View(models.Model):
     @api.multi
     def action_open_view(self):
         model = self._model
+        
         action = model.get_formview_action(self.env.cr, self.env.uid, self.ids, self.env.context)
         action.update({'target': 'new'})
         return action

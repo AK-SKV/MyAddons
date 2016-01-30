@@ -38,12 +38,14 @@
           <h3 class="text-center bg-white mt128 mb0">GOOGLE MAPS</h3>
           <hr class="mt4 mb4"/>
           <small class="mt4 mb48">Create and customize easily your maps</small>
-
-          <section class="s_google_map mt32" data-map-type="ROADMAP" data-map-color="" data-map-zoom="12" data-map-gps="(48.856614, 2.3522219000000177)" data-pin-style="flat" style="height: 488px; overflow: hidden;">
+<!--48.856614, 2.3522219000000177    56.81544444,60.61288789 -->
+          <section class="s_google_map mt32" data-map-type="ROADMAP" data-map-color="" data-map-zoom="19" data-map-gps="(56.81544444,60.61288789)" data-pin-style="flat" style="height: 488px; overflow: hidden;">
             <div class="map_container"/>
             <div class="description">
               <font>Visit us:</font>
-              <span>Our office is located in Paris. TEL (555) 432 2365</span>
+              <!-- Our office is located in Paris. TEL (555) 432 2365 -->
+              <!-- Our office is located in the center of Yekaterinburg. TEL (343) 372 3209 -->
+              <span>Our office is located in the center of Yekaterinburg. TEL (343) 372 3209</span>
             </div>
           </section>
 
@@ -55,22 +57,22 @@
               <div class="col-md-3 mt32">
                 <h4 class="mb4">Road Map</h4>
                 <hr class="mt0 mb4"/>
-                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="" data-map-zoom="14" data-map-gps="(48.856614, 2.3522219000000177)" data-pin-style="" style="min-height: 200px; height: 200px; overflow: hidden;"><div class="map_container"/></section>
+                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="" data-map-zoom="14" data-map-gps="(56.81544444,60.61288789)" data-pin-style="" style="min-height: 200px; height: 200px; overflow: hidden;"><div class="map_container"/></section>
               </div>
               <div class="col-md-3 mt32">
                 <h4 class="mb4">Satellite</h4>
                 <hr class="mt0 mb4"/>
-                <section class="s_google_map" data-map-type="SATELLITE" data-map-color="" data-map-zoom="14" data-map-gps="(48.856614, 2.3522219000000177)" data-pin-style="" style="min-height: 200px; height: 200px; overflow: hidden;"><div class="map_container"/></section>
+                <section class="s_google_map" data-map-type="SATELLITE" data-map-color="" data-map-zoom="14" data-map-gps="(56.81544444,60.61288789)" data-pin-style="" style="min-height: 200px; height: 200px; overflow: hidden;"><div class="map_container"/></section>
               </div>
               <div class="col-md-3 mt32">
                 <h4 class="mb4">Hybrid</h4>
                 <hr class="mt0 mb4"/>
-                <section class="s_google_map" data-map-type="HYBRID" data-map-color="" data-map-zoom="14" data-map-gps="(48.856614, 2.3522219000000177)" data-pin-style="" style="min-height: 200px; height: 200px; overflow: hidden;"><div class="map_container"/></section>
+                <section class="s_google_map" data-map-type="HYBRID" data-map-color="" data-map-zoom="14" data-map-gps="(56.81544444,60.61288789)" data-pin-style="" style="min-height: 200px; height: 200px; overflow: hidden;"><div class="map_container"/></section>
               </div>
               <div class="col-md-3 mt32">
                 <h4 class="mb4">Terrain</h4>
                 <hr class="mt0 mb4"/>
-                <section class="s_google_map" data-map-type="TERRAIN" data-map-color="" data-map-zoom="14" data-map-gps="(48.856614, 2.3522219000000177)" data-pin-style="" style="min-height: 200px; height: 200px; overflow: hidden;"><div class="map_container"/></section>
+                <section class="s_google_map" data-map-type="TERRAIN" data-map-color="" data-map-zoom="14" data-map-gps="(56.81544444,60.61288789)" data-pin-style="" style="min-height: 200px; height: 200px; overflow: hidden;"><div class="map_container"/></section>
               </div>
             </div>
           </div>
@@ -88,42 +90,42 @@
               <div class="col-md-6 mt32">
                 <h4 class="mb4">Light Mono</h4>
                 <hr class="mt0 mb4"/>
-                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="lightMonoMap" data-map-zoom="12" data-map-gps="(48.856614, 2.3522219000000177)" data-pin-style="flat" style="height: 288px; overflow: hidden;"><div class="map_container"/></section>
+                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="lightMonoMap" data-map-zoom="12" data-map-gps="(56.81544444,60.61288789)" data-pin-style="flat" style="height: 288px; overflow: hidden;"><div class="map_container"/></section>
               </div>
               <div class="col-md-6 mt32">
                 <h4 class="mb4">Cupertino</h4>
                 <hr class="mt0 mb4"/>
-                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="cupertinoMap" data-map-zoom="12" data-map-gps="(48.856614, 2.3522219000000177)" data-pin-style="flat" style="height: 288px; overflow: hidden;"><div class="map_container"/></section>
+                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="cupertinoMap" data-map-zoom="12" data-map-gps="(56.81544444,60.61288789)" data-pin-style="flat" style="height: 288px; overflow: hidden;"><div class="map_container"/></section>
               </div>
               <div class="col-md-6 mt32">
                 <h4 class="mb4">Retro</h4>
                 <hr class="mt0 mb4"/>
-                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="retroMap" data-map-zoom="12" data-map-gps="(48.856614, 2.3522219000000177)" data-pin-style="flat" style="height: 288px; overflow: hidden;"><div class="map_container"/></section>
+                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="retroMap" data-map-zoom="12" data-map-gps="(56.81544444,60.61288789)" data-pin-style="flat" style="height: 288px; overflow: hidden;"><div class="map_container"/></section>
               </div>
               <div class="col-md-6 mt32">
                 <h4 class="mb4">Cobalt</h4>
                 <hr class="mt0 mb4"/>
-                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="cobaltMap" data-map-zoom="12" data-map-gps="(48.856614, 2.3522219000000177)" data-pin-style="flat" style="height: 288px; overflow: hidden;"><div class="map_container"/></section>
+                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="cobaltMap" data-map-zoom="12" data-map-gps="(56.81544444,60.61288789)" data-pin-style="flat" style="height: 288px; overflow: hidden;"><div class="map_container"/></section>
               </div>
               <div class="col-md-6 mt32">
                 <h4 class="mb4">Flat</h4>
                 <hr class="mt0 mb4"/>
-                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="flatMap" data-map-zoom="12" data-map-gps="(48.856614, 2.3522219000000177)" data-pin-style="flat" style="height: 288px; overflow: hidden;"><div class="map_container"/></section>
+                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="flatMap" data-map-zoom="12" data-map-gps="(56.81544444,60.61288789)" data-pin-style="flat" style="height: 288px; overflow: hidden;"><div class="map_container"/></section>
               </div>
               <div class="col-md-6 mt32">
                 <h4 class="mb4">Lilla</h4>
                 <hr class="mt0 mb4"/>
-                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="lillaMap" data-map-zoom="12" data-map-gps="(48.856614, 2.3522219000000177)" data-pin-style="flat" style="height: 288px; overflow: hidden;"><div class="map_container"/></section>
+                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="lillaMap" data-map-zoom="12" data-map-gps="(56.81544444,60.61288789)" data-pin-style="flat" style="height: 288px; overflow: hidden;"><div class="map_container"/></section>
               </div>
               <div class="col-md-6 mt32">
                 <h4 class="mb4">Caramello</h4>
                 <hr class="mt0 mb4"/>
-                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="carMap" data-map-zoom="12" data-map-gps="(48.856614, 2.3522219000000177)" data-pin-style="flat" style="height: 288px; overflow: hidden;"><div class="map_container"/></section>
+                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="carMap" data-map-zoom="12" data-map-gps="(56.81544444,60.61288789)" data-pin-style="flat" style="height: 288px; overflow: hidden;"><div class="map_container"/></section>
               </div>
               <div class="col-md-6 mt32">
                 <h4 class="mb4">B&#38;W</h4>
                 <hr class="mt0 mb4"/>
-                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="bwMap" data-map-zoom="12" data-map-gps="(48.856614, 2.3522219000000177)" data-pin-style="flat" style="height: 288px; overflow: hidden;"><div class="map_container"/></section>
+                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="bwMap" data-map-zoom="12" data-map-gps="(56.81544444,60.61288789)" data-pin-style="flat" style="height: 288px; overflow: hidden;"><div class="map_container"/></section>
               </div>
             </div>
           </div>
@@ -136,22 +138,22 @@
               <div class="col-md-3 mt32">
                 <h4 class="mb4">12</h4>
                 <hr class="mt0 mb4"/>
-                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="" data-map-zoom="12" data-map-gps="(48.856614, 2.3522219000000177)" data-pin-style="" style="min-height: 200px; height: 200px; overflow: hidden;"><div class="map_container"/></section>
+                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="" data-map-zoom="12" data-map-gps="(56.81544444,60.61288789)" data-pin-style="" style="min-height: 200px; height: 200px; overflow: hidden;"><div class="map_container"/></section>
               </div>
               <div class="col-md-3 mt32">
                 <h4 class="mb4">14</h4>
                 <hr class="mt0 mb4"/>
-                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="" data-map-zoom="14" data-map-gps="(48.856614, 2.3522219000000177)" data-pin-style="" style="min-height: 200px; height: 200px; overflow: hidden;"><div class="map_container"/></section>
+                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="" data-map-zoom="14" data-map-gps="(56.81544444,60.61288789)" data-pin-style="" style="min-height: 200px; height: 200px; overflow: hidden;"><div class="map_container"/></section>
               </div>
               <div class="col-md-3 mt32">
                 <h4 class="mb4">16</h4>
                 <hr class="mt0 mb4"/>
-                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="" data-map-zoom="16" data-map-gps="(48.856614, 2.3522219000000177)" data-pin-style="" style="min-height: 200px; height: 200px; overflow: hidden;"><div class="map_container"/></section>
+                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="" data-map-zoom="16" data-map-gps="(56.81544444,60.61288789)" data-pin-style="" style="min-height: 200px; height: 200px; overflow: hidden;"><div class="map_container"/></section>
               </div>
               <div class="col-md-3 mt32">
                 <h4 class="mb4">18</h4>
                 <hr class="mt0 mb4"/>
-                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="" data-map-zoom="18" data-map-gps="(48.856614, 2.3522219000000177)" data-pin-style="" style="min-height: 200px; height: 200px; overflow: hidden;"><div class="map_container"/></section>
+                <section class="s_google_map" data-map-type="ROADMAP" data-map-color="" data-map-zoom="18" data-map-gps="(56.81544444,60.61288789)" data-pin-style="" style="min-height: 200px; height: 200px; overflow: hidden;"><div class="map_container"/></section>
                 <span id="posts"/>
               </div>
             </div>
