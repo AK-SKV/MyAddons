@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<openerp>
+    <data noupdate="1">
+            
+    <record id="wkf2" model="workflow">
+        <field name="name">Работа с доверенностями</field>
+        <field name="osv">pofatt</field>
+        <field name="on_create">True</field>
+    </record>
+
+    
+    <record id="act_В архив" model="workflow.activity">
+        <field name="wkf_id" ref="wkf2"/>
+        <field name="name">В архив</field>
+        
+        
+        <field name="kind">dummy</field>
+        
+        <field name="flow_stop">True</field>
+        
+        
+        
+        
+    </record>
+    
+    <record id="act_Отмена" model="workflow.activity">
+        <field name="wkf_id" ref="wkf2"/>
+        <field name="name">Отмена</field>
+        
+        
+        <field name="kind">dummy</field>
+        
+        <field name="flow_stop">True</field>
+        
+        
+        
+        
+    </record>
+    
+    <record id="act_Создание" model="workflow.activity">
+        <field name="wkf_id" ref="wkf2"/>
+        <field name="name">Создание</field>
+        
+        
+        <field name="kind">dummy</field>
+        
+        
+        <field name="flow_start">True</field>
+        
+        
+        
+    </record>
+    
+    <record id="act_Утверждение" model="workflow.activity">
+        <field name="wkf_id" ref="wkf2"/>
+        <field name="name">Утверждение</field>
+        
+        
+        <field name="kind">dummy</field>
+        
+        
+        
+        
+        
+        
+    </record>
+    
+
+    
+        

@@ -24,7 +24,7 @@
                     var place = autocomplete.getPlace();
                     if (!place.geometry) {
                //         self.$modal.find("#placeBk").val("(50.854975,4.3753899)");
-                        self.$modal.find("#placeBk").val("(50.854975,4.3753899)");
+                        self.$modal.find("#placeBk").val("(56.81544444,60.61288789)");
                     } else {
                         self.$modal.find("#placeBk").val(place.geometry.location);
                     }
@@ -34,7 +34,7 @@
             self.$modal.find("#sub_map").on('click', function () {
                 if (!self.$modal.find("#placeBk").val()) {
                //     self.$modal.find("#placeBk").val("(50.854975,4.3753899)")
-                    self.$modal.find("#placeBk").val("(50.854975,4.3753899)")
+                    self.$modal.find("#placeBk").val("(56.81544444,60.61288789)")
                 }         
                 self.$target.attr('data-map-gps', (self.$modal.find("#placeBk").val()));         
                 self.$target.attr('data-pin-style', (self.$modal.find("#pin_style").val()));
