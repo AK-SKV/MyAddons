@@ -25,8 +25,8 @@ from openerp.tools.translate import _
 
 
 class contactus(http.Controller):
-
     """Contactus class."""
+
 
     @http.route(['/page/website.contactus', '/page/contactus'], type='http',
                 auth="public", website=True)
@@ -43,9 +43,12 @@ class contactus(http.Controller):
     def create_lead(self, request, values, kwargs):
         """Allow to be overrided."""
         cr, context = request.cr, request.context
-        return request.registry['crm.lead'].create(
+        lead_id = request.registry['crm.lead'].create(
             cr, SUPERUSER_ID, values, context=dict(
                 context, mail_create_nosubscribe=True))
+        
+        return lead_id
+
 
     def preRenderThanks(self, values, kwargs):
         """Allow to be overrided."""

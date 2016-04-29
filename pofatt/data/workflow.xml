@@ -9,23 +9,9 @@
     </record>
 
     
-    <record id="act_В архив" model="workflow.activity">
+    <record id="act_Cancel" model="workflow.activity">
         <field name="wkf_id" ref="wkf3"/>
-        <field name="name">To_arch</field>
-        
-        
-        <field name="kind">dummy</field>
-        
-        <field name="flow_stop">True</field>
-        
-        
-        
-        
-    </record>
-    
-    <record id="act_Отменить" model="workflow.activity">
-        <field name="wkf_id" ref="wkf3"/>
-        <field name="name">To_canc</field>
+        <field name="name">Cancel</field>
         
         
         <field name="kind">function</field>
@@ -37,9 +23,23 @@
         
     </record>
     
-    <record id="act_Подготовить" model="workflow.activity">
+    <record id="act_Confirme" model="workflow.activity">
         <field name="wkf_id" ref="wkf3"/>
-        <field name="name">To_redy</field>
+        <field name="name">Confirme</field>
+        
+        
+        <field name="kind">function</field>
+        
+        
+        
+        
+        
+        
+    </record>
+    
+    <record id="act_Create" model="workflow.activity">
+        <field name="wkf_id" ref="wkf3"/>
+        <field name="name">Create</field>
         
         
         <field name="kind">dummy</field>
@@ -51,21 +51,52 @@
         
     </record>
     
-    <record id="act_Применить" model="workflow.activity">
+    <record id="act_To_archive" model="workflow.activity">
         <field name="wkf_id" ref="wkf3"/>
-        <field name="name">TO_use</field>
+        <field name="name">To_archive</field>
         
         
-        <field name="kind">function</field>
+        <field name="kind">dummy</field>
+        
+        <field name="flow_stop">True</field>
+        
+        
+        
+        
     </record>
     
-    <record id="act_Утвердить" model="workflow.activity">
+    <record id="act_Use" model="workflow.activity">
         <field name="wkf_id" ref="wkf3"/>
-        <field name="name">To_conf</field>
+        <field name="name">Use</field>
         
         
         <field name="kind">function</field>
+        
+        
+        
+        
+        
+        
     </record>
+    
+
+    
+        
+
+    
+        
+
+    
+        
+
+    
+        
+
+    
+        
+
+    
+
         
     </data>
 </openerp>

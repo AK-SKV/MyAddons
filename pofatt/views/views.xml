@@ -65,7 +65,7 @@
         	            <field name="Emithent_id" string="Emithent"   />
         	            <field name="Owner_id" string="Owner"   />
         	            <field name="partner_id" string="Partner"   />
-        	            <field name="part_hr_employee_id" string="part_hr_employee_id"  domain="[('partner_id','=',partner_id)]"   />
+        	            <field name="part_hr_employee_id" string="part_hr_employee_id"  domain="[('company_id','=',partner_id)]"   />
         	            <field name="date_start" widget="date"   />
         	            <field name="date_end" widget="date"   />
         	        </group>

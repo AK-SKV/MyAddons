@@ -11,7 +11,7 @@
                 parent="pofatt.menu_action_pofatt_root"/>
 
     
-        <menuitem id="pofatt.pofatt_action_todo_menu" name="To do pofatt_Cur Window"  sequence="10"
+        <menuitem id="pofatt.pofatt_action_todo_menu" name="Реестр Доверенностей"  sequence="10"
                 parent="pofatt.pofatt_main_menu"
                 action="pofatt.action_pofatt_1"/>
 
@@ -28,13 +28,7 @@
     
         <menuitem id="pofatt.menu_act_pofatt_3" name="To do pofatt_inline_view"  sequence="13"
                 parent="pofatt.pofatt_main_menu"
-                action="pofatt.act_pofatt_3"/>
-
-    
-        <menuitem id="pofatt.menu_stock_action_picking_type_list" name="All Operations"  sequence="10"
-                parent="pofatt.pofatt_main_menu"
-                action="stock.action_picking_type_list"/>
-
-    
+                action="pofatt.act_"/>
     </data>
-</openerp>
+    </openerp>
+    

@@ -1,0 +1,18 @@
+<openerp>
+  <data>
+    <template id="sba_client_assets"
+              name="SBA Client_Style"
+              inherit_id="web.assets_backend">
+      <!-- xpath expr="//link[@href='/web/static/lib/bootstrap/css/bootstrap.css']"
+             position="after"            варинт не подходит для base.css -->
+      <xpath expr="//script[@src='/base/static/src/js/apps.js']"
+             position="after">
+      <link rel="stylesheet"
+              href="/sba_client_theme/static/src/css/sba_client_style.css"
+              t-ignore="true"/>
+        <!-- script type="text/javascript"
+                src="/sba_snippet_contact/static/src/js/contact_snippet.js"/-->
+      </xpath>
+    </template>
+  </data>
+</openerp>

@@ -6,17 +6,13 @@
             <field name="name">To do pofatt_Cur Window</field>
             <field name="res_model">pofatt</field>
             <!--field name="view_ids" ref="pofatt.view_pofatt_tree"/-->
-            <field name="view_mode">tree,form</field>
+            <field name="view_mode">tree,form,kanban,gantt,calendar,search</field>
             <field name="view_type">form</field>
             <field name="target">current</field>
             <field name="auto_search">False</field>
             <field name="multi">True</field>
             <field name="help" type="html">
-                <p class="oe_view_nocontent_create">
-            Click to create a new model.
-          </p><p>
-            This is an example of help content.
-          </p>
+                <p class="oe_view_nocontent_create">Для нажатия новой доверенности, нажмите "Создать"</p>
             </field>
         </record>
 
@@ -51,8 +47,7 @@
             <field name="view_type">form</field>
             <field name="target">new</field>
             
-        </record>
-
-    
-    </data>
-</openerp>
+     </record>
+     </data>
+     </openerp>
+     

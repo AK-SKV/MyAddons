@@ -1,0 +1,153 @@
+/*                  bootstrap.css     */
+/* так было до 20160428
+ .navbar-inverse {
+	  background-color: #222;
+	  border-color: #080808;
+	}
+*/
+/* цвет фона горизонтального меню*/
+.navbar-inverse {   
+	  background-color: #C6D166;
+	  border-color: #A8B15B;
+	}
+.navbar-inverse .navbar-brand {
+  color: #777;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-text {
+  color: #777;
+}
+/* так было до 20160428
+.navbar-inverse .navbar-nav > li > a {
+	  color: #777;  
+	}
+
+*/
+/* цвет активного пункта гориз меню*/
+.navbar-inverse .navbar-nav > li > a {   
+	  color:  #4B1D1D ; 
+	}
+
+/* цвет активного пункта гориз меню,  // пунк меню над которым мышка */
+.navbar-inverse .navbar-nav > li > a:hover,  
+.navbar-inverse .navbar-nav > li > a:focus { 
+  color: #fff;
+  background-color: #9da746;   //transparent;
+}
+/*  цвет активного пункта гориз меню */
+.navbar-inverse .navbar-nav > .active > a,                
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #F5F212  ;   //fff;
+  background-color: #9da746;   //080808;
+}
+.navbar-inverse .navbar-nav > .disabled > a,
+.navbar-inverse .navbar-nav > .disabled > a:hover,
+.navbar-inverse .navbar-nav > .disabled > a:focus {
+  color: #444;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #333;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #333;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #101010;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #F5F212;   //#fff;
+  background-color: #9da746  ;    //#080808;
+}
+/*выпадающее меню слева  */
+.dropdown-menu {   
+	  position: absolute;
+	  top: 100%;
+	  left: 0;
+	  z-index: 1000;
+	  display: none;
+	  float: left;
+	  min-width: 160px;
+	  padding: 5px 0;
+	  margin: 2px 0 0;
+	  font-size: 14px;
+	  text-align: left;
+	  list-style: none;
+	  background-color: #C6D166;    //  #fff;
+	  -webkit-background-clip: padding-box;
+	          background-clip: padding-box;
+	  border: 1px solid #ccc;
+	  border: 1px solid rgba(0, 0, 0, .15);
+	  border-radius: 4px;
+	  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+	          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+	}
+.dropdown-menu > li > a {
+	  display: block;
+	  padding: 3px 20px;
+	  clear: both;
+	  font-weight: normal;
+	  line-height: 1.42857143;
+	  color: #4B1D1D ; //#333;
+	  white-space: nowrap;
+	}
+
+/* пунк меню над которым мышка*/
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color:  #fff;    //#4B1D1D ; // #262626;
+  text-decoration: none;
+  background-color: #9da746;  //#f5f5f5;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #F5F212 ; //#fff;
+  text-decoration: none;
+  background-color: #9da746 ; //#428bca;
+  outline: 0;
+}
+
+/*                  base.css     */
+/*   размер пунктов меню     */
+#oe_main_menu_navbar li a, #oe_main_menu_navbar li button {
+	  padding: 4px 8px 4px 8px;
+	  margin-top: 2px;
+	  font-size: 14px;   //13px;
+	}
+
+/*  здесь меняем размер пунков горизонт меню  */
+.openerp {
+	  padding: 0;
+	  margin: 0;
+	  font-family: "Lucida Grande", Helvetica, Verdana, Arial, sans-serif;
+	  color: #070573 ;   //#4c4c4c;
+	  font-size: 14px;
+	  background: white;
+	  /* http://www.quirksmode.org/dom/inputfile.html
+	   * http://stackoverflow.com/questions/2855589/replace-input-type-file-by-an-image
+	   */
+	}
+/* здесь меняем вид правого меню */
+.openerp .nav-pills li > a {
+ /*   padding: 6px 4px 2px 18px;*/
+    color: #4B1D1D;   //#4c4c4c;
+}
+.openerp .oe_secondary_menu_section {
+    font-weight: bold;
+    margin-left: 8px;
+    color: #413F98;
+}

@@ -23,6 +23,10 @@
 import base64
 import logging
 import psycopg2
+import lxml.html.clean as clean
+import random
+import time
+import socket
 from openerp import tools, models
 
 from openerp import SUPERUSER_ID
@@ -169,3 +173,21 @@ class mail_mail(models.Model):
             if auto_commit is True:
                 cr.commit()
         return True
+
+
+class _Cleaner(clean.Cleaner):
+    _inherit = '_Cleaner'
+def generate_tracking_message_id(res_id):
+    """Returns a string that can be used in the Message-ID RFC822 header field
+
+       Used to track the replies related to a given object thanks to the "In-Reply-To"
+       or "References" fields that Mail User Agents will set.
+    """
+    try:
+        rnd = random.SystemRandom().random()
+    except NotImplementedError:
+        rnd = random.random()
+    rndstr = ("%.15f" % rnd)[2:]
+#    return "<%.15f.%s-openerp-%s@%s>" % (time.time(), rndstr, res_id, socket.gethostname())
+    return "<%.15f.%s-sbaerp-%s@%s>" % (time.time(), rndstr, res_id, socket.gethostname())
+ 
