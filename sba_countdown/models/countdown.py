@@ -15,5 +15,5 @@ class Countdown(orm.AbstractModel):
     def record_to_html(self, cr, uid, field_name, record, options=None, context=None):
         if context is None:
             context = {}
-        html = self.pool["ir.ui.view"].render(cr, uid, "website_countdown.front_countdown", {'countdown_date':record[field_name], 'options':options}, engine='ir.qweb', context=context).decode('utf8')
+        html = self.pool["ir.ui.view"].render(cr, uid, "sba_countdown.front_countdown", {'countdown_date':record[field_name], 'options':options}, engine='ir.qweb', context=context).decode('utf8')
         return HTMLSafe(html)

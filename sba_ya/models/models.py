@@ -19,25 +19,29 @@
 #
 ##############################################################################
  
-# noinspection PyStatementEffect
-{
-    "name" : "Sba_Client_Theme",
+from openerp import models, fields , api, tools, _
+# from openerp.osv import fields as fields_old
+# import openerp.addons.decimal_precision as dp
+
+
+class ProductTemplate(models.Model):
+    _name = 'product.template'
+    _rec_name='to_yandex'
+    _order = 'to_yandex asc'
+    _inherit = [
+        'product.template',
+        
+    ]
+    _description = 'Шаблон продукта'
     
-    "author" : "VGlukhov SBA",
-    "website" : "sba.ralstore.ru",
-    "category" : "Custom",
-    "licence" : "AGPL-3",
-    "summary": """
-Sba_Client_Theme
-====================================
-Настройка внешнего вида клиента
-                    """,
-    "depends" : ['web', 'base'],
-    "data" : [
-        'addcss.xml',
-        ],
-   "demo" : [],
-    "installable": True,
-    "auto_install": False,
-    "application": False,
-}
+    to_yandex = fields.Boolean( 'Передавать в YM', required=False, copy=False, help='Помечаем Продукт, который необходимовыгружать в Yandex.Market')
+#    picture_url = ('URL изображения', compute='_picture_url', store= True)
+    
+#    @api.one
+#    @api.depends('stage_id.fold')
+#    def _picture_url(self):
+#    self.picture_url = self.id + self.category_id
+  
+    
+
+

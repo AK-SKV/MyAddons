@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="action_download_product_image" model="ir.actions.server">
+            <field name="name">Download Image</field>
+            <field name="model_id" ref="product.model_product_template"/>
+            <field name="state">code</field>
+            <field name="code">
+                if context.get('active_model') == 'product.template' and context.get('active_ids'):
+                    self.download_product_image(cr,uid,context.get('active_ids', []), context=context)
+            </field>
+        </record>
+
+        <record id="ir_download_product_image" model="ir.values">
+            <field eval="'client_action_multi'" name="key2"/>
+            <field eval="'product.template'" name="model"/>
+            <field name="name">Download Image</field>
+            <field eval="'ir.actions.server,%d'%action_download_product_image" name="value"/>
+        </record>
+		
+	</data>
+</openerp>

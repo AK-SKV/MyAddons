@@ -21,22 +21,20 @@
  
 # noinspection PyStatementEffect
 {
-    "name" : "Sba_Client_Theme",
+    "name" : "Mark Product to send YM",
     
     "author" : "VGlukhov SBA",
-    "website" : "sba.ralstore.ru",
-    "category" : "Custom",
+    "website" : "sba.realstore.ru",
+    "category" : "Продажи",
     "licence" : "AGPL-3",
     "summary": """
-Sba_Client_Theme
-====================================
-Настройка внешнего вида клиента
+ Модуль для работы с Яндекс.Маркет
                     """,
-    "depends" : ['web', 'base'],
+    "depends" : ['base', 'product', 'account'],
     "data" : [
-        'addcss.xml',
+        'views/views.xml',
         ],
-   "demo" : [],
+    "demo" : [],
     "installable": True,
     "auto_install": False,
     "application": False,
