@@ -19,25 +19,4 @@
 #
 ##############################################################################
  
-# noinspection PyStatementEffect
-{
-    "name" : "Sba_Client_Theme",
-    
-    "author" : "VGlukhov SBA",
-    "website" : "sba.ralstore.ru",
-    "category" : "Custom",
-    "licence" : "AGPL-3",
-    "summary": """
-Sba_Client_Theme
-====================================
-Настройка внешнего вида клиента
-                    """,
-    "depends" : ['web', 'base'],
-    "data" : [
-        'addcss.xml',
-        ],
-   "demo" : [],
-    "installable": True,
-    "auto_install": False,
-    "application": False,
-}
+from . import models
