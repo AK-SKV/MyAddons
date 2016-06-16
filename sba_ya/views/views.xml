@@ -8,9 +8,8 @@
 		<field name="inherit_id" ref="product.product_template_form_view" />
 		<field name="arch" type="xml">
 			<field name="active" position="after">
-				<!-- field name="web" widget="url" on_change="onchange_image(web,context)"/-->
 				<field name="to_yandex"/>
-				<!--field name='picture_url'/-->
+				<!-- field name='picture_url'/ -->
 			</field>
 		</field>
 	</record>

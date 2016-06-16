@@ -26,22 +26,22 @@ from openerp import models, fields , api, tools, _
 
 class ProductTemplate(models.Model):
     _name = 'product.template'
-    _rec_name='to_yandex'
-    _order = 'to_yandex asc'
-    _inherit = [
-        'product.template',
-        
-    ]
+#   _rec_name='to_yandex'  #  что показывать в крошках и при ссылках
+#    _order = 'to_yandex asc'  # порядок показа
+    _inherit = ['product.template',]
     _description = 'Шаблон продукта'
-    
-    to_yandex = fields.Boolean( 'Передавать в YM', required=False, copy=False, help='Помечаем Продукт, который необходимовыгружать в Yandex.Market')
-#    picture_url = ('URL изображения', compute='_picture_url', store= True)
+
+    to_yandex = fields.Boolean( 'Передавать в YM', 
+                                required=False, 
+                                copy=False, 
+                                help='Помечаем Продукт, который необходимо выгружать в Yandex.Market'
+                                )
+#    picture_url = fields.Char('URL изображения', compute='_picture_url', store= True )
     
 #    @api.one
-#    @api.depends('stage_id.fold')
+##    @api.depends('id','category_id')
 #    def _picture_url(self):
-#    self.picture_url = self.id + self.category_id
-  
+#        self.picture_url = 'Test/Test/Test'#self.id + self.category_id
     
 
 

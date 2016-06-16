@@ -27,7 +27,7 @@ from datetime import datetime, timedelta
 
 class Pofatt(models.Model):
     _name = 'pofatt'
-    _rec_name='number'
+  #  _rec_name='number'
     _description = 'power of attorney'
     number = fields.Char( size=20, string='Number',)
     date_start = fields.Date( string='date_start',default=fields.Date.context_today,)

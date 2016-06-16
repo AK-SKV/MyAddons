@@ -1,0 +1,5619 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* builder
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-06-12 07:57+0000\n"
+"PO-Revision-Date: 2016-06-12 13:22+0500\n"
+"Last-Translator: Владимир Глухов (СБА) <bosslegend2010@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: ru\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#. module: builder
+#: help:builder.ir.model.fields,delegate:0
+#: help:builder.res.config.settings.field,delegate:0
+msgid ""
+" set it to ``True`` to make fields of the target model\n"
+"        accessible from the current model (corresponds to ``_inherits``)"
+msgstr ""
+" set it to ``True`` to make fields of the target model\n"
+"        accessible from the current model (corresponds to ``_inherits``)"
+
+#. module: builder
+#: code:addons/builder/models/module.py:121
+#: code:addons/builder/models/security.py:72
+#, python-format
+msgid "%s (copy)"
+msgstr "%s (copy)"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.module_form
+msgid "-This module does not depends on any other module."
+msgstr "-This module does not depends on any other module."
+
+#. module: builder
+#: view:builder.website.page:builder.builder_website_page_form_view
+msgid "/myroute/mypage"
+msgstr "/myroute/mypage"
+
+#. module: builder
+#: view:builder.ir.rule:builder.builder_ir_rule_form_view
+msgid ""
+"1. Global rules are combined together with a logical AND operator, and with "
+"the result of the following steps"
+msgstr ""
+"1. Global rules are combined together with a logical AND operator, and with "
+"the result of the following steps"
+
+#. module: builder
+#: view:builder.ir.rule:builder.builder_ir_rule_form_view
+msgid ""
+"2. Group-specific rules are combined together with a logical OR operator"
+msgstr ""
+"2. Group-specific rules are combined together with a logical OR operator"
+
+#. module: builder
+#: selection:builder.views.gantt,attr_mode:0
+msgid "3 Days"
+msgstr "3 Days"
+
+#. module: builder
+#: selection:builder.views.gantt,attr_mode:0
+msgid "3 Months"
+msgstr "3 Months"
+
+#. module: builder
+#: selection:builder.views.gantt,attr_mode:0
+msgid "3 Weeks"
+msgstr "3 Weeks"
+
+#. module: builder
+#: selection:builder.views.gantt,attr_mode:0
+msgid "3 Years"
+msgstr "3 Years"
+
+#. module: builder
+#: view:builder.ir.rule:builder.builder_ir_rule_form_view
+msgid ""
+"3. If user belongs to several groups, the results from step 2 are combined "
+"with logical OR operator"
+msgstr ""
+"3. If user belongs to several groups, the results from step 2 are combined "
+"with logical OR operator"
+
+#. module: builder
+#: selection:builder.views.gantt,attr_mode:0
+msgid "5 Years"
+msgstr "5 Years"
+
+#. module: builder
+#: model:ir.model,name:builder.model_builder_generator_v8
+msgid "8.0"
+msgstr "8.0"
+
+#. module: builder
+#: model:ir.actions.act_window,help:builder.open_module_tree
+msgid ""
+"<p>\n"
+"                    <b>No module found!</b>\n"
+"                </p>\n"
+"                <p>You should try others search criteria.</p>\n"
+"            "
+msgstr ""
+"<p>\n"
+"                    <b>No module found!</b>\n"
+"                </p>\n"
+"                <p>You should try others search criteria.</p>\n"
+"            "
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "A Great Headline"
+msgstr "Крупный заголовок"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "A Punchy Headline"
+msgstr "Броский заголовок"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "A Section Subtitle"
+msgstr "Подзаголовок раздела"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "A Small Subtitle"
+msgstr "Небольшой подзаголовок"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "A good subtitle"
+msgstr "Хороший подзаголовок"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid ""
+"A great way to catch your reader's attention is to tell a story.\n"
+"                                    Everything you consider writing can be "
+"told as a story."
+msgstr ""
+"Хороший способ привлечь внимание ваших читателей - рассказать историю.\n"
+"                                    Все, о чем вы считаете необходимым "
+"написать, может быть рассказано как история."
+
+#. module: builder
+#: view:builder.ir.module.module:builder.module_form
+#: field:builder.ir.module.module,model_access_ids:0
+msgid "ACLs"
+msgstr "ACLs"
+
+#. module: builder
+#: field:builder.ir.model,access_ids:0
+#: view:builder.ir.model.access:builder.builder_ir_model_access_form_view
+msgid "Access"
+msgstr "Access"
+
+#. module: builder
+#: view:builder.ir.model.access:builder.builder_ir_model_access_form_view
+#: view:builder.ir.model.access:builder.builder_ir_model_access_tree_view
+#: model:ir.actions.act_window,name:builder.act_builder_ir_model_access
+msgid "Access Control Lists"
+msgstr "Access Control Lists"
+
+#. module: builder
+#: code:addons/builder/models/module.py:289
+#, python-format
+msgid "Access Control Rules"
+msgstr "Access Control Rules"
+
+#. module: builder
+#: view:builder.res.groups:builder.builder_res_groups_form_view
+#: field:builder.res.groups,model_access:0
+msgid "Access Controls"
+msgstr "Access Controls"
+
+#. module: builder
+#: view:builder.ir.model.access.generate.wizard:builder.builder_ir_model_access_generate_wizard_form_view
+#: model:ir.actions.act_window,name:builder.act_builder_ir_model_access_generate_wizard
+msgid "Access Generate"
+msgstr "Access Generate"
+
+#. module: builder
+#: model:ir.model,name:builder.model_builder_res_groups
+msgid "Access Groups"
+msgstr "Группы доступа"
+
+#. module: builder
+#: field:builder.res.groups,menu_access:0
+msgid "Access Menu"
+msgstr "Access Menu"
+
+#. module: builder
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+#: view:builder.ir.rule:builder.builder_ir_rule_form_view
+#: view:builder.res.groups:builder.builder_res_groups_form_view
+msgid "Access Rights"
+msgstr "Access Rights"
+
+#. module: builder
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+#: view:builder.res.groups:builder.builder_res_groups_form_view
+msgid "Access Rules"
+msgstr "Access Rules"
+
+#. module: builder
+#: field:builder.ir.action.lookup.wizard,action_id:0
+msgid "Action"
+msgstr "Action"
+
+#. module: builder
+#: view:builder.ir.action.lookup.wizard:builder.builder_ir_model_lookup_wizard_form_view
+msgid "Action Lookup"
+msgstr "Action Lookup"
+
+#. module: builder
+#: field:builder.ir.actions.act_url,name:0
+#: field:builder.ir.actions.act_window,name:0
+msgid "Action Name"
+msgstr "Action Name"
+
+#. module: builder
+#: field:builder.views.form.button,action_ref:0
+#: field:builder.views.form.statusbar.button,action_ref:0
+msgid "Action Reference"
+msgstr "Action Reference"
+
+#. module: builder
+#: field:builder.ir.ui.menu,action_system_ref:0
+msgid "Action System Ref"
+msgstr "Action System Ref"
+
+#. module: builder
+#: field:builder.ir.actions.act_url,target:0
+msgid "Action Target"
+msgstr "Action Target"
+
+#. module: builder
+#: field:builder.ir.actions.act_url,type:0
+#: field:builder.ir.actions.act_window,type:0
+#: field:builder.ir.actions.actions,type:0
+#: field:builder.ir.ui.menu,action_type:0
+msgid "Action Type"
+msgstr "Action Type"
+
+#. module: builder
+#: field:builder.ir.actions.act_url,url:0
+msgid "Action URL"
+msgstr "Action URL"
+
+#. module: builder
+#: field:builder.ir.actions.act_url,usage:0
+#: field:builder.ir.actions.act_window,usage:0
+#: field:builder.ir.actions.actions,usage:0
+msgid "Action Usage"
+msgstr "Action Usage"
+
+#. module: builder
+#: field:builder.ir.actions.act_url,help:0
+#: field:builder.ir.actions.actions,help:0
+msgid "Action description"
+msgstr "Action description"
+
+#. module: builder
+#: view:builder.ir.cron:builder.builder_ir_cron_form_view
+msgid "Action to Trigger"
+msgstr "Action to Trigger"
+
+#. module: builder
+#: code:addons/builder/models/module.py:238
+#: view:builder.ir.module.module:builder.module_form
+#: field:builder.ir.module.module,action_ids:0
+#: view:builder.views.form:builder.view_builder_views_form
+#: view:builder.views.gantt:builder.view_builder_views_gantt
+#: view:builder.views.tree:builder.view_builder_views_tree
+#: view:builder.workflow.activity:builder.builder_view_workflow_activity_form
+#, python-format
+msgid "Actions"
+msgstr "Actions"
+
+#. module: builder
+#: field:builder.ir.cron,active:0 field:builder.website.asset,attr_active:0
+msgid "Active"
+msgstr "Active"
+
+#. module: builder
+#: field:builder.ir.model,special_active_field_id:0
+msgid "Active Field"
+msgstr "Active Field"
+
+#. module: builder
+#: view:builder.workflow:builder.builder_view_workflow_form
+#: field:builder.workflow,activities:0
+msgid "Activities"
+msgstr "Activities"
+
+#. module: builder
+#: view:builder.workflow.activity:builder.builder_view_workflow_activity_form
+#: view:builder.workflow.activity:builder.builder_view_workflow_activity_tree
+msgid "Activity"
+msgstr "Activity"
+
+#. module: builder
+#: field:builder.views.selector,add_inherited_fields:0
+msgid "Add Inherited Fields"
+msgstr "Add Inherited Fields"
+
+#. module: builder
+#: help:builder.ir.actions.act_window,auto_refresh:0
+msgid "Add an auto-refresh on the view"
+msgstr "Add an auto-refresh on the view"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Advanced Email Features"
+msgstr "Расширенные параметры электронной почты"
+
+#. module: builder
+#: selection:builder.ir.model.fields,select_level:0
+#: selection:builder.res.config.settings.field,select_level:0
+msgid "Advanced Search (deprecated)"
+msgstr "Advanced Search (deprecated)"
+
+#. module: builder
+#: selection:builder.ir.module.module,license:0
+msgid "Affero GPL-3"
+msgstr "Affero GPL-3"
+
+#. module: builder
+#: selection:builder.ir.ui.view.inherit.change,inherit_view_position:0
+msgid "After"
+msgstr "After"
+
+#. module: builder
+#: field:builder.ir.module.module,post_install_action:0
+msgid "After Install Action"
+msgstr "After Install Action"
+
+#. module: builder
+#: selection:builder.ir.model.demo.generator.name,name_type:0
+msgid "Alex (any gender)"
+msgstr "Alex (any gender)"
+
+#. module: builder
+#: selection:builder.ir.model.demo.generator.name,name_type:0
+msgid "Alex J. Smith"
+msgstr "Alex J. Smith"
+
+#. module: builder
+#: field:builder.views.calendar,attr_all_day:0
+msgid "All Day"
+msgstr "All Day"
+
+#. module: builder
+#: field:builder.views.form,attr_create:0
+#: field:builder.views.gantt,attr_create:0
+#: field:builder.views.kanban,attr_create:0
+#: field:builder.views.tree,attr_create:0
+msgid "Allow Create"
+msgstr "Allow Create"
+
+#. module: builder
+#: field:builder.views.form,attr_delete:0
+#: field:builder.views.gantt,attr_delete:0
+#: field:builder.views.kanban,attr_delete:0
+#: field:builder.views.tree,attr_delete:0
+msgid "Allow Delete"
+msgstr "Allow Delete"
+
+#. module: builder
+#: field:builder.views.form,attr_edit:0 field:builder.views.gantt,attr_edit:0
+#: field:builder.views.kanban,attr_edit:0 field:builder.views.tree,attr_edit:0
+msgid "Allow Edit"
+msgstr "Allow Edit"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator,allow_nulls:0
+msgid "Allow Null Values"
+msgstr "Allow Null Values"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.randomstr,allowed_chars:0
+msgid "Allowed Chars"
+msgstr "Allowed Chars"
+
+#. module: builder
+#: field:builder.website.snippet,children:0
+msgid "Allowed Children"
+msgstr "Allowed Children"
+
+#. module: builder
+#: field:builder.website.snippet,siblings:0
+msgid "Allowed Siblings"
+msgstr "Allowed Siblings"
+
+#. module: builder
+#: selection:builder.ir.model.fields,select_level:0
+#: selection:builder.res.config.settings.field,select_level:0
+msgid "Always Searchable"
+msgstr "Always Searchable"
+
+#. module: builder
+#: help:builder.ir.module.module,auto_install:0
+msgid ""
+"An auto-installable module is automatically installed by the system when all "
+"its dependencies are satisfied. If the module has no dependency, it is "
+"always installed."
+msgstr ""
+"An auto-installable module is automatically installed by the system when all "
+"its dependencies are satisfied. If the module has no dependency, it is "
+"always installed."
+
+#. module: builder
+#: selection:builder.workflow.activity,join_mode:0
+#: selection:builder.workflow.activity,split_mode:0
+msgid "And"
+msgstr "And"
+
+#. module: builder
+#: field:builder.ir.module.module,application:0
+msgid "Application"
+msgstr "Application"
+
+#. module: builder
+#: field:builder.res.groups,category_type:0
+msgid "Application Type"
+msgstr "Application Type"
+
+#. module: builder
+#: field:builder.ir.rule,perm_create:0
+msgid "Apply for Create"
+msgstr "Apply for Create"
+
+#. module: builder
+#: field:builder.ir.rule,perm_unlink:0
+msgid "Apply for Delete"
+msgstr "Apply for Delete"
+
+#. module: builder
+#: field:builder.ir.rule,perm_read:0
+msgid "Apply for Read"
+msgstr "Apply for Read"
+
+#. module: builder
+#: field:builder.ir.rule,perm_write:0
+msgid "Apply for Write"
+msgstr "Apply for Write"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.view_module_filter
+msgid "Apps"
+msgstr "Apps"
+
+#. module: builder
+#: field:builder.ir.cron,args:0 field:builder.ir.model.method,arguments:0
+msgid "Arguments"
+msgstr "Arguments"
+
+#. module: builder
+#: help:builder.ir.cron,args:0
+msgid "Arguments to be passed to the method, e.g. (uid,)."
+msgstr "Arguments to be passed to the method, e.g. (uid,)."
+
+#. module: builder
+#: selection:builder.ir.model.fields,order:0
+#: selection:builder.res.config.settings.field,order:0
+msgid "Ascendant"
+msgstr "Ascendant"
+
+#. module: builder
+#: view:builder.web.asset:builder.builder_web_asset_form_view
+#: view:builder.web.asset:builder.builder_web_asset_tree_view
+#: field:builder.web.asset.item,asset_id:0
+#: view:builder.website.asset:builder.builder_website_asset_form_view
+#: view:builder.website.asset:builder.builder_website_asset_tree_view
+#: field:builder.website.asset.item,asset_id:0
+msgid "Asset"
+msgstr "Asset"
+
+#. module: builder
+#: code:addons/builder/models/module.py:407
+#: view:builder.ir.module.module:builder.module_form
+#: field:builder.ir.module.module,backend_asset_ids:0
+#: field:builder.ir.module.module,website_asset_ids:0
+#, python-format
+msgid "Assets"
+msgstr "Assets"
+
+#. module: builder
+#: selection:builder.ir.ui.view.inherit.change,inherit_view_position:0
+#: view:builder.model.data:builder.builder_model_data_form_view
+#: field:builder.model.data.change,attribute_id:0
+msgid "Attribute"
+msgstr "Attribute"
+
+#. module: builder
+#: view:builder.model.data:builder.builder_model_data_form_view
+#: field:builder.model.data,attribute_ids:0
+#: view:builder.views.tree:builder.view_builder_views_tree
+#: view:builder.website.snippet:builder.builder_website_snippet_form_view
+msgid "Attributes"
+msgstr "Attributes"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.view_module_filter
+#: field:builder.ir.module.module,author:0
+msgid "Author"
+msgstr "Author"
+
+#. module: builder
+#: field:builder.ir.model.fields,auto_join:0
+#: field:builder.res.config.settings.field,auto_join:0
+msgid "Auto Join"
+msgstr "Auto Join"
+
+#. module: builder
+#: field:builder.ir.actions.act_window,auto_search:0
+msgid "Auto Search"
+msgstr "Auto Search"
+
+#. module: builder
+#: field:builder.ir.actions.act_window,auto_refresh:0
+msgid "Auto-Refresh"
+msgstr "Auto-Refresh"
+
+#. module: builder
+#: model:ir.model,name:builder.model_builder_ir_model_demo_generator_autoincrement
+msgid "AutoIncremental Number"
+msgstr "AutoIncremental Number"
+
+#. module: builder
+#: view:builder.ir.model.demo.generator.autoincrement:builder.builder_ir_model_demo_generator_autoincrement_form_view
+#: model:ir.actions.act_window,name:builder.act_builder_ir_model_demo_generator_autoincrement
+msgid "Autoincrement Generator"
+msgstr "Autoincrement Generator"
+
+#. module: builder
+#: field:builder.ir.module.module,auto_install:0
+msgid "Automatic Installation"
+msgstr "Automatic Installation"
+
+#. module: builder
+#: field:builder.views.calendar,attr_avatar_filter:0
+msgid "Avatar Filter"
+msgstr "Avatar Filter"
+
+#. module: builder
+#: field:builder.views.calendar,attr_avatar_model:0
+msgid "Avatar Model"
+msgstr "Avatar Model"
+
+#. module: builder
+#: field:builder.views.calendar,attr_avatar_title:0
+msgid "Avatar Title"
+msgstr "Avatar Title"
+
+#. module: builder
+#: view:website:builder.module_description_designer
+msgid "Back to module"
+msgstr "Back to module"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.module_form
+msgid "Backend"
+msgstr "Backend"
+
+#. module: builder
+#: code:addons/builder/models/module.py:373
+#, python-format
+msgid "Backend Assets"
+msgstr "Backend Assets"
+
+#. module: builder
+#: field:builder.ir.model,from_ids:0
+msgid "Backward Models"
+msgstr "Backward Models"
+
+#. module: builder
+#: selection:builder.views.graph,attr_type:0
+msgid "Bar"
+msgstr "Bar"
+
+#. module: builder
+#: selection:builder.views.form.button,widget:0
+msgid "Bar Chart"
+msgstr "Bar Chart"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.autoincrement,base_id:0
+#: field:builder.ir.model.demo.generator.binary,base_id:0
+#: field:builder.ir.model.demo.generator.custom_list,base_id:0
+#: field:builder.ir.model.demo.generator.date,base_id:0
+#: field:builder.ir.model.demo.generator.email,base_id:0
+#: field:builder.ir.model.demo.generator.m2m,base_id:0
+#: field:builder.ir.model.demo.generator.m2o,base_id:0
+#: field:builder.ir.model.demo.generator.name,base_id:0
+#: field:builder.ir.model.demo.generator.normal_distribution,base_id:0
+#: field:builder.ir.model.demo.generator.randomstr,base_id:0
+#: field:builder.ir.model.demo.generator.selection,base_id:0
+#: view:builder.ir.module.module:builder.module_form
+msgid "Base"
+msgstr "Base"
+
+#. module: builder
+#: model:ir.model,name:builder.model_builder_exchanger_base
+msgid "Base Exchanger"
+msgstr "Base Exchanger"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Battery: 12 hours"
+msgstr "Батарея: 12 часов"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Battery: 20 hours"
+msgstr "Батарея: 20 часов"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Battery: 8 hours"
+msgstr "Батарея: 8 часов"
+
+#. module: builder
+#: selection:builder.ir.ui.view.inherit.change,inherit_view_position:0
+msgid "Before"
+msgstr "Before"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Beginner"
+msgstr "Новичок"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Big Message"
+msgstr "Большое сообщение"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Big Picture"
+msgstr "Большое изображение"
+
+#. module: builder
+#: view:builder.ir.model.demo.generator.binary:builder.builder_ir_model_demo_generator_binary_form_view
+#: model:ir.actions.act_window,name:builder.act_builder_ir_model_demo_generator_binary
+#: model:ir.model,name:builder.model_builder_ir_model_demo_generator_binary
+msgid "Binary Generator"
+msgstr "Binary Generator"
+
+#. module: builder
+#: field:builder.website.page,content:0
+msgid "Body"
+msgstr "Body"
+
+#. module: builder
+#: selection:builder.views.form.field,related_field_tree_editable:0
+msgid "Bottom"
+msgstr "Bottom"
+
+#. module: builder
+#: field:builder.res.config.settings.field,default_model_field_id:0
+msgid "Builder Field"
+msgstr "Builder Field"
+
+#. module: builder
+#: field:builder.res.config.settings.field,group_group_id:0
+msgid "Builder Group"
+msgstr "Builder Group"
+
+#. module: builder
+#: field:builder.res.config.settings.field,default_model_id:0
+msgid "Builder Model"
+msgstr "Builder Model"
+
+#. module: builder
+#: view:builder.web.asset:builder.builder_web_asset_form_view
+#: view:builder.website.asset:builder.builder_website_asset_form_view
+#: view:builder.website.theme:builder.builder_website_theme_form_view
+msgid "Bulk Import"
+msgstr "Bulk Import"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Button"
+msgstr "Кнопка"
+
+#. module: builder
+#: view:builder.views.form:builder.view_builder_views_form
+#: field:builder.views.form,button_ids:0
+msgid "Buttons"
+msgstr "Buttons"
+
+#. module: builder
+#: view:website:builder.snippet_form
+msgid "CTRL + ARROWS"
+msgstr "CTRL + ARROWS"
+
+#. module: builder
+#: selection:builder.ir.ui.view,type:0 selection:builder.views.selector,type:0
+msgid "Calendar"
+msgstr "Calendar"
+
+#. module: builder
+#: code:addons/builder/models/views/base.py:109
+#, python-format
+msgid "Calendar View View"
+msgstr "Calendar View View"
+
+#. module: builder
+#: model:ir.actions.act_window,name:builder.act_builder_wizard_views_calendar
+msgid "Calendar Wizard"
+msgstr "Calendar Wizard"
+
+#. module: builder
+#: view:builder.data.import.wizard:builder.builder_data_import_wizard_form_view
+#: view:builder.ir.action.lookup.wizard:builder.builder_ir_model_lookup_wizard_form_view
+#: view:builder.ir.model.access.generate.wizard:builder.builder_ir_model_access_generate_wizard_form_view
+#: view:builder.ir.model.demo.creator.wizard:builder.builder_ir_model_demo_creator_wizard_form_view
+#: view:builder.ir.model.demo.generator.autoincrement:builder.builder_ir_model_demo_generator_autoincrement_form_view
+#: view:builder.ir.model.demo.generator.binary:builder.builder_ir_model_demo_generator_binary_form_view
+#: view:builder.ir.model.demo.generator.custom_list:builder.builder_ir_model_demo_generator_custom_list_form_view
+#: view:builder.ir.model.demo.generator.date:builder.builder_ir_model_demo_generator_date_form_view
+#: view:builder.ir.model.demo.generator.email:builder.builder_ir_model_demo_generator_email_form_view
+#: view:builder.ir.model.demo.generator.m2m:builder.builder_ir_model_demo_generator_m2m_form_view
+#: view:builder.ir.model.demo.generator.m2o:builder.builder_ir_model_demo_generator_m2o_form_view
+#: view:builder.ir.model.demo.generator.name:builder.builder_ir_model_demo_generator_name_form_view
+#: view:builder.ir.model.demo.generator.normal_distribution:builder.builder_ir_model_demo_generator_normal_form_view
+#: view:builder.ir.model.demo.generator.randomstr:builder.builder_ir_model_demo_generator_randomstr_form_view
+#: view:builder.ir.model.demo.generator.selection:builder.builder_ir_model_demo_generator_selection_form_view
+#: view:builder.ir.model.import.wizard:builder.builder_ir_model_import_wizard_form_view
+#: view:builder.ir.module.export.wizard:builder.builder_ir_module_export_wizard_form_view
+#: view:builder.ir.module.module.generate.wizard:builder.builder_ir_module_module_generate_wizard_form_view
+#: view:builder.ir.module.module.import.wizard:builder.builder_ir_module_module_import_wizard_form_view
+#: view:builder.ir.ui.menu.lookup.wizard:builder.builder_ir_menu_lookup_wizard_form_view
+#: view:builder.res.groups.import.wizard:builder.builder_res_groups_import_wizard_form_view
+#: view:builder.views.calendar:builder.view_builder_views_calendar
+#: view:builder.views.form:builder.view_builder_views_form
+#: view:builder.views.gantt:builder.view_builder_views_gantt
+#: view:builder.views.graph:builder.view_builder_views_graph
+#: view:builder.views.kanban:builder.view_builder_views_kanban
+#: view:builder.views.search:builder.view_builder_views_search
+#: view:builder.views.selector:builder.view_builder_views_selector
+#: view:builder.views.tree:builder.view_builder_views_tree
+#: view:builder.website.asset.data.wizard:builder.builder_website_asset_data_wizard_form_view
+#: view:builder.website.media.item.bulk.add.wizard:builder.builder_website_media_item_bulk_add_wizard_form
+#: view:builder.website.page.import.wizard:builder.builder_website_page_import_wizard_form_view
+msgid "Cancel"
+msgstr "Cancel"
+
+#. module: builder
+#: selection:builder.ir.model.fields,on_delete:0
+#: selection:builder.res.config.settings.field,on_delete:0
+msgid "Cascade"
+msgstr "Cascade"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.view_module_filter
+#: field:builder.ir.module.module,category_id:0
+#: field:builder.website.snippet,category:0
+msgid "Category"
+msgstr "Category"
+
+#. module: builder
+#: field:builder.ir.ui.view.inherit.change,inherit_view_attribute:0
+msgid "Change Attribute"
+msgstr "Change Attribute"
+
+#. module: builder
+#: field:builder.ir.ui.view.inherit.change,inherit_view_attribute_value:0
+msgid "Change Attribute Value"
+msgstr "Change Attribute Value"
+
+#. module: builder
+#: view:builder.ir.ui.view:builder.builder_ir_ui_view_form
+#: field:builder.ir.ui.view,inherit_change_ids:0
+#: view:builder.model.data:builder.builder_model_data_form_view
+#: view:builder.views.calendar:builder.view_builder_views_calendar
+#: view:builder.views.form:builder.view_builder_views_form
+#: view:builder.views.gantt:builder.view_builder_views_gantt
+#: view:builder.views.graph:builder.view_builder_views_graph
+#: view:builder.views.kanban:builder.view_builder_views_kanban
+#: view:builder.views.search:builder.view_builder_views_search
+#: view:builder.views.tree:builder.view_builder_views_tree
+msgid "Changes"
+msgstr "Changes"
+
+#. module: builder
+#: field:builder.ir.ui.view,field_parent:0
+msgid "Child Field"
+msgstr "Child Field"
+
+#. module: builder
+#: field:builder.ir.ui.menu,child_ids:0
+msgid "Child Ids"
+msgstr "Child Ids"
+
+#. module: builder
+#: code:addons/builder/models/fields.py:247
+#: code:addons/builder/models/fields.py:254
+#: code:addons/builder/models/fields.py:258
+#, python-format
+msgid "Children"
+msgstr "Children"
+
+#. module: builder
+#: code:addons/builder/models/fields.py:258
+#, python-format
+msgid "Children2"
+msgstr "Children2"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid ""
+"Choose a vibrant image and write an inspiring paragraph\n"
+"                                about it. It does not have to be long, but "
+"it should\n"
+"                                reinforce your image."
+msgstr ""
+"Выберите яркое изображение и напишите вдохновляющую статью\n"
+"                                об этом. Она не обязательно должна быть "
+"длинной, но она должна\n"
+"                                усиливать ваше изображение."
+
+#. module: builder
+#: selection:builder.ir.model,inherit_type:0
+msgid "Class"
+msgstr "Class"
+
+#. module: builder
+#: field:builder.lambda,code:0
+msgid "Code"
+msgstr "Code"
+
+#. module: builder
+#: field:builder.ir.module.module,mirror:0
+msgid "CodeMirror"
+msgstr "CodeMirror"
+
+#. module: builder
+#: field:builder.website.theme,color:0 selection:builder.website.theme,type:0
+msgid "Color"
+msgstr "Color"
+
+#. module: builder
+#: field:builder.views.calendar,attr_color_field_id:0
+#: field:builder.views.gantt,attr_color_field_id:0
+msgid "Color Field"
+msgstr "Color Field"
+
+#. module: builder
+#: field:builder.views.calendar,attr_color_ttype:0
+msgid "Color Field Type"
+msgstr "Color Field Type"
+
+#. module: builder
+#: help:builder.views.tree,attr_colors:0
+msgid ""
+"Color definition. Ex: \"gray:probability == 100;red:date_deadline and "
+"(date_deadline &lt; current_date)\""
+msgstr ""
+"Color definition. Ex: \"gray:probability == 100;red:date_deadline and "
+"(date_deadline &lt; current_date)\""
+
+#. module: builder
+#: field:builder.views.calendar,attr_color_is_attendee:0
+msgid "Color is Attendee"
+msgstr "Color is Attendee"
+
+#. module: builder
+#: selection:builder.ir.model.demo.generator.custom_list,list_type:0
+#: field:builder.views.tree,attr_colors:0
+msgid "Colors"
+msgstr "Colors"
+
+#. module: builder
+#: field:builder.ir.model.fields,relation_many2many_column1:0
+#: field:builder.res.config.settings.field,relation_many2many_column1:0
+msgid "Column1"
+msgstr "Column1"
+
+#. module: builder
+#: field:builder.ir.model.fields,relation_many2many_column2:0
+#: field:builder.res.config.settings.field,relation_many2many_column2:0
+msgid "Column2"
+msgstr "Column2"
+
+#. module: builder
+#: help:builder.ir.actions.act_window,view_mode:0
+msgid ""
+"Comma-separated list of allowed view modes, such as 'form', 'tree', "
+"'calendar', etc. (Default: tree,form)"
+msgstr ""
+"Comma-separated list of allowed view modes, such as 'form', 'tree', "
+"'calendar', etc. (Default: tree,form)"
+
+#. module: builder
+#: field:builder.res.groups,comment:0
+msgid "Comment"
+msgstr "Comment"
+
+#. module: builder
+#: field:builder.ir.model.fields,relation_many2many_comodel_name:0
+#: field:builder.res.config.settings.field,relation_many2many_comodel_name:0
+msgid "Comodel Name"
+msgstr "Comodel Name"
+
+#. module: builder
+#: selection:builder.ir.model.demo.generator.custom_list,list_type:0
+msgid "Company Names"
+msgstr "Company Names"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Comparisons"
+msgstr "Сравнения"
+
+#. module: builder
+#: field:builder.ir.model.fields,complete_name:0
+#: field:builder.res.config.settings.field,complete_name:0
+msgid "Complete Name"
+msgstr "Complete Name"
+
+#. module: builder
+#: field:builder.ir.model.fields,allow_compute:0
+#: field:builder.res.config.settings.field,allow_compute:0
+msgid "Compute"
+msgstr "Compute"
+
+#. module: builder
+#: field:builder.ir.model.fields,compute_method_name:0
+#: field:builder.res.config.settings.field,compute_method_name:0
+msgid "Compute Method Name"
+msgstr "Compute Method Name"
+
+#. module: builder
+#: field:builder.workflow.transition,condition:0
+msgid "Condition"
+msgstr "Condition"
+
+#. module: builder
+#: view:builder.workflow.activity:builder.builder_view_workflow_activity_form
+msgid "Conditions"
+msgstr "Conditions"
+
+#. module: builder
+#: view:builder.res.config.settings:builder.builder_res_config_settings_form_view
+#: view:builder.res.config.settings:builder.builder_res_config_settings_tree_view
+#: model:ir.actions.act_window,name:builder.act_builder_res_config_settings
+msgid "Config View"
+msgstr "Config View"
+
+#. module: builder
+#: model:ir.model,name:builder.model_builder_res_config_settings
+msgid "Configuration Model"
+msgstr "Configuration Model"
+
+#. module: builder
+#: code:addons/builder/models/module.py:339
+#, python-format
+msgid "Configuration Models"
+msgstr "Configuration Models"
+
+#. module: builder
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+#: view:builder.ir.module.module:builder.module_form
+#: view:builder.ir.ui.view:builder.builder_ir_ui_view_tree
+msgid "Configure"
+msgstr "Настроить"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid ""
+"Consider telling\n"
+"                                    a great story that provides personality. "
+"Writing a story \n"
+"                                    with personality for potential clients "
+"will asist with \n"
+"                                    making a relationship connection. This "
+"shows up in small\n"
+"                                    quirks like word choices or phrases. "
+"Write from your point \n"
+"                                    of view, not from someone else's "
+"experience."
+msgstr ""
+"Подумайте о написании\n"
+"                                    интересной истории, которая была бы "
+"индивидуальна. Написание \n"
+"                                    оригинальной истории для потенциальных "
+"клиентов поможет \n"
+"                                    в установлении взаимоотношений с ними. "
+"Это проявляется в небольших\n"
+"                                    каламбурах в выборе слов и фраз. "
+"Напишите со своей \n"
+"                                    точки зрения, а не исходя из чьего-то "
+"опыта."
+
+#. module: builder
+#: selection:builder.ir.model.method,type:0
+msgid "Constraint"
+msgstr "Constraint"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Contact us"
+msgstr "Свяжитесь с нами"
+
+#. module: builder
+#: field:builder.data.file,content:0
+#: selection:builder.website.snippet,category:0
+#: field:builder.website.snippet,content:0
+msgid "Content"
+msgstr "Content"
+
+#. module: builder
+#: view:builder.data.file:builder.view_builder_data_file_filter
+#: field:builder.data.file,content_type:0
+msgid "Content Type"
+msgstr "Content Type"
+
+#. module: builder
+#: field:builder.views.form.button,context:0
+#: field:builder.views.form.field,context:0
+#: field:builder.views.form.statusbar.button,context:0
+msgid "Context"
+msgstr "Context"
+
+#. module: builder
+#: field:builder.ir.actions.act_window,context:0
+msgid "Context Value"
+msgstr "Context Value"
+
+#. module: builder
+#: help:builder.ir.actions.act_window,context:0
+msgid "Context dictionary as Python expression, empty by default (Default: {})"
+msgstr ""
+"Context dictionary as Python expression, empty by default (Default: {})"
+
+#. module: builder
+#: field:builder.ir.module.module,contributors:0
+msgid "Contributors"
+msgstr "Contributors"
+
+#. module: builder
+#: field:builder.ir.model.fields,copy:0
+#: field:builder.res.config.settings.field,copy:0
+msgid "Copy"
+msgstr "Copy"
+
+#. module: builder
+#: view:website:builder.snippet_form
+msgid "Copy CSS"
+msgstr "Copy CSS"
+
+#. module: builder
+#: field:builder.views.form.button,field_id:0
+msgid "Count Field"
+msgstr "Count Field"
+
+#. module: builder
+#: selection:builder.views.form.button,widget:0
+msgid "Counter"
+msgstr "Counter"
+
+#. module: builder
+#: selection:builder.ir.model.demo.generator.custom_list,list_type:0
+msgid "Country Names"
+msgstr "Country Names"
+
+#. module: builder
+#: view:builder.ir.model.demo.creator.wizard:builder.builder_ir_model_demo_creator_wizard_form_view
+msgid "Create"
+msgstr "Create"
+
+#. module: builder
+#: field:builder.ir.model.access,perm_create:0
+#: field:builder.ir.model.access.generate.wizard,perm_create:0
+msgid "Create Access"
+msgstr "Create Access"
+
+#. module: builder
+#: field:builder.ir.model.fields,relation_create_inverse_relation:0
+#: field:builder.res.config.settings.field,relation_create_inverse_relation:0
+msgid "Create Inverse Relation"
+msgstr "Create Inverse Relation"
+
+#. module: builder
+#: field:builder.data.file,create_uid:0
+#: field:builder.data.import.wizard,create_uid:0
+#: field:builder.exchanger.base,create_uid:0
+#: field:builder.exchanger.json,create_uid:0
+#: field:builder.generator.base,create_uid:0
+#: field:builder.generator.v8,create_uid:0
+#: field:builder.ir.action.lookup.wizard,create_uid:0
+#: field:builder.ir.actions.act_url,create_uid:0
+#: field:builder.ir.actions.act_window,create_uid:0
+#: field:builder.ir.actions.actions,create_uid:0
+#: field:builder.ir.cron,create_uid:0 field:builder.ir.model,create_uid:0
+#: field:builder.ir.model.access,create_uid:0
+#: field:builder.ir.model.access.generate.wizard,create_uid:0
+#: field:builder.ir.model.demo.creator.wizard,create_uid:0
+#: field:builder.ir.model.demo.generator,create_uid:0
+#: field:builder.ir.model.demo.generator.autoincrement,create_uid:0
+#: field:builder.ir.model.demo.generator.binary,create_uid:0
+#: field:builder.ir.model.demo.generator.custom_list,create_uid:0
+#: field:builder.ir.model.demo.generator.date,create_uid:0
+#: field:builder.ir.model.demo.generator.email,create_uid:0
+#: field:builder.ir.model.demo.generator.m2m,create_uid:0
+#: field:builder.ir.model.demo.generator.m2o,create_uid:0
+#: field:builder.ir.model.demo.generator.name,create_uid:0
+#: field:builder.ir.model.demo.generator.normal_distribution,create_uid:0
+#: field:builder.ir.model.demo.generator.randomstr,create_uid:0
+#: field:builder.ir.model.demo.generator.selection,create_uid:0
+#: field:builder.ir.model.fields,create_uid:0
+#: field:builder.ir.model.fields.option,create_uid:0
+#: field:builder.ir.model.fields.state,create_uid:0
+#: field:builder.ir.model.import.line,create_uid:0
+#: field:builder.ir.model.import.wizard,create_uid:0
+#: field:builder.ir.model.inherit,create_uid:0
+#: field:builder.ir.model.inherits,create_uid:0
+#: field:builder.ir.model.lookup.wizard,create_uid:0
+#: field:builder.ir.model.method,create_uid:0
+#: field:builder.ir.module.dependency,create_uid:0
+#: field:builder.ir.module.export.wizard,create_uid:0
+#: field:builder.ir.module.module,create_uid:0
+#: field:builder.ir.module.module.generate.wizard,create_uid:0
+#: field:builder.ir.module.module.import.wizard,create_uid:0
+#: field:builder.ir.rule,create_uid:0 field:builder.ir.ui.menu,create_uid:0
+#: field:builder.ir.ui.menu.lookup.wizard,create_uid:0
+#: field:builder.ir.ui.view,create_uid:0
+#: field:builder.ir.ui.view.inherit.change,create_uid:0
+#: field:builder.lambda,create_uid:0 field:builder.model.data,create_uid:0
+#: field:builder.model.data.attribute,create_uid:0
+#: field:builder.model.data.change,create_uid:0
+#: field:builder.res.config.settings,create_uid:0
+#: field:builder.res.config.settings.field,create_uid:0
+#: field:builder.res.groups,create_uid:0
+#: field:builder.res.groups.import.wizard,create_uid:0
+#: field:builder.views.calendar,create_uid:0
+#: field:builder.views.calendar.field,create_uid:0
+#: field:builder.views.form,create_uid:0
+#: field:builder.views.form.button,create_uid:0
+#: field:builder.views.form.field,create_uid:0
+#: field:builder.views.form.statusbar.button,create_uid:0
+#: field:builder.views.gantt,create_uid:0
+#: field:builder.views.gantt.field,create_uid:0
+#: field:builder.views.graph,create_uid:0
+#: field:builder.views.graph.field,create_uid:0
+#: field:builder.views.kanban,create_uid:0
+#: field:builder.views.kanban.field,create_uid:0
+#: field:builder.views.search,create_uid:0
+#: field:builder.views.search.field,create_uid:0
+#: field:builder.views.selector,create_uid:0
+#: field:builder.views.tree,create_uid:0
+#: field:builder.views.tree.field,create_uid:0
+#: field:builder.web.asset,create_uid:0
+#: field:builder.web.asset.item,create_uid:0
+#: field:builder.website.asset,create_uid:0
+#: field:builder.website.asset.data.wizard,create_uid:0
+#: field:builder.website.asset.item,create_uid:0
+#: field:builder.website.media.item,create_uid:0
+#: field:builder.website.media.item.bulk.add.wizard,create_uid:0
+#: field:builder.website.menu,create_uid:0
+#: field:builder.website.page,create_uid:0
+#: field:builder.website.page.import.wizard,create_uid:0
+#: field:builder.website.snippet,create_uid:0
+#: field:builder.website.theme,create_uid:0
+#: field:builder.website.theme.item,create_uid:0
+#: field:builder.workflow,create_uid:0
+#: field:builder.workflow.activity,create_uid:0
+#: field:builder.workflow.transition,create_uid:0
+msgid "Created by"
+msgstr "Created by"
+
+#. module: builder
+#: field:builder.data.file,create_date:0
+#: field:builder.data.import.wizard,create_date:0
+#: field:builder.exchanger.base,create_date:0
+#: field:builder.exchanger.json,create_date:0
+#: field:builder.generator.base,create_date:0
+#: field:builder.generator.v8,create_date:0
+#: field:builder.ir.action.lookup.wizard,create_date:0
+#: field:builder.ir.actions.act_url,create_date:0
+#: field:builder.ir.actions.act_window,create_date:0
+#: field:builder.ir.actions.actions,create_date:0
+#: field:builder.ir.cron,create_date:0 field:builder.ir.model,create_date:0
+#: field:builder.ir.model.access,create_date:0
+#: field:builder.ir.model.access.generate.wizard,create_date:0
+#: field:builder.ir.model.demo.creator.wizard,create_date:0
+#: field:builder.ir.model.demo.generator,create_date:0
+#: field:builder.ir.model.demo.generator.autoincrement,create_date:0
+#: field:builder.ir.model.demo.generator.binary,create_date:0
+#: field:builder.ir.model.demo.generator.custom_list,create_date:0
+#: field:builder.ir.model.demo.generator.date,create_date:0
+#: field:builder.ir.model.demo.generator.email,create_date:0
+#: field:builder.ir.model.demo.generator.m2m,create_date:0
+#: field:builder.ir.model.demo.generator.m2o,create_date:0
+#: field:builder.ir.model.demo.generator.name,create_date:0
+#: field:builder.ir.model.demo.generator.normal_distribution,create_date:0
+#: field:builder.ir.model.demo.generator.randomstr,create_date:0
+#: field:builder.ir.model.demo.generator.selection,create_date:0
+#: field:builder.ir.model.fields,create_date:0
+#: field:builder.ir.model.fields.option,create_date:0
+#: field:builder.ir.model.fields.state,create_date:0
+#: field:builder.ir.model.import.line,create_date:0
+#: field:builder.ir.model.import.wizard,create_date:0
+#: field:builder.ir.model.inherit,create_date:0
+#: field:builder.ir.model.inherits,create_date:0
+#: field:builder.ir.model.lookup.wizard,create_date:0
+#: field:builder.ir.model.method,create_date:0
+#: field:builder.ir.module.dependency,create_date:0
+#: field:builder.ir.module.export.wizard,create_date:0
+#: field:builder.ir.module.module,create_date:0
+#: field:builder.ir.module.module.generate.wizard,create_date:0
+#: field:builder.ir.module.module.import.wizard,create_date:0
+#: field:builder.ir.rule,create_date:0 field:builder.ir.ui.menu,create_date:0
+#: field:builder.ir.ui.menu.lookup.wizard,create_date:0
+#: field:builder.ir.ui.view,create_date:0
+#: field:builder.ir.ui.view.inherit.change,create_date:0
+#: field:builder.lambda,create_date:0 field:builder.model.data,create_date:0
+#: field:builder.model.data.attribute,create_date:0
+#: field:builder.model.data.change,create_date:0
+#: field:builder.res.config.settings,create_date:0
+#: field:builder.res.config.settings.field,create_date:0
+#: field:builder.res.groups,create_date:0
+#: field:builder.res.groups.import.wizard,create_date:0
+#: field:builder.views.calendar,create_date:0
+#: field:builder.views.calendar.field,create_date:0
+#: field:builder.views.form,create_date:0
+#: field:builder.views.form.button,create_date:0
+#: field:builder.views.form.field,create_date:0
+#: field:builder.views.form.statusbar.button,create_date:0
+#: field:builder.views.gantt,create_date:0
+#: field:builder.views.gantt.field,create_date:0
+#: field:builder.views.graph,create_date:0
+#: field:builder.views.graph.field,create_date:0
+#: field:builder.views.kanban,create_date:0
+#: field:builder.views.kanban.field,create_date:0
+#: field:builder.views.search,create_date:0
+#: field:builder.views.search.field,create_date:0
+#: field:builder.views.selector,create_date:0
+#: field:builder.views.tree,create_date:0
+#: field:builder.views.tree.field,create_date:0
+#: field:builder.web.asset,create_date:0
+#: field:builder.web.asset.item,create_date:0
+#: field:builder.website.asset,create_date:0
+#: field:builder.website.asset.data.wizard,create_date:0
+#: field:builder.website.asset.item,create_date:0
+#: field:builder.website.media.item,create_date:0
+#: field:builder.website.media.item.bulk.add.wizard,create_date:0
+#: field:builder.website.menu,create_date:0
+#: field:builder.website.page,create_date:0
+#: field:builder.website.page.import.wizard,create_date:0
+#: field:builder.website.snippet,create_date:0
+#: field:builder.website.theme,create_date:0
+#: field:builder.website.theme.item,create_date:0
+#: field:builder.workflow,create_date:0
+#: field:builder.workflow.activity,create_date:0
+#: field:builder.workflow.transition,create_date:0
+msgid "Created on"
+msgstr "Created on"
+
+#. module: builder
+#: code:addons/builder/models/module.py:356
+#: view:builder.ir.cron:builder.builder_ir_cron_form_view
+#: view:builder.ir.cron:builder.builder_ir_cron_tree_view
+#: view:builder.ir.module.module:builder.module_form
+#: field:builder.ir.module.module,cron_job_ids:0
+#: model:ir.actions.act_window,name:builder.act_builder_ir_cron
+#, python-format
+msgid "Cron Jobs"
+msgstr "Cron Jobs"
+
+#. module: builder
+#: selection:builder.ir.actions.act_window,target:0
+msgid "Current Window"
+msgstr "Current Window"
+
+#. module: builder
+#: selection:builder.res.groups,category_type:0
+#: selection:builder.views.form.field,related_field_view_type:0
+#: selection:builder.website.snippet,category:0
+msgid "Custom"
+msgstr "Custom"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.custom_list,custom_list:0
+#: selection:builder.ir.model.demo.generator.custom_list,list_type:0
+#: model:ir.model,name:builder.model_builder_ir_model_demo_generator_custom_list
+msgid "Custom List"
+msgstr "Custom List"
+
+#. module: builder
+#: view:builder.ir.model.demo.generator.custom_list:builder.builder_ir_model_demo_generator_custom_list_form_view
+#: model:ir.actions.act_window,name:builder.act_builder_ir_model_demo_generator_custom_list
+msgid "Custom List Generator"
+msgstr "Custom List Generator"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.selection,custom_selection:0
+msgid "Custom Selection"
+msgstr "Custom Selection"
+
+#. module: builder
+#: field:builder.website.asset,attr_customize_show:0
+msgid "Customize Show"
+msgstr "Customize Show"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.module_form
+#: field:builder.ir.module.module,data_ids:0
+msgid "Data"
+msgstr "Data"
+
+#. module: builder
+#: view:builder.data.file:builder.builder_data_file_form_view
+#: view:builder.data.file:builder.builder_data_file_tree_view
+msgid "Data File"
+msgstr "Data File"
+
+#. module: builder
+#: field:builder.ir.module.module,data_file_ids:0
+msgid "Data Files"
+msgstr "Data Files"
+
+#. module: builder
+#: model:ir.actions.act_window,name:builder.act_builder_data_import_wizard
+msgid "Data Import"
+msgstr "Data Import"
+
+#. module: builder
+#: view:builder.website.asset.data.wizard:builder.builder_website_asset_data_wizard_form_view
+#: view:builder.website.media.item.bulk.add.wizard:builder.builder_website_media_item_bulk_add_wizard_form
+#: view:builder.website.page.import.wizard:builder.builder_website_page_import_wizard_form_view
+#: model:ir.actions.act_window,name:builder.act_builder_website_asset_data_wizard
+#: model:ir.actions.act_window,name:builder.act_builder_website_media_item_bulk_add_wizard
+msgid "Data Select"
+msgstr "Data Select"
+
+#. module: builder
+#: help:builder.ir.actions.act_window,res_id:0
+msgid ""
+"Database ID of record to open in form view, when ``view_mode`` is set to "
+"'form' only"
+msgstr ""
+"Database ID of record to open in form view, when ``view_mode`` is set to "
+"'form' only"
+
+#. module: builder
+#: field:builder.views.calendar,attr_date_delay_field_id:0
+#: field:builder.views.gantt,attr_date_delay_field_id:0
+msgid "Date Delay Field"
+msgstr "Date Delay Field"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.date,date_from:0
+msgid "Date From"
+msgstr "Date From"
+
+#. module: builder
+#: view:builder.ir.model.demo.generator.date:builder.builder_ir_model_demo_generator_date_form_view
+#: model:ir.actions.act_window,name:builder.act_builder_ir_model_demo_generator_date
+#: model:ir.model,name:builder.model_builder_ir_model_demo_generator_date
+msgid "Date Generator"
+msgstr "Date Generator"
+
+#. module: builder
+#: view:builder.views.calendar:builder.view_builder_views_calendar
+#: view:builder.views.gantt:builder.view_builder_views_gantt
+msgid "Date Settings"
+msgstr "Date Settings"
+
+#. module: builder
+#: field:builder.views.calendar,attr_date_start_field_id:0
+#: field:builder.views.gantt,attr_date_start_field_id:0
+msgid "Date Start Field"
+msgstr "Date Start Field"
+
+#. module: builder
+#: field:builder.views.calendar,attr_date_stop_field_id:0
+#: field:builder.views.gantt,attr_date_stop_field_id:0
+msgid "Date Stop Field"
+msgstr "Date Stop Field"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.date,date_to:0
+msgid "Date To"
+msgstr "Date To"
+
+#. module: builder
+#: selection:builder.views.gantt,attr_mode:0
+msgid "Day"
+msgstr "Day"
+
+#. module: builder
+#: field:builder.views.calendar,attr_day_length_field_id:0
+msgid "Day Length Field"
+msgstr "Day Length Field"
+
+#. module: builder
+#: selection:builder.ir.cron,interval_type:0
+msgid "Days"
+msgstr "Days"
+
+#. module: builder
+#: field:builder.ir.model.fields,decimal_digits:0
+#: field:builder.res.config.settings.field,decimal_digits:0
+msgid "Decimal Digits"
+msgstr "Decimal Digits"
+
+#. module: builder
+#: field:builder.ir.model.fields,decimal_precision:0
+#: field:builder.res.config.settings.field,decimal_precision:0
+msgid "Decimal Precision"
+msgstr "Decimal Precision"
+
+#. module: builder
+#: field:builder.ir.model.fields,allow_default:0
+#: view:builder.res.config.settings:builder.builder_res_config_settings_form_view
+#: view:builder.res.config.settings.field:builder.builder_res_config_settings_field_form_view
+#: field:builder.res.config.settings.field,allow_default:0
+#: selection:builder.views.form.field,related_field_view_type:0
+msgid "Default"
+msgstr "Default"
+
+#. module: builder
+#: field:builder.views.gantt,attr_default_group_by_field_id:0
+#: field:builder.views.kanban,attr_default_group_by_field_id:0
+msgid "Default Group By Field"
+msgstr "Default Group By Field"
+
+#. module: builder
+#: field:builder.ir.model.fields,default_method_name:0
+#: field:builder.res.config.settings.field,default_method_name:0
+msgid "Default Method Name"
+msgstr "Default Method Name"
+
+#. module: builder
+#: field:builder.ir.model.fields,default_type:0
+#: field:builder.res.config.settings.field,default_type:0
+msgid "Default Type"
+msgstr "Default Type"
+
+#. module: builder
+#: field:builder.ir.model.fields,default_value:0
+#: field:builder.res.config.settings.field,default_value:0
+msgid "Default Value"
+msgstr "Default Value"
+
+#. module: builder
+#: selection:builder.res.config.settings.field,setting_field_type:0
+msgid "Default Value Field"
+msgstr "Default Value Field"
+
+#. module: builder
+#: help:builder.ir.actions.act_window,limit:0
+msgid "Default limit for the list view"
+msgstr "Default limit for the list view"
+
+#. module: builder
+#: selection:builder.views.form.field,related_field_view_type:0
+msgid "Defined"
+msgstr "Defined"
+
+#. module: builder
+#: selection:builder.views.form.button,type:0
+#: selection:builder.views.form.statusbar.button,type:0
+msgid "Defined Action"
+msgstr "Defined Action"
+
+#. module: builder
+#: field:builder.ir.model.fields,delegate:0
+#: field:builder.res.config.settings.field,delegate:0
+msgid "Delegate"
+msgstr "Delegate"
+
+#. module: builder
+#: selection:builder.ir.model,inherit_type:0
+msgid "Delegation"
+msgstr "Delegation"
+
+#. module: builder
+#: field:builder.ir.model.access,perm_unlink:0
+#: field:builder.ir.model.access.generate.wizard,perm_unlink:0
+msgid "Delete Access"
+msgstr "Delete Access"
+
+#. module: builder
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+#: field:builder.ir.model,demo_data_ids:0
+#: view:builder.ir.model.demo.creator.wizard:builder.builder_ir_model_demo_creator_wizard_form_view
+#: field:builder.ir.module.module,demo_data_ids:0
+#: model:ir.actions.act_window,name:builder.act_builder_ir_model_demo_creator_wizard
+msgid "Demo Data"
+msgstr "Demo Data"
+
+#. module: builder
+#: field:builder.ir.model,demo_records:0
+msgid "Demo Records"
+msgstr "Demo Records"
+
+#. module: builder
+#: field:builder.ir.model,demo_xml_id_sample:0
+msgid "Demo xml id sample"
+msgstr "Demo xml id sample"
+
+#. module: builder
+#: selection:builder.ir.model.demo.generator.custom_list,list_type:0
+msgid "Department Names"
+msgstr "Department Names"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.module_form
+#: field:builder.ir.module.module,dependency_ids:0
+msgid "Dependencies"
+msgstr "Зависимости"
+
+#. module: builder
+#: field:builder.ir.module.dependency,dependency_module_id:0
+#: field:builder.ir.module.dependency,dependency_module_name:0
+#: field:builder.ir.module.dependency,dependency_project_id:0
+#: view:builder.ir.module.module:builder.module_form
+msgid "Dependency"
+msgstr "Зависимость"
+
+#. module: builder
+#: selection:builder.ir.model.fields,order:0
+#: selection:builder.res.config.settings.field,order:0
+msgid "Descendant"
+msgstr "Descendant"
+
+#. module: builder
+#: field:builder.ir.model,name:0 field:builder.ir.module.module,description:0
+#: field:builder.res.config.settings,name:0
+#: view:builder.website.theme:builder.builder_website_theme_form_view
+#: field:builder.website.theme,attr_description:0
+msgid "Description"
+msgstr "Описание"
+
+#. module: builder
+#: field:builder.ir.module.module,description_html:0
+msgid "Description HTML"
+msgstr "Описание HTML"
+
+#. module: builder
+#: field:builder.workflow.transition,act_to:0
+msgid "Destination Activity"
+msgstr "Destination Activity"
+
+#. module: builder
+#: field:builder.ir.actions.act_window,model_id:0
+msgid "Destination Model"
+msgstr "Destination Model"
+
+#. module: builder
+#: view:builder.ir.rule:builder.builder_ir_rule_form_view
+msgid "Detailed algorithm:"
+msgstr "Detailed algorithm:"
+
+#. module: builder
+#: selection:builder.ir.model.lookup.wizard,model_source:0
+#: selection:builder.ir.ui.menu.lookup.wizard,model_source:0
+msgid "Development"
+msgstr "Разработка"
+
+#. module: builder
+#: selection:builder.ir.ui.view,type:0 selection:builder.views.selector,type:0
+msgid "Diagram"
+msgstr "Диаграмма"
+
+#. module: builder
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+#: view:builder.ir.model.fields:builder.builder_ir_model_fields_form_diagram_view
+#: view:builder.ir.model.fields:builder.builder_ir_model_fields_form_view
+#: view:builder.res.config.settings:builder.builder_res_config_settings_form_view
+#: view:builder.res.config.settings.field:builder.builder_res_config_settings_field_form_view
+msgid "Digits"
+msgstr "Цифры"
+
+#. module: builder
+#: field:builder.views.calendar,attr_display:0
+msgid "Display Format"
+msgstr "Display Format"
+
+#. module: builder
+#: field:builder.ir.actions.act_window,show_help:0
+msgid "Display Help"
+msgstr "Display Help"
+
+#. module: builder
+#: field:builder.ir.model.fields,domain:0 field:builder.ir.rule,domain:0
+#: field:builder.res.config.settings.field,domain:0
+#: field:builder.views.form.button,domain:0
+#: field:builder.views.form.field,domain:0
+#: field:builder.views.form.statusbar.button,domain:0
+#: field:builder.views.search.field,attr_domain:0
+#: field:builder.views.tree.field,domain:0
+msgid "Domain"
+msgstr "Domain"
+
+#. module: builder
+#: field:builder.ir.actions.act_window,domain:0
+msgid "Domain Value"
+msgstr "Domain Value"
+
+#. module: builder
+#: view:website:builder.snippet_form
+msgid "Down"
+msgstr "Вниз"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.module_form
+#: view:builder.ir.module.module:builder.module_view_kanban
+msgid "Download"
+msgstr "Выгрузить"
+
+#. module: builder
+#: model:ir.actions.act_window,name:builder.act_builder_ir_module_generate_wizard
+msgid "Download Modules"
+msgstr "Выгрузить модули"
+
+#. module: builder
+#: selection:builder.ir.model.demo.generator.custom_list,list_type:0
+msgid "Drug Names"
+msgstr "Drug Names"
+
+#. module: builder
+#: selection:builder.workflow.activity,kind:0
+msgid "Dummy"
+msgstr "Dummy"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.date,dynamic_datetime:0
+msgid "Dynamic Datetime"
+msgstr "Dynamic Datetime"
+
+#. module: builder
+#: code:addons/builder/models/website.py:248
+#, python-format
+msgid "Edit Snippet"
+msgstr "Редактировать Snippet"
+
+#. module: builder
+#: code:addons/builder/models/module.py:516
+#: code:addons/builder/models/website.py:105
+#, python-format
+msgid "Edit Template"
+msgstr "Редактировать Шаблон"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.module_form
+#: view:builder.website.page:builder.builder_website_page_form_view
+#: view:builder.website.snippet:builder.builder_website_snippet_form_view
+msgid "Edit in Website"
+msgstr "Редактировать на сайте"
+
+#. module: builder
+#: selection:builder.website.snippet,category:0
+msgid "Effects"
+msgstr "Effects"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Email Design"
+msgstr "Конфигурация электронной почты"
+
+#. module: builder
+#: view:builder.ir.model.demo.generator.email:builder.builder_ir_model_demo_generator_email_form_view
+#: model:ir.actions.act_window,name:builder.act_builder_ir_model_demo_generator_email
+#: model:ir.model,name:builder.model_builder_ir_model_demo_generator_email
+msgid "Email Generator"
+msgstr "Email Generator"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Enterprise package"
+msgstr "Пакет предприятия"
+
+#. module: builder
+#: code:addons/builder/models/fields.py:285
+#: code:addons/builder/models/fields.py:299
+#: code:addons/builder/models/security.py:78
+#, python-format
+msgid "Error"
+msgstr "Error"
+
+#. module: builder
+#: code:addons/builder/models/menus.py:181
+#, python-format
+msgid "Error ! You can not create recursive Menu."
+msgstr "Error ! You can not create recursive Menu."
+
+#. module: builder
+#: field:builder.views.calendar,attr_event_open_popup:0
+msgid "Event Open Popup"
+msgstr "Event Open Popup"
+
+#. module: builder
+#: view:builder.ir.rule:builder.builder_ir_rule_form_view
+msgid ""
+"Example: GLOBAL_RULE_1 AND GLOBAL_RULE_2 AND ( (GROUP_A_RULE_1 OR "
+"GROUP_A_RULE_2) OR (GROUP_B_RULE_1 OR GROUP_B_RULE_2) )"
+msgstr ""
+"Example: GLOBAL_RULE_1 AND GLOBAL_RULE_2 AND ( (GROUP_A_RULE_1 OR "
+"GROUP_A_RULE_2) OR (GROUP_B_RULE_1 OR GROUP_B_RULE_2) )"
+
+#. module: builder
+#: field:builder.ir.model.import.wizard,exclude_auto_fields:0
+msgid "Exclude Auto Fields"
+msgstr "Exclude Auto Fields"
+
+#. module: builder
+#: field:builder.ir.model.import.wizard,exclude_fields:0
+msgid "Exclude Fields"
+msgstr "Exclude Fields"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Expert"
+msgstr "Эксперт"
+
+#. module: builder
+#: view:builder.ir.module.export.wizard:builder.builder_ir_module_export_wizard_form_view
+msgid "Export"
+msgstr "Export"
+
+#. module: builder
+#: model:ir.actions.act_window,name:builder.act_builder_ir_module_export_wizard
+msgid "Export Modules"
+msgstr "Export Modules"
+
+#. module: builder
+#: help:builder.workflow.transition,condition:0
+msgid "Expression to be satisfied if we want the transition done."
+msgstr "Expression to be satisfied if we want the transition done."
+
+#. module: builder
+#: view:builder.data.file:builder.view_builder_data_file_filter
+msgid "Ext"
+msgstr "Ext"
+
+#. module: builder
+#: field:builder.data.file,extension:0
+msgid "Extension"
+msgstr "Extension"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.view_module_filter
+msgid "Extra"
+msgstr "Extra"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Feature One"
+msgstr "Настроить один"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Feature Three"
+msgstr "Настроить три"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Feature Two"
+msgstr "Настроить два"
+
+#. module: builder
+#: selection:builder.website.snippet,category:0
+msgid "Features"
+msgstr "Features"
+
+#. module: builder
+#: selection:builder.ir.action.lookup.wizard,lookup_mode:0
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+#: view:builder.ir.model.fields:builder.builder_ir_model_fields_form_diagram_view
+#: view:builder.ir.model.fields:builder.builder_ir_model_fields_form_view
+#: field:builder.ir.model.fields.option,field_id:0
+#: field:builder.ir.model.fields.state,field_id:0
+#: field:builder.ir.model.inherits,field_id:0
+#: field:builder.ir.model.inherits,field_name:0
+#: selection:builder.ir.model.lookup.wizard,lookup_mode:0
+#: selection:builder.ir.ui.menu.lookup.wizard,lookup_mode:0
+#: field:builder.ir.ui.view.inherit.change,inherit_view_field:0
+#: selection:builder.ir.ui.view.inherit.change,inherit_view_type:0
+#: view:builder.res.config.settings:builder.builder_res_config_settings_form_view
+#: view:builder.res.config.settings.field:builder.builder_res_config_settings_field_form_view
+#: field:builder.views.abstract.field,field_id:0
+#: field:builder.views.calendar.field,field_id:0
+#: field:builder.views.form.field,field_id:0
+#: field:builder.views.gantt.field,field_id:0
+#: field:builder.views.graph.field,field_id:0
+#: field:builder.views.kanban.field,field_id:0
+#: field:builder.views.search.field,field_id:0
+#: selection:builder.views.search.field,type:0
+#: field:builder.views.tree.field,field_id:0
+msgid "Field"
+msgstr "Field"
+
+#. module: builder
+#: field:builder.ir.model.fields,field_description:0
+#: field:builder.res.config.settings.field,field_description:0
+msgid "Field Label"
+msgstr "Field Label"
+
+#. module: builder
+#: field:builder.res.config.settings.field,default_field_name:0
+msgid "Field Name"
+msgstr "Field Name"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator,field_names:0
+msgid "Field Names"
+msgstr "Field Names"
+
+#. module: builder
+#: field:builder.views.tree,field_parent_id:0
+msgid "Field Parent"
+msgstr "Field Parent"
+
+#. module: builder
+#: field:builder.ir.model.fields,ttype:0
+#: field:builder.res.config.settings.field,ttype:0
+msgid "Field Type"
+msgstr "Field Type"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldBarChart"
+msgstr "FieldBarChart"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldBinaryFile"
+msgstr "FieldBinaryFile"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldBinaryImage"
+msgstr "FieldBinaryImage"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldBoolean"
+msgstr "FieldBoolean"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldChar"
+msgstr "FieldChar"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldCharDomain"
+msgstr "FieldCharDomain"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldDate"
+msgstr "FieldDate"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldDatetime"
+msgstr "FieldDatetime"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldEmail"
+msgstr "FieldEmail"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldFloat"
+msgstr "FieldFloat"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldMany2Many"
+msgstr "FieldMany2Many"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldMany2ManyBinaryMultiFiles"
+msgstr "FieldMany2ManyBinaryMultiFiles"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldMany2ManyCheckBoxes"
+msgstr "FieldMany2ManyCheckBoxes"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldMany2ManyKanban"
+msgstr "FieldMany2ManyKanban"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldMany2ManyTags"
+msgstr "FieldMany2ManyTags"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldMany2One"
+msgstr "FieldMany2One"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldMonetary"
+msgstr "FieldMonetary"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldOne2Many"
+msgstr "FieldOne2Many"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldPercentPie"
+msgstr "FieldPercentPie"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldProgressBar"
+msgstr "FieldProgressBar"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldRadio"
+msgstr "FieldRadio"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldReference"
+msgstr "FieldReference"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldSelection"
+msgstr "FieldSelection"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldStatus"
+msgstr "FieldStatus"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldText"
+msgstr "FieldText"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldTextHtml"
+msgstr "FieldTextHtml"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "FieldUrl"
+msgstr "FieldUrl"
+
+#. module: builder
+#: code:addons/builder/models/models.py:220
+#: code:addons/builder/models/res_config_model.py:23
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+#: field:builder.ir.model,field_ids:0
+#: field:builder.ir.model.demo.generator,field_ids:0
+#: field:builder.ir.model.method,field_ids:0
+#: view:builder.res.config.settings:builder.builder_res_config_settings_form_view
+#: field:builder.res.config.settings,field_ids:0
+#: view:builder.res.config.settings.field:builder.builder_res_config_settings_field_tree_view
+#: view:builder.views.calendar:builder.view_builder_views_calendar
+#: view:builder.views.calendar.field:builder.view_builder_views_calendar_field
+#: view:builder.views.form:builder.view_builder_views_form
+#: view:builder.views.form.field:builder.view_builder_views_form_field
+#: view:builder.views.gantt.field:builder.view_builder_views_gantt_field
+#: view:builder.views.graph:builder.view_builder_views_graph
+#: view:builder.views.graph.field:builder.view_builder_views_graph_field
+#: view:builder.views.kanban:builder.view_builder_views_kanban
+#: view:builder.views.kanban.field:builder.view_builder_views_kanban_field
+#: view:builder.views.tree:builder.view_builder_views_tree
+#: field:builder.views.tree,field_ids:0
+#: view:builder.views.tree.field:builder.view_builder_views_tree_field
+#: model:ir.actions.act_window,name:builder.act_builder_res_config_settings_field
+#: model:ir.model,name:builder.model_builder_ir_model_fields
+#: model:ir.model,name:builder.model_builder_res_config_settings_field
+#, python-format
+msgid "Fields"
+msgstr "Поля"
+
+#. module: builder
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+#: view:builder.res.config.settings:builder.builder_res_config_settings_form_view
+msgid "Fields Description"
+msgstr "Fields Description"
+
+#. module: builder
+#: field:builder.data.import.wizard,file:0
+#: field:builder.ir.module.module.import.wizard,file:0
+#: field:builder.model.data,input_file:0
+#: field:builder.model.data.attribute,model_id:0
+#: field:builder.web.asset.item,file_id:0
+#: field:builder.website.asset.item,file_id:0
+#: field:builder.website.theme.item,file_id:0
+msgid "File"
+msgstr "File"
+
+#. module: builder
+#: field:builder.model.data,input_text:0
+msgid "File Text"
+msgstr "File Text"
+
+#. module: builder
+#: field:builder.data.file,filename:0
+msgid "Filename"
+msgstr "Filename"
+
+#. module: builder
+#: code:addons/builder/models/module.py:179
+#: view:builder.ir.model.demo.generator.binary:builder.builder_ir_model_demo_generator_binary_form_view
+#: field:builder.ir.model.demo.generator.binary,file_ids:0
+#: view:builder.ir.module.module:builder.module_form
+#: view:builder.web.asset:builder.builder_web_asset_form_view
+#: view:builder.website.asset:builder.builder_website_asset_form_view
+#: field:builder.website.asset.data.wizard,data_ids:0
+#: field:builder.website.media.item.bulk.add.wizard,data_ids:0
+#: view:builder.website.theme:builder.builder_website_theme_form_view
+#, python-format
+msgid "Files"
+msgstr "Файлы"
+
+#. module: builder
+#: field:builder.ir.actions.act_window,filter:0
+#: selection:builder.views.search.field,type:0
+msgid "Filter"
+msgstr "Filter"
+
+#. module: builder
+#: field:builder.views.search.field,attr_filter_domain:0
+msgid "Filter Domain"
+msgstr "Filter Domain"
+
+#. module: builder
+#: view:builder.ir.actions.act_window:builder.builder_ir_actions_act_window_form_view
+#: field:builder.model.data.attribute,change_ids:0
+#: field:builder.model.data.attribute,filters:0
+msgid "Filters"
+msgstr "Filters"
+
+#. module: builder
+#: field:builder.workflow.activity,flow_start:0
+msgid "Flow Start"
+msgstr "Flow Start"
+
+#. module: builder
+#: field:builder.workflow.activity,flow_stop:0
+msgid "Flow Stop"
+msgstr "Flow Stop"
+
+#. module: builder
+#: field:builder.website.theme,font_attr:0
+#: selection:builder.website.theme,type:0
+msgid "Font"
+msgstr "Font"
+
+#. module: builder
+#: field:builder.website.theme,font_name:0
+msgid "Font Name"
+msgstr "Font Name"
+
+#. module: builder
+#: help:builder.views.tree,attr_fonts:0
+msgid "Font definition. Ex: bold:message_unread==True"
+msgstr "Font definition. Ex: bold:message_unread==True"
+
+#. module: builder
+#: field:builder.views.tree,attr_fonts:0
+msgid "Fonts"
+msgstr "Fonts"
+
+#. module: builder
+#: help:builder.ir.model.fields,relation_field:0
+#: help:builder.res.config.settings.field,relation_field:0
+msgid ""
+"For one2many fields, the field on the target model that implement the "
+"opposite many2one relationship"
+msgstr ""
+"For one2many fields, the field on the target model that implement the "
+"opposite many2one relationship"
+
+#. module: builder
+#: help:builder.ir.model.fields,relation:0
+#: help:builder.res.config.settings.field,relation:0
+msgid "For relationship fields, the technical name of the target model"
+msgstr "For relationship fields, the technical name of the target model"
+
+#. module: builder
+#: selection:builder.ir.actions.act_window,view_type:0
+#: selection:builder.ir.ui.view,type:0
+#: selection:builder.views.form.field,related_field_mode:0
+#: selection:builder.views.selector,type:0
+msgid "Form"
+msgstr "Form"
+
+#. module: builder
+#: field:builder.views.form.field,related_field_form_ref:0
+msgid "Form View ID"
+msgstr "Form View ID"
+
+#. module: builder
+#: code:addons/builder/models/views/base.py:103
+#, python-format
+msgid "Form View View"
+msgstr "Form View View"
+
+#. module: builder
+#: model:ir.actions.act_window,name:builder.act_builder_wizard_views_form
+#: model:ir.actions.act_window,name:builder.act_builder_wizard_views_gantt
+#: model:ir.actions.act_window,name:builder.act_builder_wizard_views_search
+#: model:ir.actions.act_window,name:builder.act_builder_wizard_views_tree
+msgid "Form Wizard"
+msgstr "Form Wizard"
+
+#. module: builder
+#: field:builder.ir.module.export.wizard,export_type:0
+#: field:builder.ir.module.module.import.wizard,import_type:0
+msgid "Format"
+msgstr "Format"
+
+#. module: builder
+#: field:builder.ir.model,to_ids:0
+msgid "Forward Models"
+msgstr "Forward Models"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Free shipping, satisfied or reimbursed."
+msgstr "Бесплатная доставка, оплаченная или возмещенная."
+
+#. module: builder
+#: selection:builder.workflow.activity,kind:0
+msgid "Function"
+msgstr "Function"
+
+#. module: builder
+#: selection:builder.ir.module.module,license:0
+msgid "GPL Version 2"
+msgstr "GPL Version 2"
+
+#. module: builder
+#: selection:builder.ir.module.module,license:0
+msgid "GPL Version 3"
+msgstr "GPL Version 3"
+
+#. module: builder
+#: selection:builder.ir.module.module,license:0
+msgid "GPL-2 or later version"
+msgstr "GPL-2 or later version"
+
+#. module: builder
+#: selection:builder.ir.module.module,license:0
+msgid "GPL-3 or later version"
+msgstr "GPL-3 or later version"
+
+#. module: builder
+#: selection:builder.ir.ui.view,type:0 selection:builder.views.selector,type:0
+msgid "Gantt"
+msgstr "Gantt"
+
+#. module: builder
+#: code:addons/builder/models/views/base.py:107
+#, python-format
+msgid "Gantt View View"
+msgstr "Gantt View View"
+
+#. module: builder
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+#: view:builder.ir.model.fields:builder.builder_ir_model_fields_form_diagram_view
+#: view:builder.ir.model.fields:builder.builder_ir_model_fields_form_view
+#: view:builder.ir.rule:builder.builder_ir_rule_form_view
+#: view:builder.res.config.settings:builder.builder_res_config_settings_form_view
+#: view:builder.res.config.settings.field:builder.builder_res_config_settings_field_form_view
+msgid "General"
+msgstr "General"
+
+#. module: builder
+#: view:builder.ir.actions.act_window:builder.builder_ir_actions_act_window_form_view
+msgid "General Settings"
+msgstr "General Settings"
+
+#. module: builder
+#: view:builder.ir.model.access.generate.wizard:builder.builder_ir_model_access_generate_wizard_form_view
+#: view:builder.ir.module.module.generate.wizard:builder.builder_ir_module_module_generate_wizard_form_view
+msgid "Generate"
+msgstr "Generate"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.module_form
+msgid "Generate ACLs"
+msgstr "Generate ACLs"
+
+#. module: builder
+#: field:builder.website.page,gen_controller:0
+msgid "Generate Controller"
+msgstr "Generate Controller"
+
+#. module: builder
+#: help:builder.ir.model.fields,relation_create_inverse_relation:0
+#: help:builder.res.config.settings.field,relation_create_inverse_relation:0
+msgid "Generates an inverse relation in the target model."
+msgstr "Generates an inverse relation in the target model."
+
+#. module: builder
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+#: view:builder.ir.module.module.generate.wizard:builder.builder_ir_module_module_generate_wizard_form_view
+#: model:ir.actions.act_window,name:builder.act_builder_ir_module_module_generate_wizard
+msgid "Generator"
+msgstr "Generator"
+
+#. module: builder
+#: model:ir.model,name:builder.model_builder_ir_model_demo_generator_base
+msgid "Generator Interface"
+msgstr "Generator Interface"
+
+#. module: builder
+#: model:ir.model,name:builder.model_builder_ir_model_demo_generator
+msgid "Generic Generator"
+msgstr "Generic Generator"
+
+#. module: builder
+#: field:builder.ir.rule,global:0
+msgid "Global"
+msgstr "Global"
+
+#. module: builder
+#: view:builder.ir.rule:builder.builder_ir_rule_form_view
+msgid ""
+"Global rules (non group-specific) are restrictions, and cannot be bypassed. "
+"Group-local rules grant additional permissions, but are constrained within "
+"the bounds of global ones. The first group rules restrict further than "
+"global rules, but any additional group rule will add more permissions"
+msgstr ""
+"Global rules (non group-specific) are restrictions, and cannot be bypassed. "
+"Group-local rules grant additional permissions, but are constrained within "
+"the bounds of global ones. The first group rules restrict further than "
+"global rules, but any additional group rule will add more permissions"
+
+#. module: builder
+#: view:website:builder.designer view:website:builder.page_designer
+msgid "Go Back"
+msgstr "Go Back"
+
+#. module: builder
+#: selection:builder.ir.ui.view,type:0 selection:builder.views.selector,type:0
+msgid "Graph"
+msgstr "Graph"
+
+#. module: builder
+#: code:addons/builder/models/views/base.py:106
+#, python-format
+msgid "Graph View View"
+msgstr "Graph View View"
+
+#. module: builder
+#: model:ir.actions.act_window,name:builder.act_builder_wizard_views_graph
+msgid "Graph View Wizard"
+msgstr "Graph View Wizard"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid ""
+"Great stories are for everyone even when only written for\n"
+"                                    just one person."
+msgstr ""
+"Замечательные истории - для всех, даже когда написаны только\n"
+"                                    для одного человека."
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Great stories have personality."
+msgstr "У замечательных историй есть индивидуальность."
+
+#. module: builder
+#: field:builder.ir.model.access,group_id:0
+#: field:builder.views.search.field,group:0
+msgid "Group"
+msgstr "Group"
+
+#. module: builder
+#: view:builder.data.file:builder.view_builder_data_file_filter
+#: view:builder.ir.module.module:builder.view_module_filter
+#: field:builder.views.search.field,group_field_id:0
+msgid "Group By"
+msgstr "Group By"
+
+#. module: builder
+#: selection:builder.res.config.settings.field,setting_field_type:0
+msgid "Group Field"
+msgstr "Group Field"
+
+#. module: builder
+#: view:builder.res.groups.import.wizard:builder.builder_res_groups_import_wizard_form_view
+#: model:ir.actions.act_window,name:builder.act_builder_res_groups_import_wizard
+msgid "Group Import"
+msgstr "Group Import"
+
+#. module: builder
+#: field:builder.res.groups,full_name:0
+msgid "Group Name"
+msgstr "Group Name"
+
+#. module: builder
+#: field:builder.workflow.transition,group_id:0
+msgid "Group Required"
+msgstr "Group Required"
+
+#. module: builder
+#: field:builder.res.config.settings.field,group_type:0
+msgid "Group Type"
+msgstr "Group Type"
+
+#. module: builder
+#: code:addons/builder/models/module.py:272
+#: field:builder.ir.actions.act_window,groups_id:0
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+#: view:builder.ir.model.access.generate.wizard:builder.builder_ir_model_access_generate_wizard_form_view
+#: field:builder.ir.model.access.generate.wizard,group_ids:0
+#: view:builder.ir.model.fields:builder.builder_ir_model_fields_form_diagram_view
+#: view:builder.ir.model.fields:builder.builder_ir_model_fields_form_view
+#: field:builder.ir.model.fields,group_ids:0
+#: view:builder.ir.module.module:builder.module_form
+#: field:builder.ir.module.module,group_ids:0 field:builder.ir.rule,groups:0
+#: view:builder.ir.ui.menu:builder.builder_ir_ui_menu_form_view
+#: field:builder.ir.ui.menu,group_ids:0
+#: view:builder.ir.ui.view:builder.builder_ir_ui_view_form
+#: field:builder.ir.ui.view,group_ids:0
+#: view:builder.res.config.settings:builder.builder_res_config_settings_form_view
+#: view:builder.res.config.settings.field:builder.builder_res_config_settings_field_form_view
+#: field:builder.res.config.settings.field,group_ids:0
+#: view:builder.res.groups:builder.builder_res_groups_form_view
+#: view:builder.res.groups:builder.builder_res_groups_tree_view
+#: field:builder.res.groups.import.wizard,group_ids:0
+#: model:ir.actions.act_window,name:builder.act_builder_res_groups
+#, python-format
+msgid "Groups"
+msgstr "Группы"
+
+#. module: builder
+#: view:builder.ir.rule:builder.builder_ir_rule_form_view
+msgid "Groups (no group = global)"
+msgstr "Groups (no group = global)"
+
+#. module: builder
+#: view:builder.ir.actions.act_window:builder.builder_ir_actions_act_window_form_view
+#: field:builder.ir.actions.act_window,help:0
+#: field:builder.ir.model.fields,help:0
+#: field:builder.res.config.settings.field,help:0
+#: field:builder.views.search.field,attr_help:0
+msgid "Help"
+msgstr "Help"
+
+#. module: builder
+#: field:builder.views.form.field,nolabel:0
+#: field:builder.views.tree.field,nolabel:0
+msgid "Hide Label"
+msgstr "Hide Label"
+
+#. module: builder
+#: field:builder.views.form.statusbar.button,highlighted:0
+msgid "Highlighted"
+msgstr "Highlighted"
+
+#. module: builder
+#: selection:builder.views.graph,attr_orientation:0
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#. module: builder
+#: selection:builder.ir.cron,interval_type:0
+msgid "Hours"
+msgstr "Hours"
+
+#. module: builder
+#: help:builder.ir.cron,numbercall:0
+msgid ""
+"How many times the method is called,\n"
+"a negative number indicates no limit."
+msgstr ""
+"How many times the method is called,\n"
+"a negative number indicates no limit."
+
+#. module: builder
+#: field:builder.data.file,id:0 field:builder.data.import.wizard,id:0
+#: field:builder.exchanger.base,id:0 field:builder.exchanger.json,id:0
+#: field:builder.generator.base,id:0 field:builder.generator.v8,id:0
+#: field:builder.ir.action.lookup.wizard,id:0
+#: selection:builder.ir.action.lookup.wizard,lookup_mode:0
+#: field:builder.ir.actions.act_url,id:0
+#: field:builder.ir.actions.act_window,id:0
+#: field:builder.ir.actions.actions,id:0 field:builder.ir.cron,id:0
+#: field:builder.ir.model,id:0 field:builder.ir.model.access,id:0
+#: field:builder.ir.model.access.generate.wizard,id:0
+#: field:builder.ir.model.demo.creator.wizard,id:0
+#: field:builder.ir.model.demo.generator,id:0
+#: field:builder.ir.model.demo.generator.autoincrement,id:0
+#: field:builder.ir.model.demo.generator.base,id:0
+#: field:builder.ir.model.demo.generator.binary,id:0
+#: field:builder.ir.model.demo.generator.custom_list,id:0
+#: field:builder.ir.model.demo.generator.date,id:0
+#: field:builder.ir.model.demo.generator.email,id:0
+#: field:builder.ir.model.demo.generator.m2m,id:0
+#: field:builder.ir.model.demo.generator.m2o,id:0
+#: field:builder.ir.model.demo.generator.name,id:0
+#: field:builder.ir.model.demo.generator.normal_distribution,id:0
+#: field:builder.ir.model.demo.generator.randomstr,id:0
+#: field:builder.ir.model.demo.generator.selection,id:0
+#: field:builder.ir.model.fields,id:0
+#: field:builder.ir.model.fields.option,id:0
+#: field:builder.ir.model.fields.state,id:0
+#: field:builder.ir.model.import.line,id:0
+#: field:builder.ir.model.import.wizard,id:0
+#: field:builder.ir.model.inherit,id:0
+#: field:builder.ir.model.inherit.template,id:0
+#: field:builder.ir.model.inherits,id:0
+#: field:builder.ir.model.lookup.wizard,id:0
+#: selection:builder.ir.model.lookup.wizard,lookup_mode:0
+#: field:builder.ir.model.method,id:0 field:builder.ir.module.dependency,id:0
+#: field:builder.ir.module.export.wizard,id:0
+#: field:builder.ir.module.module,id:0
+#: field:builder.ir.module.module.generate.wizard,id:0
+#: field:builder.ir.module.module.import.wizard,id:0
+#: field:builder.ir.rule,id:0 field:builder.ir.ui.menu,id:0
+#: field:builder.ir.ui.menu.lookup.wizard,id:0
+#: selection:builder.ir.ui.menu.lookup.wizard,lookup_mode:0
+#: field:builder.ir.ui.view,id:0 field:builder.ir.ui.view.inherit.change,id:0
+#: field:builder.lambda,id:0 field:builder.model.data,id:0
+#: field:builder.model.data.attribute,id:0
+#: field:builder.model.data.change,id:0 field:builder.res.config.settings,id:0
+#: field:builder.res.config.settings.field,id:0 field:builder.res.groups,id:0
+#: field:builder.res.groups.import.wizard,id:0
+#: field:builder.views.abstract.field,id:0 field:builder.views.calendar,id:0
+#: field:builder.views.calendar.field,id:0 field:builder.views.form,id:0
+#: field:builder.views.form.button,id:0 field:builder.views.form.field,id:0
+#: field:builder.views.form.statusbar.button,id:0
+#: field:builder.views.gantt,id:0 field:builder.views.gantt.field,id:0
+#: field:builder.views.graph,id:0 field:builder.views.graph.field,id:0
+#: field:builder.views.kanban,id:0 field:builder.views.kanban.field,id:0
+#: field:builder.views.search,id:0 field:builder.views.search.field,id:0
+#: field:builder.views.selector,id:0 field:builder.views.tree,id:0
+#: field:builder.views.tree.field,id:0 field:builder.web.asset,id:0
+#: field:builder.web.asset.item,id:0 field:builder.web.util.css.class,id:0
+#: field:builder.website.asset,id:0
+#: field:builder.website.asset.data.wizard,id:0
+#: field:builder.website.asset.item,id:0 field:builder.website.media.item,id:0
+#: field:builder.website.media.item.bulk.add.wizard,id:0
+#: field:builder.website.menu,id:0 field:builder.website.page,id:0
+#: field:builder.website.page.import.wizard,id:0
+#: field:builder.website.snippet,id:0
+#: field:builder.website.snippet,snippet_id:0
+#: field:builder.website.theme,attr_id:0 field:builder.website.theme,id:0
+#: field:builder.website.theme.item,id:0 field:builder.workflow,id:0
+#: field:builder.workflow.activity,id:0 field:builder.workflow.transition,id:0
+#: field:ir.mixin.polymorphism.subclass,id:0
+#: field:ir.mixin.polymorphism.superclass,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: builder
+#: field:builder.ir.module.module,icon_image:0
+#: field:builder.views.form.button,icon:0
+msgid "Icon"
+msgstr "Icon"
+
+#. module: builder
+#: field:builder.data.file,file_type_icon:0
+msgid "Icon File"
+msgstr "Icon File"
+
+#. module: builder
+#: field:builder.ir.module.module,icon_image_name:0
+msgid "Icon Filename"
+msgstr "Icon Filename"
+
+#. module: builder
+#: help:builder.ir.actions.act_window,multi:0
+msgid ""
+"If checked and the action is bound to a model, it will only appear in the "
+"More menu on list views"
+msgstr ""
+"If checked and the action is bound to a model, it will only appear in the "
+"More menu on list views"
+
+#. module: builder
+#: help:builder.ir.rule,global:0
+msgid "If no group is specified the rule is global and applied to everyone"
+msgstr "If no group is specified the rule is global and applied to everyone"
+
+#. module: builder
+#: help:builder.ir.model.demo.generator,allow_nulls:0
+msgid "If the field is not required allow to generate null values for them."
+msgstr "If the field is not required allow to generate null values for them."
+
+#. module: builder
+#: help:builder.ir.ui.menu,group_ids:0
+msgid ""
+"If this field is empty, the menu applies to all users. Otherwise, the view "
+"applies to the users of those groups only."
+msgstr ""
+"If this field is empty, the menu applies to all users. Otherwise, the view "
+"applies to the users of those groups only."
+
+#. module: builder
+#: help:builder.ir.ui.view,group_ids:0
+msgid ""
+"If this field is empty, the view applies to all users. Otherwise, the view "
+"applies to the users of those groups only."
+msgstr ""
+"If this field is empty, the view applies to all users. Otherwise, the view "
+"applies to the users of those groups only."
+
+#. module: builder
+#: help:builder.views.calendar,attr_event_open_popup:0
+msgid ""
+"If this field is set ot true, we don't open the event in form view, but in a "
+"popup with the view_id passed by this parameter"
+msgstr ""
+"If this field is set ot true, we don't open the event in form view, but in a "
+"popup with the view_id passed by this parameter"
+
+#. module: builder
+#: help:builder.views.calendar,attr_use_contacts:0
+msgid ""
+"If this field is set to true, we will use the calendar_friends model as "
+"filter and not the color field."
+msgstr ""
+"If this field is set to true, we will use the calendar_friends model as "
+"filter and not the color field."
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid ""
+"If you try to write with a wide general\n"
+"                                    audience in mind, your story will ring "
+"false and be bland. \n"
+"                                    No one will be interested. Write for one "
+"person. If it’s genuine\n"
+"                                    for the one, it’s genuine for the rest."
+msgstr ""
+"Если вы попробуете написать историю для широкой общей\n"
+"                                    аудитории, она будет звучать фальшиво и "
+"будет скучной. \n"
+"                                    Никто не заинтересуется. Напишите для "
+"одного человека. Если она оригинальна\n"
+"                                    для одного, то она оригинальна и для "
+"остальных."
+
+#. module: builder
+#: field:builder.ir.module.module.import.wizard,ignore_version:0
+msgid "Ignore Version"
+msgstr "Ignore Version"
+
+#. module: builder
+#: view:builder.data.file:builder.view_builder_data_file_filter
+#: field:builder.website.media.item,file_id:0
+#: field:builder.website.snippet,image:0 field:builder.website.theme,image:0
+msgid "Image"
+msgstr "Image"
+
+#. module: builder
+#: field:builder.data.file,image_small:0
+msgid "Image Thumb"
+msgstr "Image Thumb"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Image-Text"
+msgstr "Изображение-Текст"
+
+#. module: builder
+#: view:builder.res.config.settings:builder.builder_res_config_settings_form_view
+#: view:builder.res.config.settings.field:builder.builder_res_config_settings_field_form_view
+#: field:builder.res.config.settings.field,group_name:0
+msgid "Implied Group"
+msgstr "Implied Group"
+
+#. module: builder
+#: view:builder.ir.model.import.wizard:builder.builder_ir_model_import_wizard_form_view
+#: view:builder.res.groups.import.wizard:builder.builder_res_groups_import_wizard_form_view
+#: view:builder.website.asset.data.wizard:builder.builder_website_asset_data_wizard_form_view
+#: view:builder.website.media.item.bulk.add.wizard:builder.builder_website_media_item_bulk_add_wizard_form
+#: view:builder.website.page.import.wizard:builder.builder_website_page_import_wizard_form_view
+msgid "Import"
+msgstr "Import"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.module_form
+msgid "Import Groups"
+msgstr "Import Groups"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.module_form
+msgid "Import Items"
+msgstr "Import Items"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.module_form
+msgid "Import Models"
+msgstr "Import Models"
+
+#. module: builder
+#: view:builder.ir.module.module.import.wizard:builder.builder_ir_module_module_import_wizard_form_view
+#: model:ir.ui.menu,name:builder.menu_module_builder_import
+msgid "Import Module"
+msgstr "Импорт модуля"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.module_form
+msgid "Import Page"
+msgstr "Import Page"
+
+#. module: builder
+#: view:builder.data.import.wizard:builder.builder_data_import_wizard_form_view
+#: view:builder.ir.module.module:builder.module_form
+msgid "Import Zip"
+msgstr "Import Zip"
+
+#. module: builder
+#: field:builder.model.data,importer:0
+msgid "Importer"
+msgstr "Importer"
+
+#. module: builder
+#: field:builder.ir.model.import.line,create_fields:0
+#: field:builder.ir.model.import.wizard,create_fields:0
+msgid "Include Fields"
+msgstr "Include Fields"
+
+#. module: builder
+#: field:builder.website.page.import.wizard,include_menu:0
+msgid "Include Menu"
+msgstr "Include Menu"
+
+#. module: builder
+#: view:builder.workflow.activity:builder.builder_view_workflow_activity_form
+#: field:builder.workflow.activity,in_transitions:0
+msgid "Incoming Transitions"
+msgstr "Incoming Transitions"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.autoincrement,increment:0
+msgid "Increment"
+msgstr "Increment"
+
+#. module: builder
+#: field:builder.ir.model.fields,index:0
+#: field:builder.res.config.settings.field,index:0
+msgid "Index"
+msgstr "Index"
+
+#. module: builder
+#: selection:builder.views.form.button,widget:0
+msgid "Info"
+msgstr "Info"
+
+#. module: builder
+#: view:builder.ir.cron:builder.builder_ir_cron_form_view
+#: field:builder.ir.model,info:0
+#: view:builder.ir.module.module:builder.module_form
+msgid "Information"
+msgstr "Сведения"
+
+#. module: builder
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+#: field:builder.ir.model,inherit_model_ids:0
+#: view:builder.ir.ui.view:builder.builder_ir_ui_view_form
+#: field:builder.ir.ui.view,inherit_view:0
+#: view:builder.views.calendar:builder.view_builder_views_calendar
+#: view:builder.views.form:builder.view_builder_views_form
+#: view:builder.views.gantt:builder.view_builder_views_gantt
+#: view:builder.views.graph:builder.view_builder_views_graph
+#: view:builder.views.kanban:builder.view_builder_views_kanban
+#: view:builder.views.search:builder.view_builder_views_search
+#: field:builder.views.selector,inherit_view:0
+#: view:builder.views.tree:builder.view_builder_views_tree
+msgid "Inherit"
+msgstr "Inherit"
+
+#. module: builder
+#: field:builder.website.asset,attr_inherit_id:0
+#: field:builder.website.page,attr_inherit_id:0
+msgid "Inherit Asset"
+msgstr "Inherit Asset"
+
+#. module: builder
+#: field:builder.ir.ui.view.inherit.change,inherit_view_position:0
+msgid "Inherit Position"
+msgstr "Inherit Position"
+
+#. module: builder
+#: field:builder.ir.ui.view.inherit.change,inherit_view_target:0
+msgid "Inherit Target"
+msgstr "Inherit Target"
+
+#. module: builder
+#: field:builder.ir.model,inherit_type:0
+msgid "Inherit Type"
+msgstr "Inherit Type"
+
+#. module: builder
+#: field:builder.ir.ui.view,inherit_view_id:0
+#: field:builder.views.selector,inherit_view_id:0
+msgid "Inherit View"
+msgstr "Inherit View"
+
+#. module: builder
+#: field:builder.ir.ui.view,inherit_view_ref:0
+#: field:builder.views.selector,inherit_view_ref:0
+msgid "Inherit View Ref"
+msgstr "Inherit View Ref"
+
+#. module: builder
+#: field:builder.ir.ui.view,inherit_children_ids:0
+msgid "Inherit Views"
+msgstr "Inherit Views"
+
+#. module: builder
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+msgid "Inheritance"
+msgstr "Inheritance"
+
+#. module: builder
+#: field:builder.ir.model,is_inherited:0
+#: field:builder.ir.model.fields,is_inherited:0
+#: field:builder.res.config.settings.field,is_inherited:0
+#: view:builder.res.groups:builder.builder_res_groups_form_view
+#: field:builder.res.groups,inherited:0
+msgid "Inherited"
+msgstr "Inherited"
+
+#. module: builder
+#: field:builder.ir.ui.view,inherit_id:0
+msgid "Inherited View"
+msgstr "Inherited View"
+
+#. module: builder
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+#: field:builder.ir.model,inherits_model_ids:0
+#: field:builder.res.groups,implied_ids:0
+msgid "Inherits"
+msgstr "Inherits"
+
+#. module: builder
+#: selection:builder.ir.actions.act_window,target:0
+msgid "Inline Edit"
+msgstr "Inline Edit"
+
+#. module: builder
+#: view:website:builder.snippet_form
+msgid "Inline Images"
+msgstr "Inline Images"
+
+#. module: builder
+#: selection:builder.ir.actions.act_window,target:0
+msgid "Inline View"
+msgstr "Inline View"
+
+#. module: builder
+#: field:builder.model.data.attribute,name:0
+msgid "Input Attribute"
+msgstr "Input Attribute"
+
+#. module: builder
+#: selection:builder.ir.ui.view.inherit.change,inherit_view_position:0
+msgid "Inside"
+msgstr "Inside"
+
+#. module: builder
+#: selection:builder.ir.model.method,type:0
+msgid "Instance Method"
+msgstr "Instance Method"
+
+#. module: builder
+#: view:builder.ir.rule:builder.builder_ir_rule_form_view
+msgid "Interaction between rules"
+msgstr "Interaction between rules"
+
+#. module: builder
+#: field:builder.views.graph.field,interval:0
+msgid "Interval"
+msgstr "Interval"
+
+#. module: builder
+#: field:builder.ir.cron,interval_number:0
+msgid "Interval Number"
+msgstr "Interval Number"
+
+#. module: builder
+#: field:builder.ir.cron,interval_type:0
+msgid "Interval Unit"
+msgstr "Interval Unit"
+
+#. module: builder
+#: constraint:builder.ir.cron:0
+msgid "Invalid arguments"
+msgstr "Invalid arguments"
+
+#. module: builder
+#: field:builder.ir.model.fields,allow_inverse:0
+#: field:builder.res.config.settings.field,allow_inverse:0
+msgid "Inverse"
+msgstr "Inverse"
+
+#. module: builder
+#: field:builder.ir.model.fields,inverse_method_name:0
+#: field:builder.res.config.settings.field,inverse_method_name:0
+msgid "Inverse Method Name"
+msgstr "Inverse Method Name"
+
+#. module: builder
+#: field:builder.views.calendar.field,invisible:0
+#: field:builder.views.form.field,invisible:0
+#: field:builder.views.kanban.field,invisible:0
+#: field:builder.views.tree.field,invisible:0
+msgid "Invisible"
+msgstr "Invisible"
+
+#. module: builder
+#: field:builder.views.form.field,invisible_condition:0
+msgid "Invisible Condition"
+msgstr "Invisible Condition"
+
+#. module: builder
+#: field:builder.data.file,is_image:0
+msgid "Is Image"
+msgstr "Is Image"
+
+#. module: builder
+#: field:builder.views.form.field,in_header:0
+msgid "Is field in Header?"
+msgstr "Is field in Header?"
+
+#. module: builder
+#: view:website:builder.snippet_form
+msgid "Is important to set"
+msgstr "Is important to set"
+
+#. module: builder
+#: field:builder.views.calendar,field_ids:0
+#: field:builder.views.form,field_ids:0 field:builder.views.gantt,field_ids:0
+#: field:builder.views.graph,field_ids:0
+#: field:builder.views.kanban,field_ids:0
+#: view:builder.views.search:builder.view_builder_views_search
+#: view:builder.views.search.field:builder.act_builder_wizard_views_search_field
+#: field:builder.web.asset,item_ids:0 field:builder.website.asset,item_ids:0
+#: field:builder.website.theme,item_ids:0
+msgid "Items"
+msgstr "Items"
+
+#. module: builder
+#: selection:builder.ir.model.demo.generator.name,name_type:0
+msgid "Jane (female name)"
+msgstr "Jane (female name)"
+
+#. module: builder
+#: selection:builder.ir.model.demo.generator.name,name_type:0
+msgid "Jane Smith"
+msgstr "Jane Smith"
+
+#. module: builder
+#: selection:builder.ir.model.demo.generator.name,name_type:0
+msgid "John (male name)"
+msgstr "John (male name)"
+
+#. module: builder
+#: selection:builder.ir.model.demo.generator.name,name_type:0
+msgid "John Smith"
+msgstr "John Smith"
+
+#. module: builder
+#: field:builder.workflow.activity,join_mode:0
+msgid "Join Mode"
+msgstr "Join Mode"
+
+#. module: builder
+#: selection:builder.ir.ui.view,type:0 selection:builder.views.selector,type:0
+msgid "Kanban"
+msgstr "Kanban"
+
+#. module: builder
+#: code:addons/builder/models/views/base.py:108
+#, python-format
+msgid "Kanban View View"
+msgstr "Kanban View View"
+
+#. module: builder
+#: model:ir.actions.act_window,name:builder.act_builder_wizard_views_kanban
+msgid "Kanban Wizard"
+msgstr "Kanban Wizard"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "KanbanSelection"
+msgstr "KanbanSelection"
+
+#. module: builder
+#: field:builder.workflow.activity,kind:0
+msgid "Kind"
+msgstr "Kind"
+
+#. module: builder
+#: view:builder.lambda:builder.builder_lambda_form_view
+#: field:builder.model.data.change,lambda_id:0
+msgid "Lambda"
+msgstr "Lambda"
+
+#. module: builder
+#: view:builder.lambda:builder.builder_lambda_tree_view
+#: model:ir.actions.act_window,name:builder.act_builder_lambda
+msgid "Lambdas"
+msgstr "Lambdas"
+
+#. module: builder
+#: field:builder.data.file,write_uid:0
+#: field:builder.data.import.wizard,write_uid:0
+#: field:builder.exchanger.base,write_uid:0
+#: field:builder.exchanger.json,write_uid:0
+#: field:builder.generator.base,write_uid:0
+#: field:builder.generator.v8,write_uid:0
+#: field:builder.ir.action.lookup.wizard,write_uid:0
+#: field:builder.ir.actions.act_url,write_uid:0
+#: field:builder.ir.actions.act_window,write_uid:0
+#: field:builder.ir.actions.actions,write_uid:0
+#: field:builder.ir.cron,write_uid:0 field:builder.ir.model,write_uid:0
+#: field:builder.ir.model.access,write_uid:0
+#: field:builder.ir.model.access.generate.wizard,write_uid:0
+#: field:builder.ir.model.demo.creator.wizard,write_uid:0
+#: field:builder.ir.model.demo.generator,write_uid:0
+#: field:builder.ir.model.demo.generator.autoincrement,write_uid:0
+#: field:builder.ir.model.demo.generator.binary,write_uid:0
+#: field:builder.ir.model.demo.generator.custom_list,write_uid:0
+#: field:builder.ir.model.demo.generator.date,write_uid:0
+#: field:builder.ir.model.demo.generator.email,write_uid:0
+#: field:builder.ir.model.demo.generator.m2m,write_uid:0
+#: field:builder.ir.model.demo.generator.m2o,write_uid:0
+#: field:builder.ir.model.demo.generator.name,write_uid:0
+#: field:builder.ir.model.demo.generator.normal_distribution,write_uid:0
+#: field:builder.ir.model.demo.generator.randomstr,write_uid:0
+#: field:builder.ir.model.demo.generator.selection,write_uid:0
+#: field:builder.ir.model.fields,write_uid:0
+#: field:builder.ir.model.fields.option,write_uid:0
+#: field:builder.ir.model.fields.state,write_uid:0
+#: field:builder.ir.model.import.line,write_uid:0
+#: field:builder.ir.model.import.wizard,write_uid:0
+#: field:builder.ir.model.inherit,write_uid:0
+#: field:builder.ir.model.inherits,write_uid:0
+#: field:builder.ir.model.lookup.wizard,write_uid:0
+#: field:builder.ir.model.method,write_uid:0
+#: field:builder.ir.module.dependency,write_uid:0
+#: field:builder.ir.module.export.wizard,write_uid:0
+#: field:builder.ir.module.module,write_uid:0
+#: field:builder.ir.module.module.generate.wizard,write_uid:0
+#: field:builder.ir.module.module.import.wizard,write_uid:0
+#: field:builder.ir.rule,write_uid:0 field:builder.ir.ui.menu,write_uid:0
+#: field:builder.ir.ui.menu.lookup.wizard,write_uid:0
+#: field:builder.ir.ui.view,write_uid:0
+#: field:builder.ir.ui.view.inherit.change,write_uid:0
+#: field:builder.lambda,write_uid:0 field:builder.model.data,write_uid:0
+#: field:builder.model.data.attribute,write_uid:0
+#: field:builder.model.data.change,write_uid:0
+#: field:builder.res.config.settings,write_uid:0
+#: field:builder.res.config.settings.field,write_uid:0
+#: field:builder.res.groups,write_uid:0
+#: field:builder.res.groups.import.wizard,write_uid:0
+#: field:builder.views.calendar,write_uid:0
+#: field:builder.views.calendar.field,write_uid:0
+#: field:builder.views.form,write_uid:0
+#: field:builder.views.form.button,write_uid:0
+#: field:builder.views.form.field,write_uid:0
+#: field:builder.views.form.statusbar.button,write_uid:0
+#: field:builder.views.gantt,write_uid:0
+#: field:builder.views.gantt.field,write_uid:0
+#: field:builder.views.graph,write_uid:0
+#: field:builder.views.graph.field,write_uid:0
+#: field:builder.views.kanban,write_uid:0
+#: field:builder.views.kanban.field,write_uid:0
+#: field:builder.views.search,write_uid:0
+#: field:builder.views.search.field,write_uid:0
+#: field:builder.views.selector,write_uid:0
+#: field:builder.views.tree,write_uid:0
+#: field:builder.views.tree.field,write_uid:0
+#: field:builder.web.asset,write_uid:0
+#: field:builder.web.asset.item,write_uid:0
+#: field:builder.website.asset,write_uid:0
+#: field:builder.website.asset.data.wizard,write_uid:0
+#: field:builder.website.asset.item,write_uid:0
+#: field:builder.website.media.item,write_uid:0
+#: field:builder.website.media.item.bulk.add.wizard,write_uid:0
+#: field:builder.website.menu,write_uid:0
+#: field:builder.website.page,write_uid:0
+#: field:builder.website.page.import.wizard,write_uid:0
+#: field:builder.website.snippet,write_uid:0
+#: field:builder.website.theme,write_uid:0
+#: field:builder.website.theme.item,write_uid:0
+#: field:builder.workflow,write_uid:0
+#: field:builder.workflow.activity,write_uid:0
+#: field:builder.workflow.transition,write_uid:0
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: builder
+#: field:builder.data.file,write_date:0
+#: field:builder.data.import.wizard,write_date:0
+#: field:builder.exchanger.base,write_date:0
+#: field:builder.exchanger.json,write_date:0
+#: field:builder.generator.base,write_date:0
+#: field:builder.generator.v8,write_date:0
+#: field:builder.ir.action.lookup.wizard,write_date:0
+#: field:builder.ir.actions.act_url,write_date:0
+#: field:builder.ir.actions.act_window,write_date:0
+#: field:builder.ir.actions.actions,write_date:0
+#: field:builder.ir.cron,write_date:0 field:builder.ir.model,write_date:0
+#: field:builder.ir.model.access,write_date:0
+#: field:builder.ir.model.access.generate.wizard,write_date:0
+#: field:builder.ir.model.demo.creator.wizard,write_date:0
+#: field:builder.ir.model.demo.generator,write_date:0
+#: field:builder.ir.model.demo.generator.autoincrement,write_date:0
+#: field:builder.ir.model.demo.generator.binary,write_date:0
+#: field:builder.ir.model.demo.generator.custom_list,write_date:0
+#: field:builder.ir.model.demo.generator.date,write_date:0
+#: field:builder.ir.model.demo.generator.email,write_date:0
+#: field:builder.ir.model.demo.generator.m2m,write_date:0
+#: field:builder.ir.model.demo.generator.m2o,write_date:0
+#: field:builder.ir.model.demo.generator.name,write_date:0
+#: field:builder.ir.model.demo.generator.normal_distribution,write_date:0
+#: field:builder.ir.model.demo.generator.randomstr,write_date:0
+#: field:builder.ir.model.demo.generator.selection,write_date:0
+#: field:builder.ir.model.fields,write_date:0
+#: field:builder.ir.model.fields.option,write_date:0
+#: field:builder.ir.model.fields.state,write_date:0
+#: field:builder.ir.model.import.line,write_date:0
+#: field:builder.ir.model.import.wizard,write_date:0
+#: field:builder.ir.model.inherit,write_date:0
+#: field:builder.ir.model.inherits,write_date:0
+#: field:builder.ir.model.lookup.wizard,write_date:0
+#: field:builder.ir.model.method,write_date:0
+#: field:builder.ir.module.dependency,write_date:0
+#: field:builder.ir.module.export.wizard,write_date:0
+#: field:builder.ir.module.module,write_date:0
+#: field:builder.ir.module.module.generate.wizard,write_date:0
+#: field:builder.ir.module.module.import.wizard,write_date:0
+#: field:builder.ir.rule,write_date:0 field:builder.ir.ui.menu,write_date:0
+#: field:builder.ir.ui.menu.lookup.wizard,write_date:0
+#: field:builder.ir.ui.view,write_date:0
+#: field:builder.ir.ui.view.inherit.change,write_date:0
+#: field:builder.lambda,write_date:0 field:builder.model.data,write_date:0
+#: field:builder.model.data.attribute,write_date:0
+#: field:builder.model.data.change,write_date:0
+#: field:builder.res.config.settings,write_date:0
+#: field:builder.res.config.settings.field,write_date:0
+#: field:builder.res.groups,write_date:0
+#: field:builder.res.groups.import.wizard,write_date:0
+#: field:builder.views.calendar,write_date:0
+#: field:builder.views.calendar.field,write_date:0
+#: field:builder.views.form,write_date:0
+#: field:builder.views.form.button,write_date:0
+#: field:builder.views.form.field,write_date:0
+#: field:builder.views.form.statusbar.button,write_date:0
+#: field:builder.views.gantt,write_date:0
+#: field:builder.views.gantt.field,write_date:0
+#: field:builder.views.graph,write_date:0
+#: field:builder.views.graph.field,write_date:0
+#: field:builder.views.kanban,write_date:0
+#: field:builder.views.kanban.field,write_date:0
+#: field:builder.views.search,write_date:0
+#: field:builder.views.search.field,write_date:0
+#: field:builder.views.selector,write_date:0
+#: field:builder.views.tree,write_date:0
+#: field:builder.views.tree.field,write_date:0
+#: field:builder.web.asset,write_date:0
+#: field:builder.web.asset.item,write_date:0
+#: field:builder.website.asset,write_date:0
+#: field:builder.website.asset.data.wizard,write_date:0
+#: field:builder.website.asset.item,write_date:0
+#: field:builder.website.media.item,write_date:0
+#: field:builder.website.media.item.bulk.add.wizard,write_date:0
+#: field:builder.website.menu,write_date:0
+#: field:builder.website.page,write_date:0
+#: field:builder.website.page.import.wizard,write_date:0
+#: field:builder.website.snippet,write_date:0
+#: field:builder.website.theme,write_date:0
+#: field:builder.website.theme.item,write_date:0
+#: field:builder.workflow,write_date:0
+#: field:builder.workflow.activity,write_date:0
+#: field:builder.workflow.transition,write_date:0
+msgid "Last Updated on"
+msgstr "Last Updated on"
+
+#. module: builder
+#: selection:builder.website.theme,type:0
+msgid "Layout"
+msgstr "Layout"
+
+#. module: builder
+#: view:website:builder.snippet_form
+msgid "Left"
+msgstr "Left"
+
+#. module: builder
+#: field:builder.ir.module.module,license:0
+msgid "License"
+msgstr "License"
+
+#. module: builder
+#: field:builder.ir.actions.act_window,limit:0
+msgid "Limit"
+msgstr "Limit"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Limited support"
+msgstr "Ограниченная поддержка"
+
+#. module: builder
+#: selection:builder.views.graph,attr_type:0
+msgid "Line"
+msgstr "Line"
+
+#. module: builder
+#: help:builder.ir.model.fields,selection:0
+#: help:builder.res.config.settings.field,selection:0
+msgid ""
+"List of options for a selection field, specified as a Python expression "
+"defining a list of (key, label) pairs. For example: [('blue','Blue'),"
+"('yellow','Yellow')]"
+msgstr ""
+"List of options for a selection field, specified as a Python expression "
+"defining a list of (key, label) pairs. For example: [('blue','Blue'),"
+"('yellow','Yellow')]"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.custom_list,list_type:0
+msgid "List type"
+msgstr "List type"
+
+#. module: builder
+#: field:builder.ir.action.lookup.wizard,lookup_mode:0
+#: field:builder.ir.model.lookup.wizard,lookup_mode:0
+#: field:builder.ir.ui.menu.lookup.wizard,lookup_mode:0
+msgid "Lookup Mode"
+msgstr "Lookup Mode"
+
+#. module: builder
+#: field:builder.ir.action.lookup.wizard,lookup_value:0
+#: field:builder.ir.model.lookup.wizard,lookup_value:0
+#: field:builder.ir.ui.menu.lookup.wizard,lookup_value:0
+msgid "Lookup Value"
+msgstr "Lookup Value"
+
+#. module: builder
+#: field:builder.views.form.field,group_name:0
+msgid "Main Group Name"
+msgstr "Main Group Name"
+
+#. module: builder
+#: field:builder.ir.module.module,maintainer:0
+msgid "Maintainer"
+msgstr "Maintainer"
+
+#. module: builder
+#: model:ir.model,name:builder.model_builder_ir_model_demo_generator_m2m
+msgid "Many2Many Generator"
+msgstr "Many2Many Generator"
+
+#. module: builder
+#: model:ir.model,name:builder.model_builder_ir_model_demo_generator_m2o
+msgid "Many2One Generator"
+msgstr "Many2One Generator"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "Many2OneButton"
+msgstr "Many2OneButton"
+
+#. module: builder
+#: selection:builder.ir.model.demo.generator.custom_list,list_type:0
+msgid "Marital Status"
+msgstr "Marital Status"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.date,max_days_diff:0
+msgid "Max Days"
+msgstr "Max Days"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.m2m,max_reference_count:0
+msgid "Max Reference Count"
+msgstr "Max Reference Count"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.randomstr,max_word_count:0
+msgid "Maximum Word Count"
+msgstr "Maximum Word Count"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.randomstr,max_word_length:0
+msgid "Maximum Word Length"
+msgstr "Maximum Word Length"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.normal_distribution,mean:0
+msgid "Mean"
+msgstr "Mean"
+
+#. module: builder
+#: field:builder.data.file,media_item_ids:0
+msgid "Media Files"
+msgstr "Media Files"
+
+#. module: builder
+#: view:builder.website.media.item:builder.builder_website_media_item_form
+#: view:builder.website.media.item:builder.builder_website_media_item_tree
+msgid "Media Item"
+msgstr "Media Item"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.module_form
+#: field:builder.ir.module.module,website_media_item_ids:0
+msgid "Media Items"
+msgstr "Media Items"
+
+#. module: builder
+#: code:addons/builder/models/module.py:441
+#: view:builder.ir.module.module:builder.module_form
+#, python-format
+msgid "Media Manager"
+msgstr "Media Manager"
+
+#. module: builder
+#: field:builder.ir.module.module,website_menu_ids:0
+#: view:builder.ir.ui.menu:builder.builder_ir_ui_menu_form_view
+#: view:builder.ir.ui.menu:builder.builder_ir_ui_menu_tree_view
+#: field:builder.ir.ui.menu,name:0
+#: field:builder.ir.ui.menu.lookup.wizard,development_model_id:0
+#: field:builder.ir.ui.menu.lookup.wizard,system_model_id:0
+#: view:builder.website.menu:builder.builder_website_menu_form_view
+#: view:builder.website.menu:builder.builder_website_menu_tree_view
+#: model:ir.actions.act_window,name:builder.act_builder_ir_ui_menu
+msgid "Menu"
+msgstr "Menu"
+
+#. module: builder
+#: view:builder.ir.ui.menu.lookup.wizard:builder.builder_ir_menu_lookup_wizard_form_view
+#: model:ir.actions.act_window,name:builder.act_builder_ir_menu_lookup_wizard
+msgid "Menu Lookup"
+msgstr "Menu Lookup"
+
+#. module: builder
+#: code:addons/builder/models/module.py:255
+#: view:builder.ir.module.module:builder.module_form
+#: field:builder.ir.module.module,menu_ids:0
+#: field:builder.ir.module.module,menus_by_module:0
+#: view:builder.ir.ui.menu:builder.builder_ir_ui_menu_form_view
+#: view:builder.res.groups:builder.builder_res_groups_form_view
+#, python-format
+msgid "Menus"
+msgstr "Menus"
+
+#. module: builder
+#: field:builder.ir.cron,model_method_id:0
+#: selection:builder.ir.model.fields,default_type:0
+msgid "Method"
+msgstr "Method"
+
+#. module: builder
+#: field:builder.views.form.button,method_name:0
+#: field:builder.views.form.statusbar.button,method_name:0
+msgid "Method Name"
+msgstr "Method Name"
+
+#. module: builder
+#: field:builder.ir.model.method,type:0
+msgid "Method Type"
+msgstr "Method Type"
+
+#. module: builder
+#: code:addons/builder/models/models.py:237
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+#: view:builder.ir.model.fields:builder.builder_ir_model_fields_form_diagram_view
+#: view:builder.ir.model.fields:builder.builder_ir_model_fields_form_view
+#, python-format
+msgid "Methods"
+msgstr "Methods"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.date,min_days_diff:0
+msgid "Min Days"
+msgstr "Min Days"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.m2m,min_reference_count:0
+msgid "Min Reference Count"
+msgstr "Min Reference Count"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.randomstr,min_word_count:0
+msgid "Minimum Word Count"
+msgstr "Minimum Word Count"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.randomstr,min_word_length:0
+msgid "Minimum Word Length"
+msgstr "Minimum Word Length"
+
+#. module: builder
+#: selection:builder.ir.cron,interval_type:0
+msgid "Minutes"
+msgstr "Minutes"
+
+#. module: builder
+#: selection:builder.ir.model,inherit_type:0
+msgid "Mixed"
+msgstr "Mixed"
+
+#. module: builder
+#: field:builder.views.form.field,related_field_mode:0
+#: field:builder.views.gantt,attr_mode:0
+msgid "Mode"
+msgstr "Mode"
+
+#. module: builder
+#: field:builder.ir.model,model:0
+#: field:builder.ir.model.demo.creator.wizard,model_id:0
+#: field:builder.ir.model.fields,model_id:0
+#: field:builder.ir.model.fields,relation_model_id:0
+#: field:builder.ir.model.import.line,model_id:0
+#: field:builder.ir.model.inherit,model_id:0
+#: field:builder.ir.model.inherit,module_model_id:0
+#: field:builder.ir.model.inherit,system_model_id:0
+#: field:builder.ir.model.inherit.template,model_id:0
+#: field:builder.ir.model.inherit.template,module_model_id:0
+#: field:builder.ir.model.inherit.template,system_model_id:0
+#: field:builder.ir.model.inherits,model_id:0
+#: field:builder.ir.model.inherits,module_model_id:0
+#: field:builder.ir.model.inherits,system_model_id:0
+#: field:builder.ir.model.lookup.wizard,development_model_id:0
+#: field:builder.ir.model.lookup.wizard,system_model_id:0
+#: field:builder.ir.model.method,model_id:0
+#: field:builder.model.data,model_id:0
+#: field:builder.res.config.settings,model:0
+#: field:builder.res.config.settings.field,default_model:0
+#: field:builder.res.config.settings.field,model_id:0
+#: field:builder.res.config.settings.field,relation_model_id:0
+#: field:builder.views.form.button,model_id:0
+#: field:builder.views.form.statusbar.button,model_id:0
+#: field:builder.views.selector,model_id:0 field:builder.workflow,model_id:0
+msgid "Model"
+msgstr "Model"
+
+#. module: builder
+#: selection:builder.views.form.button,type:0
+#: selection:builder.views.form.statusbar.button,type:0
+msgid "Model Action"
+msgstr "Model Action"
+
+#. module: builder
+#: field:builder.model.data.attribute,model_attr:0
+msgid "Model Attribute"
+msgstr "Model Attribute"
+
+#. module: builder
+#: view:builder.model.data:builder.builder_model_data_form_view
+#: view:builder.model.data:builder.builder_model_data_tree_view
+#: model:ir.actions.act_window,name:builder.act_builder_model_data
+msgid "Model Data"
+msgstr "Model Data"
+
+#. module: builder
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+#: view:builder.ir.model:builder.builder_ir_model_tree_view
+msgid "Model Description"
+msgstr "Model Description"
+
+#. module: builder
+#: field:builder.model.data,model:0
+msgid "Model ID"
+msgstr "Model ID"
+
+#. module: builder
+#: view:builder.ir.model.import.wizard:builder.builder_ir_model_import_wizard_form_view
+#: model:ir.actions.act_window,name:builder.act_builder_ir_model_import_wizard
+msgid "Model Import"
+msgstr "Model Import"
+
+#. module: builder
+#: view:builder.ir.model.inherit:builder.builder_ir_model_inherit_form_view
+msgid "Model Inherit"
+msgstr "Model Inherit"
+
+#. module: builder
+#: view:builder.ir.model.inherits:builder.builder_ir_model_inherits_form_view
+msgid "Model Inherits"
+msgstr "Model Inherits"
+
+#. module: builder
+#: model:ir.actions.act_window,name:builder.act_builder_ir_action_lookup_wizard
+#: model:ir.actions.act_window,name:builder.act_builder_ir_model_lookup_wizard
+msgid "Model Lookup"
+msgstr "Model Lookup"
+
+#. module: builder
+#: view:builder.ir.model.method:builder.builder_ir_model_method_form_view
+#: view:builder.ir.model.method:builder.builder_ir_model_method_tree_view
+#: selection:builder.ir.model.method,type:0
+#: model:ir.actions.act_window,name:builder.act_builder_ir_model_method
+msgid "Model Method"
+msgstr "Model Method"
+
+#. module: builder
+#: field:builder.ir.model.inherit,system_model_name:0
+#: field:builder.ir.model.inherit.template,system_model_name:0
+#: field:builder.ir.model.inherits,system_model_name:0
+msgid "Model Name"
+msgstr "Model Name"
+
+#. module: builder
+#: code:addons/builder/models/module.py:306
+#, python-format
+msgid "Model Rules"
+msgstr "Model Rules"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.module_form
+msgid "Model View"
+msgstr "Model View"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator,model_id:0
+#: field:builder.ir.ui.view,model_id:0
+msgid "Model id"
+msgstr "Model id"
+
+#. module: builder
+#: help:builder.ir.actions.act_window,model_id:0
+msgid "Model name of the object to open in the view window"
+msgstr "Model name of the object to open in the view window"
+
+#. module: builder
+#: help:builder.ir.cron,model_id:0
+msgid ""
+"Model name on which the method to be called is located, e.g. 'res.partner'."
+msgstr ""
+"Model name on which the method to be called is located, e.g. 'res.partner'."
+
+#. module: builder
+#: code:addons/builder/models/module.py:200
+#: field:builder.ir.model,method_ids:0
+#: view:builder.ir.model.access.generate.wizard:builder.builder_ir_model_access_generate_wizard_form_view
+#: field:builder.ir.model.access.generate.wizard,model_ids:0
+#: field:builder.ir.model.import.wizard,model_ids:0
+#: view:builder.ir.module.module:builder.module_form
+#: field:builder.ir.module.module,model_ids:0
+#: model:ir.actions.act_window,name:builder.act_builder_ir_model
+#: model:ir.model,name:builder.model_builder_ir_model
+#, python-format
+msgid "Models"
+msgstr "Модели"
+
+#. module: builder
+#: code:addons/builder/models/base.py:9 field:builder.data.file,module_id:0
+#: field:builder.ir.actions.act_url,module_id:0
+#: field:builder.ir.actions.act_window,module_id:0
+#: field:builder.ir.actions.actions,module_id:0
+#: field:builder.ir.cron,module_id:0 field:builder.ir.model,module_id:0
+#: field:builder.ir.model.access,module_id:0
+#: field:builder.ir.model.access.generate.wizard,module_id:0
+#: field:builder.ir.model.demo.generator,module_id:0
+#: selection:builder.ir.model.inherit,model_source:0
+#: selection:builder.ir.model.inherit.template,model_source:0
+#: selection:builder.ir.model.inherits,model_source:0
+#: field:builder.ir.module.dependency,module_id:0
+#: selection:builder.ir.module.dependency,type:0
+#: view:builder.ir.module.module:builder.module_form
+#: view:builder.ir.module.module:builder.view_module_filter
+#: field:builder.ir.rule,module_id:0
+#: selection:builder.ir.ui.menu,action_type:0
+#: field:builder.ir.ui.menu,module_id:0
+#: selection:builder.ir.ui.menu,parent_type:0
+#: field:builder.ir.ui.view,module_id:0 field:builder.model.data,module_id:0
+#: view:builder.res.config.settings:builder.builder_res_config_settings_form_view
+#: field:builder.res.config.settings,module_id:0
+#: view:builder.res.config.settings.field:builder.builder_res_config_settings_field_form_view
+#: selection:builder.res.config.settings.field,default_type:0
+#: selection:builder.res.config.settings.field,group_type:0
+#: field:builder.res.config.settings.field,toggle_module_id:0
+#: selection:builder.res.groups,category_type:0
+#: field:builder.res.groups,module_id:0
+#: field:builder.views.selector,module_id:0
+#: field:builder.web.asset,module_id:0 field:builder.website.asset,module_id:0
+#: field:builder.website.asset.data.wizard,module_id:0
+#: field:builder.website.media.item,module_id:0
+#: field:builder.website.media.item.bulk.add.wizard,module_id:0
+#: field:builder.website.menu,module_id:0
+#: field:builder.website.page,module_id:0
+#: field:builder.website.page.import.wizard,module_id:0
+#: field:builder.website.snippet,module_id:0
+#: field:builder.website.theme,module_id:0 field:builder.workflow,module_id:0
+#: selection:builder.workflow.activity,subflow_type:0
+#, python-format
+msgid "Module"
+msgstr "Module"
+
+#. module: builder
+#: field:builder.ir.ui.menu,action_module:0
+msgid "Module Action"
+msgstr "Module Action"
+
+#. module: builder
+#: model:ir.ui.menu,name:builder.menu_module_builder_main
+#: model:ir.ui.menu,name:builder.menu_module_builder_root
+msgid "Module Builder"
+msgstr "Module Builder"
+
+#. module: builder
+#: view:builder.data.import.wizard:builder.builder_data_import_wizard_form_view
+#: view:builder.ir.module.module.import.wizard:builder.builder_ir_module_module_import_wizard_form_view
+#: model:ir.actions.act_window,name:builder.act_builder_ir_module_module_import_wizard
+msgid "Module Import"
+msgstr "Module Import"
+
+#. module: builder
+#: code:addons/builder/models/base.py:11
+#: selection:builder.ir.module.dependency,type:0
+#: field:builder.ir.module.module,shortdesc:0
+#: field:builder.res.config.settings.field,toggle_module_name:0
+#, python-format
+msgid "Module Name"
+msgstr "Module Name"
+
+#. module: builder
+#: code:addons/builder/models/base.py:10
+#: selection:builder.ir.module.dependency,type:0
+#, python-format
+msgid "Module Project"
+msgstr "Module Project"
+
+#. module: builder
+#: selection:builder.res.config.settings.field,setting_field_type:0
+msgid "Module Toggle Field"
+msgstr "Module Toggle Field"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.module_tree
+#: model:ir.actions.act_window,name:builder.open_module_tree
+#: model:ir.ui.menu,name:builder.menu_module_builder_tree
+msgid "Modules"
+msgstr "Модули"
+
+#. module: builder
+#: view:builder.ir.module.export.wizard:builder.builder_ir_module_export_wizard_form_view
+msgid "Modules Export"
+msgstr "Modules Export"
+
+#. module: builder
+#: selection:builder.views.form.button,widget:0
+msgid "Monetary"
+msgstr "Monetary"
+
+#. module: builder
+#: selection:builder.views.gantt,attr_mode:0
+msgid "Month"
+msgstr "Month"
+
+#. module: builder
+#: selection:builder.ir.cron,interval_type:0
+msgid "Months"
+msgstr "Months"
+
+#. module: builder
+#: selection:builder.ir.model.demo.generator.name,name_type:0
+msgid "Mr. Alex Smith"
+msgstr "Mr. Alex Smith"
+
+#. module: builder
+#: view:builder.data.file:builder.view_builder_data_file_filter
+#: selection:builder.ir.action.lookup.wizard,lookup_mode:0
+#: field:builder.ir.actions.actions,name:0 field:builder.ir.cron,name:0
+#: field:builder.ir.model.access,name:0 field:builder.ir.model.fields,name:0
+#: field:builder.ir.model.fields.option,name:0
+#: selection:builder.ir.model.lookup.wizard,lookup_mode:0
+#: field:builder.ir.model.method,name:0 field:builder.ir.rule,name:0
+#: selection:builder.ir.ui.menu.lookup.wizard,lookup_mode:0
+#: field:builder.lambda,name:0 field:builder.model.data,name:0
+#: field:builder.res.config.settings.field,name:0
+#: field:builder.res.groups,name:0
+#: field:builder.views.abstract.field,view_id:0
+#: field:builder.views.form.button,name:0
+#: field:builder.views.form.statusbar.button,name:0
+#: field:builder.views.search.field,attr_name:0
+#: field:builder.web.asset,attr_name:0 field:builder.web.util.css.class,name:0
+#: field:builder.website.asset,attr_name:0 field:builder.website.menu,name:0
+#: field:builder.website.page,attr_name:0 field:builder.website.snippet,name:0
+#: field:builder.website.theme,attr_name:0 field:builder.workflow,name:0
+#: field:builder.workflow.activity,name:0 view:website:builder.snippet_form
+msgid "Name"
+msgstr "Имя"
+
+#. module: builder
+#: view:builder.ir.model.demo.generator.name:builder.builder_ir_model_demo_generator_name_form_view
+#: model:ir.actions.act_window,name:builder.act_builder_ir_model_demo_generator_name
+#: model:ir.model,name:builder.model_builder_ir_model_demo_generator_name
+msgid "Name Generator"
+msgstr "Name Generator"
+
+#. module: builder
+#: help:builder.ir.cron,model_method_id:0
+msgid "Name of the method to be called when this job is processed."
+msgstr "Name of the method to be called when this job is processed."
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.name,name_type:0
+msgid "Name type"
+msgstr "Name type"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.name,name_type_schema:0
+msgid "Name type schema"
+msgstr "Name type schema"
+
+#. module: builder
+#: selection:builder.ir.actions.act_url,target:0
+#: selection:builder.ir.actions.act_window,target:0
+msgid "New Window"
+msgstr "New Window"
+
+#. module: builder
+#: view:builder.views.selector:builder.view_builder_views_selector
+msgid "Next"
+msgstr "Next"
+
+#. module: builder
+#: field:builder.ir.cron,nextcall:0
+msgid "Next Execution Date"
+msgstr "Next Execution Date"
+
+#. module: builder
+#: help:builder.ir.cron,nextcall:0
+msgid "Next planned execution date for this job."
+msgstr "Next planned execution date for this job."
+
+#. module: builder
+#: selection:builder.views.form.field,related_field_tree_editable:0
+msgid "No Editable"
+msgstr "No Editable"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "No support"
+msgstr "Нет поддержки"
+
+#. module: builder
+#: view:builder.ir.model.demo.generator.normal_distribution:builder.builder_ir_model_demo_generator_normal_form_view
+#: model:ir.actions.act_window,name:builder.act_builder_ir_model_demo_generator_normal
+#: model:ir.model,name:builder.model_builder_ir_model_demo_generator_normal_distribution
+msgid "Normal Distribution Generator"
+msgstr "Normal Distribution Generator"
+
+#. module: builder
+#: selection:builder.res.config.settings.field,setting_field_type:0
+msgid "Normal Field"
+msgstr "Normal Field"
+
+#. module: builder
+#: view:builder.data.file:builder.view_builder_data_file_filter
+msgid "Not Image"
+msgstr "Not Image"
+
+#. module: builder
+#: selection:builder.ir.model.fields.state,readonly:0
+msgid "Not Readonly"
+msgstr "Not Readonly"
+
+#. module: builder
+#: selection:builder.ir.model.fields.state,required:0
+msgid "Not Required"
+msgstr "Not Required"
+
+#. module: builder
+#: selection:builder.ir.model.fields,select_level:0
+#: selection:builder.res.config.settings.field,select_level:0
+msgid "Not Searchable"
+msgstr "Not Searchable"
+
+#. module: builder
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+#: view:builder.res.groups:builder.builder_res_groups_form_view
+msgid "Notes"
+msgstr "Notes"
+
+#. module: builder
+#: field:builder.ir.cron,numbercall:0
+msgid "Number of Calls"
+msgstr "Number of Calls"
+
+#. module: builder
+#: field:builder.ir.cron,model_id:0 field:builder.ir.model.access,model_id:0
+#: field:builder.ir.rule,model_id:0
+msgid "Object"
+msgstr "Object"
+
+#. module: builder
+#: field:builder.ir.model.fields,relation:0
+#: field:builder.res.config.settings.field,relation:0
+msgid "Object Relation"
+msgstr "Object Relation"
+
+#. module: builder
+#: model:ir.model,name:builder.model_builder_exchanger_json
+msgid "Odoo Builder JSON"
+msgstr "Odoo Builder JSON"
+
+#. module: builder
+#: selection:builder.ir.model.method,type:0
+msgid "On Change"
+msgstr "On Change"
+
+#. module: builder
+#: field:builder.workflow,on_create:0
+msgid "On Create"
+msgstr "On Create"
+
+#. module: builder
+#: field:builder.ir.model.fields,on_delete:0
+#: field:builder.res.config.settings.field,on_delete:0
+msgid "On Delete"
+msgstr "On Delete"
+
+#. module: builder
+#: help:builder.ir.model.fields,on_delete:0
+#: help:builder.res.config.settings.field,on_delete:0
+msgid "On delete property for many2one fields"
+msgstr "On delete property for many2one fields"
+
+#. module: builder
+#: field:builder.views.graph.field,operator:0
+#: field:builder.views.search.field,attr_operator:0
+msgid "Operator"
+msgstr "Operator"
+
+#. module: builder
+#: view:builder.views.graph:builder.view_builder_views_graph
+#: view:builder.views.kanban:builder.view_builder_views_kanban
+msgid "Option"
+msgstr "Option"
+
+#. module: builder
+#: help:builder.ir.actions.act_window,domain:0
+msgid ""
+"Optional domain filtering of the destination data, as a Python expression"
+msgstr ""
+"Optional domain filtering of the destination data, as a Python expression"
+
+#. module: builder
+#: help:builder.ir.actions.act_url,help:0
+#: help:builder.ir.actions.actions,help:0
+msgid ""
+"Optional help text for the users with a description of the target view, such "
+"as its usage and purpose."
+msgstr ""
+"Optional help text for the users with a description of the target view, such "
+"as its usage and purpose."
+
+#. module: builder
+#: help:builder.ir.actions.act_window,src_model:0
+msgid ""
+"Optional model name of the objects on which this action should be visible"
+msgstr ""
+"Optional model name of the objects on which this action should be visible"
+
+#. module: builder
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+#: view:builder.ir.model.fields:builder.builder_ir_model_fields_form_diagram_view
+#: view:builder.ir.model.fields:builder.builder_ir_model_fields_form_view
+#: field:builder.ir.model.fields,option_ids:0
+#: view:builder.ir.model.fields.option:builder.builder_ir_model_fields_option_form_view
+#: field:builder.res.config.settings.field,option_ids:0
+#: view:builder.views.calendar:builder.view_builder_views_calendar
+#: view:builder.views.form:builder.view_builder_views_form
+#: view:builder.views.gantt:builder.view_builder_views_gantt
+#: view:builder.views.tree:builder.view_builder_views_tree
+#: view:builder.website.snippet:builder.builder_website_snippet_form_view
+#: view:website:builder.snippet_form
+msgid "Options"
+msgstr "Опции"
+
+#. module: builder
+#: help:builder.ir.model.demo.generator.selection,selection_options:0
+msgid "Options separated by '|'. "
+msgstr "Options separated by '|'. "
+
+#. module: builder
+#: selection:builder.workflow.activity,split_mode:0
+msgid "Or"
+msgstr "Or"
+
+#. module: builder
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+#: field:builder.ir.model,order_field_ids:0
+#: field:builder.ir.model.fields,order:0 field:builder.ir.ui.menu,morder:0
+#: field:builder.res.config.settings.field,order:0
+msgid "Order"
+msgstr "Order"
+
+#. module: builder
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+msgid "Order Fields"
+msgstr "Order Fields"
+
+#. module: builder
+#: field:builder.ir.model.fields,order_priority:0
+#: field:builder.res.config.settings.field,order_priority:0
+msgid "Order Priority"
+msgstr "Order Priority"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Order now"
+msgstr "Заказать сейчас"
+
+#. module: builder
+#: field:builder.views.graph,attr_orientation:0
+msgid "Orientation"
+msgstr "Orientation"
+
+#. module: builder
+#: selection:builder.website.theme,type:0
+msgid "Other"
+msgstr "Other"
+
+#. module: builder
+#: selection:builder.ir.module.module,license:0
+msgid "Other OSI Approved Licence"
+msgstr "Other OSI Approved Licence"
+
+#. module: builder
+#: selection:builder.ir.module.module,license:0
+msgid "Other Proprietary"
+msgstr "Other Proprietary"
+
+#. module: builder
+#: view:builder.views.calendar:builder.view_builder_views_calendar
+#: view:builder.views.gantt:builder.view_builder_views_gantt
+msgid "Other Settings"
+msgstr "Other Settings"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Our Offers"
+msgstr "Наши предложения"
+
+#. module: builder
+#: view:builder.workflow.activity:builder.builder_view_workflow_activity_form
+#: field:builder.workflow.activity,out_transitions:0
+msgid "Outgoing Transitions"
+msgstr "Outgoing Transitions"
+
+#. module: builder
+#: field:builder.views.form.field,page:0 field:builder.website.menu,page_id:0
+#: view:builder.website.page:builder.builder_website_page_form_view
+#: view:builder.website.page:builder.builder_website_page_tree_view
+#: field:builder.website.page,attr_page:0
+msgid "Page"
+msgstr "Page"
+
+#. module: builder
+#: model:ir.actions.act_window,name:builder.act_builder_website_page_import_wizard
+msgid "Page Import"
+msgstr "Page Import"
+
+#. module: builder
+#: code:addons/builder/models/module.py:390
+#: view:builder.ir.module.module:builder.module_form
+#: field:builder.ir.module.module,website_page_ids:0
+#: field:builder.website.page.import.wizard,page_ids:0
+#, python-format
+msgid "Pages"
+msgstr "Pages"
+
+#. module: builder
+#: field:builder.model.data.change,parameters:0
+msgid "Parameters"
+msgstr "Parameters"
+
+#. module: builder
+#: code:addons/builder/models/fields.py:247
+#: code:addons/builder/models/fields.py:254
+#: field:builder.website.menu,parent_id:0
+#, python-format
+msgid "Parent"
+msgstr "Parent"
+
+#. module: builder
+#: field:builder.ir.model,special_parent_id_field_id:0
+msgid "Parent Field"
+msgstr "Parent Field"
+
+#. module: builder
+#: field:builder.ir.ui.menu,parent_left:0
+#: field:builder.ir.ui.menu,parent_right:0
+msgid "Parent Left"
+msgstr "Parent Left"
+
+#. module: builder
+#: field:builder.ir.ui.menu,parent_id:0
+msgid "Parent Menu"
+msgstr "Parent Menu"
+
+#. module: builder
+#: field:builder.ir.ui.menu,parent_type:0
+msgid "Parent Type"
+msgstr "Parent Type"
+
+#. module: builder
+#: view:builder.data.file:builder.view_builder_data_file_filter
+#: field:builder.data.file,path:0
+msgid "Path"
+msgstr "Path"
+
+#. module: builder
+#: field:builder.data.import.wizard,path_prefix:0
+msgid "Path Prefix"
+msgstr "Path Prefix"
+
+#. module: builder
+#: selection:builder.views.form.button,widget:0
+msgid "Percent Pie"
+msgstr "Percent Pie"
+
+#. module: builder
+#: selection:builder.views.graph,attr_type:0
+msgid "Pie"
+msgstr "Pie"
+
+#. module: builder
+#: selection:builder.views.graph,attr_type:0
+msgid "Pivot"
+msgstr "Pivot"
+
+#. module: builder
+#: field:builder.ir.model.fields,position:0
+#: field:builder.res.config.settings.field,position:0
+msgid "Position"
+msgstr "Position"
+
+#. module: builder
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+#: view:builder.ir.model.fields:builder.builder_ir_model_fields_form_diagram_view
+#: view:builder.ir.model.fields:builder.builder_ir_model_fields_form_view
+#: view:builder.res.config.settings:builder.builder_res_config_settings_form_view
+#: view:builder.res.config.settings.field:builder.builder_res_config_settings_field_form_view
+msgid "Precision"
+msgstr "Precision"
+
+#. module: builder
+#: field:builder.ir.cron,priority:0
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+#: field:builder.web.asset,attr_priority:0
+#: field:builder.website.asset,attr_priority:0
+#: field:builder.website.page,attr_priority:0
+msgid "Priority"
+msgstr "Priority"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Professional"
+msgstr "Профессионал"
+
+#. module: builder
+#: selection:builder.views.form.button,widget:0
+msgid "Progress Bar"
+msgstr "Progress Bar"
+
+#. module: builder
+#: field:builder.views.gantt,attr_progress_field_id:0
+msgid "Progress Field"
+msgstr "Progress Field"
+
+#. module: builder
+#: view:builder.workflow.activity:builder.builder_view_workflow_activity_form
+msgid "Properties"
+msgstr "Properties"
+
+#. module: builder
+#: selection:builder.ir.model,inherit_type:0
+msgid "Prototype"
+msgstr "Prototype"
+
+#. module: builder
+#: field:builder.workflow.activity,action:0
+msgid "Python Action"
+msgstr "Python Action"
+
+#. module: builder
+#: selection:builder.ir.ui.view,type:0
+msgid "QWeb"
+msgstr "QWeb"
+
+#. module: builder
+#: field:builder.views.calendar,attr_quick_add:0
+#: field:builder.views.kanban,attr_quick_create:0
+msgid "Quick Create"
+msgstr "Quick Create"
+
+#. module: builder
+#: view:builder.ir.model.demo.generator.randomstr:builder.builder_ir_model_demo_generator_randomstr_form_view
+#: model:ir.actions.act_window,name:builder.act_builder_ir_model_demo_generator_randomstr
+#: model:ir.model,name:builder.model_builder_ir_model_demo_generator_randomstr
+msgid "Random String"
+msgstr "Random String"
+
+#. module: builder
+#: field:builder.ir.model.access,perm_read:0
+#: field:builder.ir.model.access.generate.wizard,perm_read:0
+msgid "Read Access"
+msgstr "Read Access"
+
+#. module: builder
+#: field:builder.ir.model.fields,readonly:0
+#: field:builder.ir.model.fields.state,readonly:0
+#: selection:builder.ir.model.fields.state,readonly:0
+#: field:builder.res.config.settings.field,readonly:0
+#: field:builder.views.form.field,readonly:0
+#: field:builder.views.tree.field,readonly:0
+msgid "Readonly"
+msgstr "Readonly"
+
+#. module: builder
+#: field:builder.views.form.field,readonly_condition:0
+msgid "Readonly Condition"
+msgstr "Readonly Condition"
+
+#. module: builder
+#: field:builder.ir.actions.act_window,res_id:0
+msgid "Record ID"
+msgstr "Record ID"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.module_form
+msgid "Record Rules"
+msgstr "Record Rules"
+
+#. module: builder
+#: view:builder.ir.rule:builder.builder_ir_rule_form_view
+#: view:builder.ir.rule:builder.builder_ir_rule_tree_view
+msgid "Record rules"
+msgstr "Record rules"
+
+#. module: builder
+#: field:builder.ir.model.fields,redefine:0
+#: field:builder.res.config.settings.field,redefine:0
+msgid "Redefine"
+msgstr "Redefine"
+
+#. module: builder
+#: selection:builder.ir.action.lookup.wizard,lookup_mode:0
+#: selection:builder.ir.model.lookup.wizard,lookup_mode:0
+#: selection:builder.ir.ui.menu.lookup.wizard,lookup_mode:0
+msgid "Reference"
+msgstr "Reference"
+
+#. module: builder
+#: field:builder.ir.model,relation_field_ids:0
+msgid "Referenced By Fields"
+msgstr "Referenced By Fields"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.m2m,reference_list:0
+#: field:builder.ir.model.demo.generator.m2o,reference_list:0
+msgid "References"
+msgstr "References"
+
+#. module: builder
+#: field:builder.ir.model.fields,related:0
+#: field:builder.res.config.settings.field,related:0
+msgid "Related"
+msgstr "Related"
+
+#. module: builder
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+#: view:builder.ir.model.fields:builder.builder_ir_model_fields_form_diagram_view
+#: view:builder.ir.model.fields:builder.builder_ir_model_fields_form_view
+#: view:builder.res.config.settings:builder.builder_res_config_settings_form_view
+#: view:builder.res.config.settings.field:builder.builder_res_config_settings_field_form_view
+msgid "Relation"
+msgstr "Relation"
+
+#. module: builder
+#: field:builder.ir.model.fields,relation_field:0
+#: field:builder.res.config.settings.field,relation_field:0
+msgid "Relation Field"
+msgstr "Relation Field"
+
+#. module: builder
+#: field:builder.ir.model.fields,relation_many2many_relation:0
+#: field:builder.res.config.settings.field,relation_many2many_relation:0
+msgid "Relation Name"
+msgstr "Relation Name"
+
+#. module: builder
+#: field:builder.ir.model.import.wizard,relations_only:0
+msgid "Relations Only"
+msgstr "Relations Only"
+
+#. module: builder
+#: field:builder.ir.cron,doall:0
+msgid "Repeat Missed"
+msgstr "Repeat Missed"
+
+#. module: builder
+#: help:builder.ir.cron,interval_number:0
+msgid "Repeat every x."
+msgstr "Repeat every x."
+
+#. module: builder
+#: selection:builder.ir.ui.view.inherit.change,inherit_view_position:0
+msgid "Replace"
+msgstr "Replace"
+
+#. module: builder
+#: field:builder.ir.module.module,reports_by_module:0
+msgid "Reports"
+msgstr "Reports"
+
+#. module: builder
+#: field:builder.ir.model.fields,required:0
+#: field:builder.ir.model.fields.state,required:0
+#: selection:builder.ir.model.fields.state,required:0
+#: field:builder.res.config.settings.field,required:0
+#: field:builder.views.form.field,required:0
+msgid "Required"
+msgstr "Required"
+
+#. module: builder
+#: field:builder.views.form.field,required_condition:0
+msgid "Required Condition"
+msgstr "Required Condition"
+
+#. module: builder
+#: selection:builder.ir.model.fields,on_delete:0
+#: selection:builder.res.config.settings.field,on_delete:0
+msgid "Restrict"
+msgstr "Restrict"
+
+#. module: builder
+#: field:builder.ir.actions.act_window,multi:0
+msgid "Restrict to lists"
+msgstr "Restrict to lists"
+
+#. module: builder
+#: view:builder.model.data:builder.builder_model_data_form_view
+#: field:builder.model.data,result_file:0
+msgid "Result"
+msgstr "Result"
+
+#. module: builder
+#: field:builder.ir.model.fields,reverse_relation_field_description:0
+#: field:builder.res.config.settings.field,reverse_relation_field_description:0
+msgid "Reverse Relation Description"
+msgstr "Reverse Relation Description"
+
+#. module: builder
+#: field:builder.ir.model.fields,reverse_relation_name:0
+#: field:builder.res.config.settings.field,reverse_relation_name:0
+msgid "Reverse Relation Name"
+msgstr "Reverse Relation Name"
+
+#. module: builder
+#: field:builder.ir.model,rewrite_create_method:0
+msgid "Rewrite Create Method"
+msgstr "Rewrite Create Method"
+
+#. module: builder
+#: field:builder.ir.model,rewrite_unlink_method:0
+msgid "Rewrite Unlink Method"
+msgstr "Rewrite Unlink Method"
+
+#. module: builder
+#: field:builder.ir.model,rewrite_write_method:0
+msgid "Rewrite Write Method"
+msgstr "Rewrite Write Method"
+
+#. module: builder
+#: view:website:builder.snippet_form
+msgid "Right"
+msgstr "Right"
+
+#. module: builder
+#: field:builder.website.page,controller_route:0
+msgid "Route"
+msgstr "Route"
+
+#. module: builder
+#: view:builder.ir.rule:builder.builder_ir_rule_form_view
+msgid "Rule Definition (Domain Filter)"
+msgstr "Rule Definition (Domain Filter)"
+
+#. module: builder
+#: sql_constraint:builder.ir.rule:0
+msgid "Rule must have at least one checked access right !"
+msgstr "Rule must have at least one checked access right !"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.module_form
+#: field:builder.ir.module.module,rule_ids:0
+#: view:builder.res.groups:builder.builder_res_groups_form_view
+#: field:builder.res.groups,rule_groups:0
+#: model:ir.actions.act_window,name:builder.act_builder_ir_rule
+msgid "Rules"
+msgstr "Rules"
+
+#. module: builder
+#: constraint:builder.ir.rule:0
+msgid "Rules can not be applied on Transient models."
+msgstr "Rules can not be applied on Transient models."
+
+#. module: builder
+#: constraint:builder.ir.rule:0
+msgid "Rules can not be applied on the Record Rules model."
+msgstr "Rules can not be applied on the Record Rules model."
+
+#. module: builder
+#: view:builder.ir.model.demo.generator.autoincrement:builder.builder_ir_model_demo_generator_autoincrement_form_view
+#: view:builder.ir.model.demo.generator.binary:builder.builder_ir_model_demo_generator_binary_form_view
+#: view:builder.ir.model.demo.generator.custom_list:builder.builder_ir_model_demo_generator_custom_list_form_view
+#: view:builder.ir.model.demo.generator.date:builder.builder_ir_model_demo_generator_date_form_view
+#: view:builder.ir.model.demo.generator.email:builder.builder_ir_model_demo_generator_email_form_view
+#: view:builder.ir.model.demo.generator.m2m:builder.builder_ir_model_demo_generator_m2m_form_view
+#: view:builder.ir.model.demo.generator.m2o:builder.builder_ir_model_demo_generator_m2o_form_view
+#: view:builder.ir.model.demo.generator.name:builder.builder_ir_model_demo_generator_name_form_view
+#: view:builder.ir.model.demo.generator.normal_distribution:builder.builder_ir_model_demo_generator_normal_form_view
+#: view:builder.ir.model.demo.generator.randomstr:builder.builder_ir_model_demo_generator_randomstr_form_view
+#: view:builder.ir.model.demo.generator.selection:builder.builder_ir_model_demo_generator_selection_form_view
+#: view:builder.views.calendar:builder.view_builder_views_calendar
+#: view:builder.views.form:builder.view_builder_views_form
+#: view:builder.views.gantt:builder.view_builder_views_gantt
+#: view:builder.views.graph:builder.view_builder_views_graph
+#: view:builder.views.kanban:builder.view_builder_views_kanban
+#: view:builder.views.search:builder.view_builder_views_search
+#: view:builder.views.tree:builder.view_builder_views_tree
+#: view:website:builder.snippet_form
+msgid "Save"
+msgstr "Save"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Screen: 2.5 inch"
+msgstr "Экран: 2,5 дюйма"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Screen: 2.8 inch"
+msgstr "Экран: 2,8 дюймов"
+
+#. module: builder
+#: field:builder.ir.model.fields,allow_search:0
+#: selection:builder.ir.ui.view,type:0
+#: field:builder.res.config.settings.field,allow_search:0
+#: selection:builder.views.selector,type:0
+msgid "Search"
+msgstr "Search"
+
+#. module: builder
+#: field:builder.views.search,field_ids:0
+msgid "Search Items"
+msgstr "Search Items"
+
+#. module: builder
+#: field:builder.ir.model.fields,search_method_name:0
+#: field:builder.res.config.settings.field,search_method_name:0
+msgid "Search Method Name"
+msgstr "Search Method Name"
+
+#. module: builder
+#: field:builder.ir.actions.act_window,search_view_id:0
+msgid "Search View Ref."
+msgstr "Search View Ref."
+
+#. module: builder
+#: code:addons/builder/models/views/base.py:105
+#, python-format
+msgid "Search View View"
+msgstr "Search View View"
+
+#. module: builder
+#: view:builder.data.file:builder.view_builder_data_file_filter
+msgid "Search files"
+msgstr "Search files"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.view_module_filter
+msgid "Search modules"
+msgstr "Search modules"
+
+#. module: builder
+#: field:builder.ir.model.fields,select_level:0
+#: field:builder.res.config.settings.field,select_level:0
+msgid "Searchable"
+msgstr "Searchable"
+
+#. module: builder
+#: view:builder.ir.actions.act_window:builder.builder_ir_actions_act_window_form_view
+msgid "Security"
+msgstr "Security"
+
+#. module: builder
+#: view:builder.ir.action.lookup.wizard:builder.builder_ir_model_lookup_wizard_form_view
+#: view:builder.ir.ui.menu.lookup.wizard:builder.builder_ir_menu_lookup_wizard_form_view
+msgid "Select"
+msgstr "Select"
+
+#. module: builder
+#: field:builder.ir.model.fields,selectable:0
+#: field:builder.res.config.settings.field,selectable:0
+msgid "Selectable"
+msgstr "Selectable"
+
+#. module: builder
+#: view:builder.ir.model.demo.generator.selection:builder.builder_ir_model_demo_generator_selection_form_view
+#: model:ir.actions.act_window,name:builder.act_builder_ir_model_demo_generator_selection
+msgid "Selection Generator"
+msgstr "Selection Generator"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.selection,selection_options:0
+#: field:builder.ir.model.fields,selection:0
+#: field:builder.res.config.settings.field,selection:0
+msgid "Selection Options"
+msgstr "Selection Options"
+
+#. module: builder
+#: model:ir.model,name:builder.model_builder_ir_model_demo_generator_selection
+msgid "Selection Random Generator"
+msgstr "Selection Random Generator"
+
+#. module: builder
+#: field:builder.ir.ui.view.inherit.change,inherit_view_type:0
+msgid "Selection Type"
+msgstr "Selection Type"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Sell Online. Easily."
+msgstr "Продавать онлайн. Легко."
+
+#. module: builder
+#: selection:builder.views.search.field,type:0
+#: view:website:builder.page_designer_snippets
+msgid "Separator"
+msgstr "Разделитель"
+
+#. module: builder
+#: view:builder.ir.cron:builder.builder_ir_cron_tree_view
+#: field:builder.ir.model,sequence:0
+#: field:builder.ir.model.fields.option,sequence:0
+#: field:builder.ir.model.inherit,sequence:0
+#: field:builder.ir.model.inherit.template,sequence:0
+#: field:builder.ir.model.inherits,sequence:0
+#: field:builder.ir.module.module,sequence:0
+#: field:builder.ir.ui.menu,sequence:0 field:builder.ir.ui.view,priority:0
+#: field:builder.model.data.change,sequence:0
+#: field:builder.res.config.settings,sequence:0
+#: field:builder.res.groups,sequence:0
+#: field:builder.views.abstract.field,sequence:0
+#: field:builder.views.calendar.field,sequence:0
+#: field:builder.views.form.button,sequence:0
+#: field:builder.views.form.field,sequence:0
+#: field:builder.views.form.statusbar.button,sequence:0
+#: field:builder.views.gantt.field,sequence:0
+#: field:builder.views.graph.field,sequence:0
+#: field:builder.views.kanban.field,sequence:0
+#: field:builder.views.search.field,sequence:0
+#: field:builder.views.tree.field,sequence:0
+#: field:builder.web.asset.item,sequence:0
+#: field:builder.website.asset.item,sequence:0
+#: field:builder.website.menu,sequence:0
+#: field:builder.website.snippet,sequence:0
+#: field:builder.website.theme.item,sequence:0
+#: field:builder.workflow.transition,sequence:0
+msgid "Sequence"
+msgstr "Sequence"
+
+#. module: builder
+#: field:builder.ir.model,special_sequence_field_id:0
+msgid "Sequence Field"
+msgstr "Sequence Field"
+
+#. module: builder
+#: field:builder.workflow.activity,action_id:0
+msgid "Server Action"
+msgstr "Server Action"
+
+#. module: builder
+#: field:builder.workflow.activity,action_ref:0
+msgid "Server Action Ref"
+msgstr "Server Action Ref"
+
+#. module: builder
+#: selection:builder.ir.model.fields,on_delete:0
+#: selection:builder.res.config.settings.field,on_delete:0
+msgid "Set NULL"
+msgstr "Set NULL"
+
+#. module: builder
+#: field:builder.ir.model.import.line,set_inherited:0
+#: field:builder.ir.model.import.wizard,set_inherited:0
+#: field:builder.res.groups.import.wizard,set_inherited:0
+msgid "Set as Inherit"
+msgstr "Set as Inherit"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.module_form
+msgid "Setting Models"
+msgstr "Setting Models"
+
+#. module: builder
+#: field:builder.res.config.settings.field,setting_field_type:0
+msgid "Setting Type"
+msgstr "Setting Type"
+
+#. module: builder
+#: field:builder.ir.module.module,setting_ids:0
+msgid "Settings"
+msgstr "Settings"
+
+#. module: builder
+#: field:builder.views.form,show_header:0
+msgid "Show Header Bar"
+msgstr "Show Header Bar"
+
+#. module: builder
+#: field:builder.views.form,show_status_bar:0
+msgid "Show Status Bar"
+msgstr "Show Status Bar"
+
+#. module: builder
+#: field:builder.views.tree,attr_toolbar:0
+msgid "Show Toolbar"
+msgstr "Show Toolbar"
+
+#. module: builder
+#: field:builder.ir.ui.menu.lookup.wizard,show_type_selection:0
+msgid "Show Type Selection"
+msgstr "Show Type Selection"
+
+#. module: builder
+#: field:builder.workflow.transition,signal:0
+msgid "Signal (Button Name)"
+msgstr "Signal (Button Name)"
+
+#. module: builder
+#: field:builder.workflow.activity,signal_send:0
+msgid "Signal (subflow.*)"
+msgstr "Signal (subflow.*)"
+
+#. module: builder
+#: field:builder.data.file,size:0 field:builder.ir.model.fields,size:0
+#: field:builder.res.config.settings.field,size:0
+msgid "Size"
+msgstr "Size"
+
+#. module: builder
+#: selection:builder.ir.model.demo.generator.name,name_type:0
+msgid "Smith (surname)"
+msgstr "Smith (surname)"
+
+#. module: builder
+#: view:website:builder.snippet_form
+msgid "Snippet"
+msgstr "Snippet"
+
+#. module: builder
+#: view:website:builder.snippet_form
+msgid "Snippet HTML"
+msgstr "Snippet HTML"
+
+#. module: builder
+#: code:addons/builder/models/module.py:476
+#: view:builder.ir.module.module:builder.module_form
+#: field:builder.ir.module.module,website_snippet_ids:0
+#, python-format
+msgid "Snippets"
+msgstr "Snippets"
+
+#. module: builder
+#: field:builder.ir.model.inherit,model_source:0
+#: field:builder.ir.model.inherit.template,model_source:0
+#: field:builder.ir.model.inherits,model_source:0
+msgid "Source"
+msgstr "Source"
+
+#. module: builder
+#: field:builder.workflow.transition,act_from:0
+msgid "Source Activity"
+msgstr "Source Activity"
+
+#. module: builder
+#: field:builder.ir.actions.act_window,src_model:0
+msgid "Source Model"
+msgstr "Source Model"
+
+#. module: builder
+#: field:builder.website.snippet,source_url:0
+msgid "Source URL"
+msgstr "Source URL"
+
+#. module: builder
+#: help:builder.workflow.transition,act_from:0
+msgid ""
+"Source activity. When this activity is over, the condition is tested to "
+"determine if we can start the ACT_TO activity."
+msgstr ""
+"Source activity. When this activity is over, the condition is tested to "
+"determine if we can start the ACT_TO activity."
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.m2m,specify_references:0
+#: field:builder.ir.model.demo.generator.m2o,specify_references:0
+msgid "Specify References"
+msgstr "Specify References"
+
+#. module: builder
+#: help:builder.ir.cron,doall:0
+msgid ""
+"Specify if missed occurrences should be executed when the server restarts."
+msgstr ""
+"Specify if missed occurrences should be executed when the server restarts."
+
+#. module: builder
+#: field:builder.workflow.activity,split_mode:0
+msgid "Split Mode"
+msgstr "Split Mode"
+
+#. module: builder
+#: field:builder.views.graph,attr_stacked:0
+msgid "Stacked"
+msgstr "Stacked"
+
+#. module: builder
+#: field:builder.views.calendar,attr_date_start_ttype:0
+msgid "Start Date Field Type"
+msgstr "Start Date Field Type"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.autoincrement,start_number:0
+msgid "Start at"
+msgstr "Start at"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid ""
+"Start with the customer – find out what they want\n"
+"                                                    and give it to them."
+msgstr ""
+"Начните работу с клиентами – узнайте, чего они хотят,\n"
+"                                                    и дайте это им."
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Starter Package"
+msgstr "Стартовый пакет"
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "StatInfo"
+msgstr "StatInfo"
+
+#. module: builder
+#: field:builder.ir.model.fields.state,state_id:0
+msgid "State"
+msgstr "State"
+
+#. module: builder
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+#: view:builder.ir.model.fields:builder.builder_ir_model_fields_form_diagram_view
+#: view:builder.ir.model.fields:builder.builder_ir_model_fields_form_view
+#: field:builder.ir.model.fields,states_ids:0
+#: field:builder.res.config.settings.field,states_ids:0
+#: field:builder.views.form.button,states:0
+#: field:builder.views.form.field,states:0
+#: field:builder.views.form.statusbar.button,states:0
+msgid "States"
+msgstr "States"
+
+#. module: builder
+#: field:builder.views.form,states_clickable:0
+msgid "States Clickable"
+msgstr "States Clickable"
+
+#. module: builder
+#: field:builder.ir.model,special_states_field_id:0
+#: field:builder.res.config.settings.field,special_states_field_id:0
+msgid "States Field"
+msgstr "States Field"
+
+#. module: builder
+#: view:builder.views.form:builder.view_builder_views_form
+msgid "Status Bar"
+msgstr "Status Bar"
+
+#. module: builder
+#: field:builder.ir.model,status_bar_button_ids:0
+#: field:builder.views.form,statusbar_button_ids:0
+msgid "Status Bar Buttons"
+msgstr "Status Bar Buttons"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator.normal_distribution,stdev:0
+msgid "Std Deviation"
+msgstr "Std Deviation"
+
+#. module: builder
+#: selection:builder.workflow.activity,kind:0
+msgid "Stop All"
+msgstr "Stop All"
+
+#. module: builder
+#: field:builder.views.abstract.field,string:0
+#: field:builder.views.calendar.field,string:0
+#: field:builder.views.form.field,string:0
+#: field:builder.views.gantt.field,string:0
+#: field:builder.views.graph.field,string:0
+#: field:builder.views.kanban.field,string:0
+#: field:builder.views.search.field,attr_string:0
+#: field:builder.views.search.field,string:0
+#: field:builder.views.tree.field,string:0
+msgid "String"
+msgstr "String"
+
+#. module: builder
+#: selection:builder.website.snippet,category:0
+msgid "Structure"
+msgstr "Structure"
+
+#. module: builder
+#: field:builder.views.form.field,subgroup_:0
+msgid "Sub_Group Name"
+msgstr "Sub_Group Name"
+
+#. module: builder
+#: field:builder.ir.model.demo.generator,subclass_model:0
+#: field:builder.ir.ui.view,subclass_model:0
+#: field:ir.mixin.polymorphism.superclass,subclass_model:0
+msgid "Subclass Model"
+msgstr "Subclass Model"
+
+#. module: builder
+#: view:builder.workflow.activity:builder.builder_view_workflow_activity_form
+#: selection:builder.workflow.activity,kind:0
+#: field:builder.workflow.activity,module_subflow_id:0
+#: field:builder.workflow.activity,system_subflow_id:0
+msgid "Subflow"
+msgstr "Subflow"
+
+#. module: builder
+#: field:builder.workflow.activity,system_subflow_ref:0
+msgid "Subflow Ref"
+msgstr "Subflow Ref"
+
+#. module: builder
+#: field:builder.workflow.activity,subflow_type:0
+msgid "Subflow Type"
+msgstr "Subflow Type"
+
+#. module: builder
+#: view:builder.ir.ui.menu:builder.builder_ir_ui_menu_form_view
+msgid "Submenus"
+msgstr "Submenus"
+
+#. module: builder
+#: field:builder.ir.module.module,summary:0
+msgid "Summary"
+msgstr "Summary"
+
+#. module: builder
+#: selection:builder.ir.model.inherit,model_source:0
+#: selection:builder.ir.model.inherit.template,model_source:0
+#: selection:builder.ir.model.inherits,model_source:0
+#: selection:builder.ir.model.lookup.wizard,model_source:0
+#: selection:builder.ir.ui.menu,action_type:0
+#: selection:builder.ir.ui.menu,parent_type:0
+#: selection:builder.ir.ui.menu.lookup.wizard,model_source:0
+#: selection:builder.res.config.settings.field,default_type:0
+#: selection:builder.res.config.settings.field,group_type:0
+#: selection:builder.res.groups,category_type:0
+#: selection:builder.workflow.activity,subflow_type:0
+msgid "System"
+msgstr "System"
+
+#. module: builder
+#: field:builder.ir.ui.menu,action_system:0
+msgid "System Action"
+msgstr "System Action"
+
+#. module: builder
+#: field:builder.res.groups,category_id:0
+msgid "System Application"
+msgstr "System Application"
+
+#. module: builder
+#: field:builder.res.groups,category_ref:0
+msgid "System Application Ref"
+msgstr "System Application Ref"
+
+#. module: builder
+#: field:builder.res.config.settings.field,default_system_model_field_id:0
+msgid "System Field"
+msgstr "System Field"
+
+#. module: builder
+#: field:builder.res.config.settings.field,group_system_group_id:0
+msgid "System Group"
+msgstr "System Group"
+
+#. module: builder
+#: field:builder.ir.ui.menu,parent_menu_id:0
+msgid "System Menu"
+msgstr "System Menu"
+
+#. module: builder
+#: field:builder.ir.ui.menu,parent_ref:0
+msgid "System Menu Ref"
+msgstr "System Menu Ref"
+
+#. module: builder
+#: field:builder.res.config.settings.field,default_system_model_id:0
+msgid "System Model"
+msgstr "System Model"
+
+#. module: builder
+#: field:builder.ir.actions.act_window,target:0
+msgid "Target Window"
+msgstr "Target Window"
+
+#. module: builder
+#: view:builder.ir.cron:builder.builder_ir_cron_form_view
+#: view:builder.ir.module.module:builder.module_form
+msgid "Technical Data"
+msgstr "Технические данные"
+
+#. module: builder
+#: field:builder.ir.module.module,name:0
+msgid "Technical Name"
+msgstr "Technical Name"
+
+#. module: builder
+#: view:builder.views.kanban:builder.view_builder_views_kanban
+#: field:builder.views.kanban,attr_template:0
+msgid "Template"
+msgstr "Template"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Text Block"
+msgstr "Текстовый блок"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Text-Image"
+msgstr "Текст-Изображение"
+
+#. module: builder
+#: code:addons/builder/models/fields.py:300
+#, python-format
+msgid ""
+"The Selection Options expression is must be in the [('key','Label'), ...] "
+"format!"
+msgstr ""
+"The Selection Options expression is must be in the [('key','Label'), ...] "
+"format!"
+
+#. module: builder
+#: code:addons/builder/models/fields.py:286
+#, python-format
+msgid ""
+"The Selection Options expression is not a valid Pythonic expression.Please "
+"provide an expression in the [('key','Label'), ...] format."
+msgstr ""
+"The Selection Options expression is not a valid Pythonic expression.Please "
+"provide an expression in the [('key','Label'), ...] format."
+
+#. module: builder
+#: help:builder.workflow.transition,act_to:0
+msgid "The destination activity."
+msgstr "The destination activity."
+
+#. module: builder
+#: help:builder.views.calendar,attr_display:0
+msgid ""
+"The display format which will be used to display the event where fields are "
+"between \"[\" and \"]\""
+msgstr ""
+"The display format which will be used to display the event where fields are "
+"between \"[\" and \"]\""
+
+#. module: builder
+#: help:builder.workflow.transition,group_id:0
+msgid ""
+"The group that a user must have to be authorized to validate this transition."
+msgstr ""
+"The group that a user must have to be authorized to validate this transition."
+
+#. module: builder
+#: sql_constraint:builder.lambda:0
+msgid "The name must be unique."
+msgstr "The name must be unique."
+
+#. module: builder
+#: code:addons/builder/models/security.py:79
+#, python-format
+msgid "The name of the group can not start with \"-\""
+msgstr "The name of the group can not start with \"-\""
+
+#. module: builder
+#: sql_constraint:builder.res.groups:0
+msgid "The name of the group must be unique within an application!"
+msgstr "The name of the group must be unique within an application!"
+
+#. module: builder
+#: help:builder.ir.model.fields,domain:0
+#: help:builder.res.config.settings.field,domain:0
+msgid ""
+"The optional domain to restrict possible values for relationship fields, "
+"specified as a Python expression defining a list of triplets. For example: "
+"[('color','=','red')]"
+msgstr ""
+"The optional domain to restrict possible values for relationship fields, "
+"specified as a Python expression defining a list of triplets. For example: "
+"[('color','=','red')]"
+
+#. module: builder
+#: help:builder.ir.cron,priority:0
+msgid ""
+"The priority of the job, as an integer: 0 means higher priority, 10 means "
+"lower priority."
+msgstr ""
+"The priority of the job, as an integer: 0 means higher priority, 10 means "
+"lower priority."
+
+#. module: builder
+#: code:addons/builder/models/data.py:33 code:addons/builder/models/data.py:35
+#, python-format
+msgid "The python code must be a lambda."
+msgstr "The python code must be a lambda."
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "The top of the top"
+msgstr "Самая верхушка"
+
+#. module: builder
+#: view:builder.website.theme:builder.builder_website_theme_form_view
+#: view:builder.website.theme:builder.builder_website_theme_tree_view
+#: field:builder.website.theme.item,theme_id:0
+msgid "Theme"
+msgstr "Theme"
+
+#. module: builder
+#: code:addons/builder/models/module.py:424
+#: view:builder.ir.module.module:builder.module_form
+#: field:builder.ir.module.module,website_theme_ids:0
+#, python-format
+msgid "Themes"
+msgstr "Themes"
+
+#. module: builder
+#: selection:builder.ir.actions.act_url,target:0
+msgid "This Window"
+msgstr "This Window"
+
+#. module: builder
+#: help:builder.ir.model,osv_memory:0
+msgid ""
+"This field specifies whether the model is transient or not (i.e. if records "
+"are automatically deleted from the database or not)"
+msgstr ""
+"This field specifies whether the model is transient or not (i.e. if records "
+"are automatically deleted from the database or not)"
+
+#. module: builder
+#: help:builder.ir.actions.act_window,views:0
+msgid ""
+"This function field computes the ordered list of views that should be "
+"enabled when displaying the result of an action, federating view mode, views "
+"and reference view. The result is returned as an ordered list of pairs "
+"(view_id,view_mode)."
+msgstr ""
+"This function field computes the ordered list of views that should be "
+"enabled when displaying the result of an action, federating view mode, views "
+"and reference view. The result is returned as an ordered list of pairs "
+"(view_id,view_mode)."
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Three Columns"
+msgstr "Три столбца"
+
+#. module: builder
+#: selection:builder.views.form.field,related_field_tree_editable:0
+#: view:website:builder.snippet_form
+msgid "Top"
+msgstr "Top"
+
+#. module: builder
+#: field:builder.ir.model,osv_memory:0
+msgid "Transient"
+msgstr "Transient"
+
+#. module: builder
+#: view:builder.workflow.transition:builder.builder_view_workflow_transition_form
+#: view:builder.workflow.transition:builder.builder_view_workflow_transition_tree
+msgid "Transition"
+msgstr "Transition"
+
+#. module: builder
+#: view:builder.workflow.activity:builder.builder_view_workflow_activity_form
+msgid "Transitions"
+msgstr "Transitions"
+
+#. module: builder
+#: field:builder.res.groups,trans_implied_ids:0
+msgid "Transitively inherits"
+msgstr "Transitively inherits"
+
+#. module: builder
+#: field:builder.ir.model.fields,translate:0
+#: field:builder.res.config.settings.field,translate:0
+msgid "Translatable"
+msgstr "Translatable"
+
+#. module: builder
+#: selection:builder.ir.actions.act_window,view_type:0
+#: selection:builder.ir.ui.view,type:0
+#: selection:builder.views.form.field,related_field_mode:0
+#: selection:builder.views.selector,type:0
+msgid "Tree"
+msgstr "Tree"
+
+#. module: builder
+#: field:builder.views.form.field,related_field_tree_editable:0
+msgid "Tree Editable"
+msgstr "Tree Editable"
+
+#. module: builder
+#: field:builder.views.form.field,related_field_tree_ref:0
+msgid "Tree View ID"
+msgstr "Tree View ID"
+
+#. module: builder
+#: code:addons/builder/models/views/base.py:104
+#, python-format
+msgid "Tree View View"
+msgstr "Tree View View"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Two Columns"
+msgstr "Два столбца"
+
+#. module: builder
+#: field:builder.ir.model.demo.creator.wizard,type:0
+#: field:builder.ir.model.lookup.wizard,model_source:0
+#: field:builder.ir.module.dependency,type:0
+#: field:builder.ir.ui.menu.lookup.wizard,model_source:0
+#: field:builder.ir.ui.view,type:0 field:builder.views.form.button,type:0
+#: field:builder.views.form.statusbar.button,type:0
+#: field:builder.views.graph,attr_type:0
+#: field:builder.views.graph.field,type:0
+#: field:builder.views.search.field,type:0 field:builder.views.selector,type:0
+#: field:builder.website.theme,type:0
+msgid "Type"
+msgstr "Type"
+
+#. module: builder
+#: code:addons/builder/models/module.py:495
+#: view:builder.ir.module.module:builder.module_form
+#, python-format
+msgid "UML Diagram"
+msgstr "UML Diagram"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.view_builder_model_diagram
+msgid "UML Editor"
+msgstr "UML Editor"
+
+#. module: builder
+#: field:builder.ir.module.module,url:0 field:builder.website.menu,url:0
+msgid "URL"
+msgstr "URL"
+
+#. module: builder
+#: field:builder.ir.module.module,action_url_ids:0
+msgid "URL Actions"
+msgstr "URL Actions"
+
+#. module: builder
+#: code:addons/builder/models/demo/base.py:75
+#, python-format
+msgid "Unknown"
+msgstr "Unknown"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Unlimited support"
+msgstr "Неограниченная поддержка"
+
+#. module: builder
+#: field:builder.web.util.css.class,usage:0
+msgid "Usage"
+msgstr "Usage"
+
+#. module: builder
+#: field:builder.ir.model.method,use_cache:0
+msgid "Use Cache"
+msgstr "Use Cache"
+
+#. module: builder
+#: field:builder.views.calendar,attr_use_contacts:0
+msgid "Use Contacts"
+msgstr "Use Contacts"
+
+#. module: builder
+#: field:builder.ir.model.fields,is_rec_name:0
+#: field:builder.res.config.settings.field,is_rec_name:0
+msgid "Use as Name"
+msgstr "Use as Name"
+
+#. module: builder
+#: field:builder.ir.model.fields,use_to_order:0
+#: field:builder.res.config.settings.field,use_to_order:0
+msgid "Use to Order"
+msgstr "Use to Order"
+
+#. module: builder
+#: help:builder.ir.actions.act_window,usage:0
+msgid "Used to filter menu and home actions from the user form."
+msgstr "Used to filter menu and home actions from the user form."
+
+#. module: builder
+#: view:builder.res.groups:builder.builder_res_groups_form_view
+msgid ""
+"Users added to this group are automatically added in the following groups."
+msgstr ""
+"Users added to this group are automatically added in the following groups."
+
+#. module: builder
+#: help:builder.res.groups,implied_ids:0
+msgid "Users of this group automatically inherit those groups"
+msgstr "Users of this group automatically inherit those groups"
+
+#. module: builder
+#: code:addons/builder/models/demo/name.py:37
+#: help:builder.ir.model.demo.generator.name,name_type_schema:0
+#, python-format
+msgid ""
+"Valid placeholders are : Title, Name, MaleName, FemaleName, Surname, Initial"
+msgstr ""
+"Valid placeholders are : Title, Name, MaleName, FemaleName, Surname, Initial"
+
+#. module: builder
+#: selection:builder.ir.model.fields,default_type:0
+#: field:builder.ir.model.fields.option,value:0
+msgid "Value"
+msgstr "Value"
+
+#. module: builder
+#: field:builder.ir.module.module,version:0
+#: field:builder.ir.module.module.generate.wizard,generator:0
+msgid "Version"
+msgstr "Version"
+
+#. module: builder
+#: selection:builder.views.graph,attr_orientation:0
+msgid "Vertical"
+msgstr "Vertical"
+
+#. module: builder
+#: view:builder.ir.ui.view:builder.builder_ir_ui_view_tree
+#: field:builder.ir.ui.view.inherit.change,view_id:0
+#: field:builder.views.calendar,view_id:0
+#: field:builder.views.calendar.field,view_id:0
+#: field:builder.views.form,view_id:0
+#: field:builder.views.form.button,view_id:0
+#: field:builder.views.form.field,view_id:0
+#: field:builder.views.form.statusbar.button,view_id:0
+#: field:builder.views.gantt,view_id:0
+#: field:builder.views.gantt.field,view_id:0
+#: field:builder.views.graph,view_id:0
+#: field:builder.views.graph.field,view_id:0
+#: field:builder.views.kanban,view_id:0
+#: field:builder.views.kanban.field,view_id:0
+#: field:builder.views.search,view_id:0
+#: field:builder.views.search.field,view_id:0
+#: field:builder.views.tree,view_id:0 field:builder.views.tree.field,view_id:0
+msgid "View"
+msgstr "View"
+
+#. module: builder
+#: field:builder.ir.model,button_ids:0
+msgid "View Buttons"
+msgstr "View Buttons"
+
+#. module: builder
+#: view:builder.ir.ui.view:builder.builder_ir_ui_view_form
+#: view:builder.views.calendar:builder.view_builder_views_calendar
+#: view:builder.views.form:builder.view_builder_views_form
+#: view:builder.views.gantt:builder.view_builder_views_gantt
+#: view:builder.views.graph:builder.view_builder_views_graph
+#: view:builder.views.kanban:builder.view_builder_views_kanban
+#: view:builder.views.search:builder.view_builder_views_search
+#: view:builder.views.tree:builder.view_builder_views_tree
+msgid "View Generator"
+msgstr "View Generator"
+
+#. module: builder
+#: field:builder.ir.ui.view,xml_id:0
+msgid "View ID"
+msgstr "View ID"
+
+#. module: builder
+#: field:builder.ir.actions.act_window,view_mode:0
+msgid "View Mode"
+msgstr "View Mode"
+
+#. module: builder
+#: field:builder.ir.ui.view,name:0
+msgid "View Name"
+msgstr "View Name"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "View Product"
+msgstr "Смотреть товар"
+
+#. module: builder
+#: field:builder.ir.actions.act_window,view_id:0
+msgid "View Ref."
+msgstr "View Ref."
+
+#. module: builder
+#: field:builder.ir.actions.act_window,view_type:0
+#: field:builder.views.form.field,related_field_view_type:0
+msgid "View Type"
+msgstr "View Type"
+
+#. module: builder
+#: model:ir.actions.act_window,name:builder.act_builder_views_selector
+msgid "View Wizard Selector"
+msgstr "View Wizard Selector"
+
+#. module: builder
+#: help:builder.ir.actions.act_window,view_type:0
+msgid ""
+"View type: Tree type to use for the tree view, set to 'tree' for a "
+"hierarchical tree view, or 'form' for a regular list view"
+msgstr ""
+"View type: Tree type to use for the tree view, set to 'tree' for a "
+"hierarchical tree view, or 'form' for a regular list view"
+
+#. module: builder
+#: code:addons/builder/models/module.py:221
+#: view:builder.ir.actions.act_window:builder.builder_ir_actions_act_window_form_view
+#: field:builder.ir.actions.act_window,view_ids:0
+#: field:builder.ir.actions.act_window,views:0
+#: view:builder.ir.model:builder.builder_ir_model_form_view
+#: field:builder.ir.model,view_ids:0
+#: view:builder.ir.module.module:builder.module_form
+#: field:builder.ir.module.module,view_ids:0
+#: field:builder.ir.module.module,views_by_module:0
+#: view:builder.res.groups:builder.builder_res_groups_form_view
+#: field:builder.res.groups,view_access:0
+#: model:ir.actions.act_window,name:builder.act_builder_ir_ui_view
+#, python-format
+msgid "Views"
+msgstr "Формы"
+
+#. module: builder
+#: field:builder.model.data.attribute,visible:0
+msgid "Visible"
+msgstr "Visible"
+
+#. module: builder
+#: field:builder.views.form,visible_states:0
+msgid "Visible States"
+msgstr "Visible States"
+
+#. module: builder
+#: view:builder.ir.module.module:builder.module_form
+#: field:builder.ir.module.module,website:0
+msgid "Website"
+msgstr "Сайт"
+
+#. module: builder
+#: code:addons/builder/models/module.py:458
+#, python-format
+msgid "Website Menus"
+msgstr "Website Menus"
+
+#. module: builder
+#: view:builder.website.snippet:builder.builder_website_snippet_form_view
+#: view:builder.website.snippet:builder.builder_website_snippet_tree_view
+#: model:ir.actions.act_window,name:builder.act_builder_website_snippet
+msgid "Website Snippet"
+msgstr "Website Snippet"
+
+#. module: builder
+#: selection:builder.views.gantt,attr_mode:0
+msgid "Week"
+msgstr "Week"
+
+#. module: builder
+#: selection:builder.ir.cron,interval_type:0
+msgid "Weeks"
+msgstr "Weeks"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Weight: 1.1 ounces"
+msgstr "Вес: 1,1 унций"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Weight: 1.2 ounces"
+msgstr "Вес: 1,2 унций"
+
+#. module: builder
+#: view:builder.workflow:builder.builder_view_workflow_diagram
+msgid ""
+"When customizing a workflow, be sure you do not modify an existing node or "
+"arrow, but rather add new nodes or arrows. If you absolutly need to modify a "
+"node or arrow, you can only change fields that are empty or set to the "
+"default value. If you don't do that, your customization will be overwrited "
+"at the next update or upgrade to a future version of Odoo."
+msgstr ""
+"When customizing a workflow, be sure you do not modify an existing node or "
+"arrow, but rather add new nodes or arrows. If you absolutly need to modify a "
+"node or arrow, you can only change fields that are empty or set to the "
+"default value. If you don't do that, your customization will be overwrited "
+"at the next update or upgrade to a future version of Odoo."
+
+#. module: builder
+#: help:builder.workflow.transition,signal:0
+msgid ""
+"When the operation of transition comes from a button pressed in the client "
+"form, signal tests the name of the pressed button. If signal is NULL, no "
+"button is necessary to validate this transition."
+msgstr ""
+"When the operation of transition comes from a button pressed in the client "
+"form, signal tests the name of the pressed button. If signal is NULL, no "
+"button is necessary to validate this transition."
+
+#. module: builder
+#: help:builder.ir.model.fields,auto_join:0
+#: help:builder.res.config.settings.field,auto_join:0
+msgid ""
+"Whether JOINs are generated upon search through that field (boolean, by "
+"default ``False``"
+msgstr ""
+"Whether JOINs are generated upon search through that field (boolean, by "
+"default ``False``"
+
+#. module: builder
+#: help:builder.ir.model.fields,translate:0
+#: help:builder.res.config.settings.field,translate:0
+msgid ""
+"Whether values for this field can be translated (enables the translation "
+"mechanism for that field)"
+msgstr ""
+"Whether values for this field can be translated (enables the translation "
+"mechanism for that field)"
+
+#. module: builder
+#: field:builder.views.form.button,widget:0
+#: field:builder.views.form.field,widget:0
+#: field:builder.views.tree.field,widget:0
+msgid "Widget"
+msgstr "Widget"
+
+#. module: builder
+#: field:builder.views.form.field,widget_options:0
+#: field:builder.views.tree.field,widget_options:0
+msgid "Widget Options"
+msgstr "Widget Options"
+
+#. module: builder
+#: selection:builder.ir.module.module,post_install_action:0
+#: selection:builder.ir.ui.menu,action_module:0
+msgid "Window"
+msgstr "Window"
+
+#. module: builder
+#: view:builder.ir.actions.act_window:builder.builder_ir_actions_act_window_form_view
+#: view:builder.ir.actions.act_window:builder.builder_ir_actions_act_window_tree_view
+#: model:ir.actions.act_window,name:builder.act_builder_ir_actions_act_window
+msgid "Window Action"
+msgstr "Window Action"
+
+#. module: builder
+#: field:builder.ir.module.module,action_window_ids:0
+msgid "Window Actions"
+msgstr "Window Actions"
+
+#. module: builder
+#: field:builder.ir.model.import.line,import_id:0
+msgid "Wizard"
+msgstr "Wizard"
+
+#. module: builder
+#: view:builder.views.selector:builder.view_builder_views_selector
+msgid "Wizard Selector"
+msgstr "Wizard Selector"
+
+#. module: builder
+#: selection:builder.ir.cron,interval_type:0
+msgid "Work Days"
+msgstr "Work Days"
+
+#. module: builder
+#: view:builder.workflow:builder.builder_view_workflow_form
+#: view:builder.workflow:builder.builder_view_workflow_tree
+#: field:builder.workflow.activity,wkf_id:0
+msgid "Workflow"
+msgstr "Workflow"
+
+#. module: builder
+#: view:builder.workflow:builder.builder_view_workflow_diagram
+msgid "Workflow Editor"
+msgstr "Workflow Editor"
+
+#. module: builder
+#: code:addons/builder/models/module.py:322
+#: view:builder.ir.module.module:builder.module_form
+#: field:builder.ir.module.module,workflow_ids:0
+#: model:ir.actions.act_window,name:builder.action_builder_workflow_form
+#, python-format
+msgid "Workflows"
+msgstr "Рабочие процессы"
+
+#. module: builder
+#: field:builder.ir.model.access,perm_write:0
+#: field:builder.ir.model.access.generate.wizard,perm_write:0
+msgid "Write Access"
+msgstr "Write Access"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid ""
+"Write one or two paragraphs describing your product,\n"
+"                                                    services or a specific "
+"feature. To be successful\n"
+"                                                    your content needs to be "
+"useful to your readers."
+msgstr ""
+"Напишите один или два параграфа с описанием вашего товара,\n"
+"                                                    услуг или особых "
+"продуктов. Для успешных продаж\n"
+"                                                    ваш текст должен быть "
+"полезен для ваших читателей."
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "Write one sentence to convince visitor about your message."
+msgstr ""
+"Напишите одно предложение, чтобы довести до сознания посетителя ваш посыл."
+
+#. module: builder
+#: selection:builder.views.form.field,widget:0
+#: selection:builder.views.tree.field,widget:0
+msgid "X2ManyCounter"
+msgstr "X2ManyCounter"
+
+#. module: builder
+#: field:builder.model.data,result_text:0
+msgid "XML"
+msgstr "XML"
+
+#. module: builder
+#: field:builder.model.data.attribute,xml_attr:0
+msgid "XML Attribute"
+msgstr "XML Attribute"
+
+#. module: builder
+#: field:builder.ir.actions.act_url,xml_id:0
+#: field:builder.ir.actions.act_window,xml_id:0
+#: field:builder.ir.actions.actions,xml_id:0 field:builder.ir.ui.menu,xml_id:0
+#: field:builder.model.data.attribute,xml_id:0
+#: field:builder.res.groups,xml_id:0 field:builder.web.asset,attr_id:0
+#: field:builder.website.asset,attr_id:0
+#: field:builder.website.media.item,attr_id:0
+#: field:builder.website.page,attr_id:0
+msgid "XML ID"
+msgstr "XML ID"
+
+#. module: builder
+#: selection:builder.ir.ui.view.inherit.change,inherit_view_type:0
+#: field:builder.website.snippet,xpath:0
+msgid "XPath"
+msgstr "XPath"
+
+#. module: builder
+#: selection:builder.workflow.activity,join_mode:0
+#: selection:builder.workflow.activity,split_mode:0
+msgid "Xor"
+msgstr "Xor"
+
+#. module: builder
+#: selection:builder.views.gantt,attr_mode:0
+msgid "Year"
+msgstr "Год"
+
+#. module: builder
+#: code:addons/builder/models/fields.py:175
+#, python-format
+msgid ""
+"You must select one of the relational field types when creating a relation "
+"in the diagram view."
+msgstr ""
+"You must select one of the relational field types when creating a relation "
+"in the diagram view."
+
+#. module: builder
+#: code:addons/builder/models/website.py:69
+#, python-format
+msgid "You must select only images files."
+msgstr "Выбирать только изображения"
+
+#. module: builder
+#: view:website:builder.snippet_form
+msgid "before"
+msgstr "До"
+
+#. module: builder
+#: selection:builder.views.graph.field,type:0
+msgid "col"
+msgstr "col"
+
+#. module: builder
+#: view:website:builder.snippet_form
+msgid ""
+"copying any content! And you can select the parent and siblings of the "
+"active element by hitting"
+msgstr ""
+"copying any content! And you can select the parent and siblings of the "
+"active element by hitting"
+
+#. module: builder
+#: selection:builder.views.graph.field,interval:0
+msgid "day"
+msgstr "день"
+
+#. module: builder
+#: help:builder.website.theme,font_attr:0
+msgid "ex: Times New Roman"
+msgstr "ex: Times New Roman"
+
+#. module: builder
+#: selection:builder.ir.ui.menu,action_system:0
+msgid "ir.actions.act_url"
+msgstr "ir.actions.act_url"
+
+#. module: builder
+#: selection:builder.ir.ui.menu,action_system:0
+msgid "ir.actions.act_window"
+msgstr "ir.actions.act_window"
+
+#. module: builder
+#: selection:builder.ir.ui.menu,action_system:0
+msgid "ir.actions.client"
+msgstr "ir.actions.client"
+
+#. module: builder
+#: selection:builder.ir.ui.menu,action_system:0
+msgid "ir.actions.report.xml"
+msgstr "ir.actions.report.xml"
+
+#. module: builder
+#: selection:builder.ir.ui.menu,action_system:0
+msgid "ir.actions.server"
+msgstr "ir.actions.server"
+
+#. module: builder
+#: selection:builder.ir.ui.menu,action_system:0
+msgid "ir.actions.wizard"
+msgstr "ir.actions.wizard"
+
+#. module: builder
+#: view:builder.ir.model.demo.generator.m2m:builder.builder_ir_model_demo_generator_m2m_form_view
+#: model:ir.actions.act_window,name:builder.act_builder_ir_model_demo_generator_m2m
+msgid "m2m Generator"
+msgstr "m2m Generator"
+
+#. module: builder
+#: view:builder.ir.model.demo.generator.m2o:builder.builder_ir_model_demo_generator_m2o_form_view
+#: model:ir.actions.act_window,name:builder.act_builder_ir_model_demo_generator_m2o
+msgid "m2o Generator"
+msgstr "m2o Generator"
+
+#. module: builder
+#: selection:builder.views.graph.field,type:0
+msgid "measure"
+msgstr "измерение"
+
+#. module: builder
+#: view:builder.ir.model.fields:builder.builder_ir_model_fields_form_diagram_view
+msgid "module_id"
+msgstr "module_id"
+
+#. module: builder
+#: selection:builder.views.graph.field,interval:0
+msgid "month"
+msgstr "месяц"
+
+#. module: builder
+#: view:builder.data.import.wizard:builder.builder_data_import_wizard_form_view
+#: view:builder.ir.action.lookup.wizard:builder.builder_ir_model_lookup_wizard_form_view
+#: view:builder.ir.model.access.generate.wizard:builder.builder_ir_model_access_generate_wizard_form_view
+#: view:builder.ir.model.demo.creator.wizard:builder.builder_ir_model_demo_creator_wizard_form_view
+#: view:builder.ir.model.demo.generator.autoincrement:builder.builder_ir_model_demo_generator_autoincrement_form_view
+#: view:builder.ir.model.demo.generator.binary:builder.builder_ir_model_demo_generator_binary_form_view
+#: view:builder.ir.model.demo.generator.custom_list:builder.builder_ir_model_demo_generator_custom_list_form_view
+#: view:builder.ir.model.demo.generator.date:builder.builder_ir_model_demo_generator_date_form_view
+#: view:builder.ir.model.demo.generator.email:builder.builder_ir_model_demo_generator_email_form_view
+#: view:builder.ir.model.demo.generator.m2m:builder.builder_ir_model_demo_generator_m2m_form_view
+#: view:builder.ir.model.demo.generator.m2o:builder.builder_ir_model_demo_generator_m2o_form_view
+#: view:builder.ir.model.demo.generator.name:builder.builder_ir_model_demo_generator_name_form_view
+#: view:builder.ir.model.demo.generator.normal_distribution:builder.builder_ir_model_demo_generator_normal_form_view
+#: view:builder.ir.model.demo.generator.randomstr:builder.builder_ir_model_demo_generator_randomstr_form_view
+#: view:builder.ir.model.demo.generator.selection:builder.builder_ir_model_demo_generator_selection_form_view
+#: view:builder.ir.model.import.wizard:builder.builder_ir_model_import_wizard_form_view
+#: view:builder.ir.module.export.wizard:builder.builder_ir_module_export_wizard_form_view
+#: view:builder.ir.module.module.generate.wizard:builder.builder_ir_module_module_generate_wizard_form_view
+#: view:builder.ir.module.module.import.wizard:builder.builder_ir_module_module_import_wizard_form_view
+#: view:builder.ir.ui.menu.lookup.wizard:builder.builder_ir_menu_lookup_wizard_form_view
+#: view:builder.res.groups.import.wizard:builder.builder_res_groups_import_wizard_form_view
+#: view:builder.views.calendar:builder.view_builder_views_calendar
+#: view:builder.views.form:builder.view_builder_views_form
+#: view:builder.views.gantt:builder.view_builder_views_gantt
+#: view:builder.views.graph:builder.view_builder_views_graph
+#: view:builder.views.kanban:builder.view_builder_views_kanban
+#: view:builder.views.search:builder.view_builder_views_search
+#: view:builder.views.selector:builder.view_builder_views_selector
+#: view:builder.views.tree:builder.view_builder_views_tree
+#: view:builder.website.asset.data.wizard:builder.builder_website_asset_data_wizard_form_view
+#: view:builder.website.media.item.bulk.add.wizard:builder.builder_website_media_item_bulk_add_wizard_form
+#: view:builder.website.page.import.wizard:builder.builder_website_page_import_wizard_form_view
+msgid "or"
+msgstr "или"
+
+#. module: builder
+#: view:website:builder.page_designer_snippets
+msgid "per month"
+msgstr "в месяц"
+
+#. module: builder
+#: selection:builder.views.graph.field,type:0
+msgid "row"
+msgstr "строка"
+
+#. module: builder
+#: help:builder.ir.model.fields,copy:0
+#: help:builder.res.config.settings.field,copy:0
+msgid ""
+"whether the field value should be copied when the record is duplicated "
+"(default: ``True`` for normal fields, ``False`` for ``one2many`` and "
+"computed fields, including property fields and related fields)"
+msgstr ""
+"whether the field value should be copied when the record is duplicated "
+"(default: ``True`` for normal fields, ``False`` for ``one2many`` and "
+"computed fields, including property fields and related fields)"
+
+#. module: builder
+#: selection:builder.views.graph.field,interval:0
+msgid "year"
+msgstr "год"
