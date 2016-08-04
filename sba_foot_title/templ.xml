@@ -11,7 +11,7 @@
                         <div class="user-heading">
                             <br/><span class="help-block"> </span>
                             <br/><span class="help-block"> </span>
-                            <h3>Version SBA_Odoo <t t-esc="version_info.server_version"/></h3>
+                            <h3>Version SbaErp <t t-esc="version_info.server_version"/></h3>
                             <br/><span class="help-block"> </span>
                         </div>
 	   	</t>
@@ -21,7 +21,7 @@
                 <div class="tab-content">
                     <div id="settings" class="tab-pane active">
                         <h4>Copyright © 2001-TODAY SBA-group. All Rights Reserved.</h4>
-                        <p>Licenced under the terms of <a target="_blank" href="https://www.sba-group.ru" style="text-decoration: underline;">GNU Affero General Public License</a></p>
+                        <!-- p>Licenced under the terms of <a target="_blank" href="https://www.sba-group.ru" style="text-decoration: underline;">GNU Affero General Public License</a></p-->
                         <p>For more information visit <a target="_blank" href="https://www.sba-group.ru" style="text-decoration: underline;">sba-group.ru</a></p>
                     </div>
                     <div id="email" class="tab-pane">

@@ -15,7 +15,7 @@
                         <div class="user-heading">
                             <br/><span class="help-block"> </span>
                             <br/><span class="help-block"> </span>
-                            <h3>Version SBA_Odoo <t t-esc="version_info.server_version"/></h3>
+                            <h3>Version SbaErp <t t-esc="version_info.server_version"/></h3>
                             <br/><span class="help-block"> </span>
                         </div>
 	   	</t>

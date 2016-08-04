@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    OpenERP, Open Source Management Solution
-#    Copyright (C) 2004-2010 Tiny SPRL (<http://tiny.be>).
+#    Odoo, Open Source Management Solution
+#    Copyright (C) 2014-TODAY Odoo SA (<https://www.odoo.com>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -18,24 +18,6 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
- 
-# noinspection PyStatementEffect
-{
-    "name" : "Sba_Resource",
-    "author" : "Glukhov VU",
-    "website" : "sba-group.ru",
-    "category" : "Sale Management",
-    "licence" : "AGPL-3",
-    "description": """
-Sba_Resource
-====================================
-Sba_Resource planing
-                    """,
-    "depends" : ['sale', 'event_sale', 'account', 'l10n_ru_doc'],
-    "data" : [
-        ],
-    "demo" : [],
-    "installable": True,
-    "auto_install": False,
-    "application": True,
-}
+
+import models
+import controllers
