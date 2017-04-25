@@ -29,7 +29,8 @@
         <template id="sba_footer_default" inherit_id="website.footer_default" customize_show="True" name="Automatic SBA Footer">
             <!--xpath expr="//span[@t-field='res_company.name']" position="replace"-->
             <xpath expr="//a[@href='/page/website.aboutus']" position="after">
-                <p> ОГРН: <span t-field="res_company.sba_ogrn"/> </p>
+                <!--p><small> ОГРН: <span t-field="res_company.sba_ogrn"/> </small></p-->
+                <h4>ОГРН: <span t-field="res_company.sba_ogrn"/></h4>
             </xpath>
         </template>
         <template id="sba_contact" inherit_id="base.contact">
