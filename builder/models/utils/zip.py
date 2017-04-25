@@ -3,6 +3,14 @@ import zipfile
 from StringIO import StringIO
 
 
+
+# encoding=utf8
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
+
+
+
 class ZipFile(object):
 
     def __init__(self, jinja_env=None, compress_type=zipfile.ZIP_DEFLATED, external_attr=2175008768):

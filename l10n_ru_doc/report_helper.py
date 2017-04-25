@@ -72,10 +72,10 @@ def address(self, partner):
 def representation(self, partner):
     repr = []
     if partner.name: repr.append(partner.name)
-    if partner.inn: repr.append(u"ИНН " + partner.inn)
-    if partner.kpp: repr.append(u"КПП " + partner.kpp)
     repr.append(self.address(partner))
-    return ', '.join(repr)
+    if partner.phone: repr.append(u"тел.: " + partner.phone)
+    elif partner.parent_id.phone: repr.append(u"тел.: " + partner.parent_id.phone)
+    return '; '.join(repr)
 
 def full_representation(self, partner):
     repr = [self.representation(partner)]

@@ -41,7 +41,6 @@ class {{ class_name }}(models.TransientModel):
             </form>
         </field>
     </record>
-
     <record id="action_{{ xml_id }}" model="ir.actions.act_window">
         <field name="name">{{ model.name }}</field>
         <field name="type">ir.actions.act_window</field>
@@ -49,7 +48,6 @@ class {{ class_name }}(models.TransientModel):
         <field name="view_mode">form</field>
         <field name="target">inline</field>
     </record>
-
     <menuitem id="menu_{{ xml_id }}" name="{{ model.name }}" parent="base.menu_config" action="action_{{ xml_id }}"/>
 {% endmacro %}
 
@@ -244,14 +242,19 @@ class {{ class_name }}({% if model.osv_memory %}models.TransientModel{% else %}m
         raise NotImplementedError
     {% endif %}
 {% endmacro -%}
-
 {# generate builder.ir.model.field #}
 {% macro builder_ir_model_field(field) -%}
+{%- if field.relation_model_id -%}
+   {{ builder_ir_model_field_rela(field) }}
+  {% else -%}
+   {{ builder_ir_model_field_simpl(field) }}
+{% endif -%}
+{%- endmacro %}
+
+{# generate builder.ir.model.field #}
+{% macro builder_ir_model_field_simpl(field) -%}
     {%- if field.define -%}
     {{ field.name }} = fields.{{ field.ttype.capitalize() }}(
-        {%- if field.ttype == 'many2many' -%} '{{ field.relation_model_id.model }}', '{{ field.relation_many2many_relation }}', {% if field.relation_many2many_column1 and field.relation_many2many_column2 %}'{{ field.relation_many2many_column1 }}', '{{ field.relation_many2many_column2 }}', {%- endif %}{%- endif -%}
-        {%- if field.ttype == 'many2one' -%} '{{ field.relation_model_id.model }}', {% if field.on_delete %}ondelete='{{field.on_delete}}',{% endif %}{% if field.auto_join %}auto_join=True,{% endif %}{% if field.delegate -%}delegate=True,{% endif %}{%- endif -%}
-        {%- if field.ttype == 'one2many' -%} '{{ field.relation_model_id.model }}', '{{field.relation_field}}', {%- endif -%}
         {%- if field.ttype == 'char' -%} {%- if field.size %} size={{ field.size }}, {%- endif -%}{% if field.translate %}translate=True,{% endif %}{%- endif -%}
         {%- if field.ttype == 'text' -%} {% if field.translate %}translate=True, {% endif %}{%- endif -%}
         {%- if field.ttype == 'float' -%} {% if field.decimal_digits and field.decimal_precision %} digits=({{field.decimal_digits}}, {{field.decimal_precision}}),{% endif %}{%- endif -%}
@@ -266,13 +269,37 @@ class {{ class_name }}({% if model.osv_memory %}models.TransientModel{% else %}m
         {%- if field.groups %} groups='{{ field.groups }}',{%- endif -%}
         {%- if field.selection %} selection={{ field.selection }},{%- endif -%}
         {%- if field.option_ids %} selection={{ field.option_ids|field_options }},{%- endif -%}
-        {%- if field.allow_compute -%} compute={{ field.compute_method_name }},{%- endif -%}
-        {%- if field.allow_inverse -%} inverse={{ field.inverse_method_name }},{%- endif -%}
-        {%- if field.allow_search -%}  search={{ field.search_method_name }},{%- endif -%}
-        {%- if field.allow_default -%} default={{ field.default_method_name }},{%- endif -%})
+        {%- if field.allow_compute -%} compute='{{ field.compute_method_name }}',{%- endif -%}
+        {%- if field.allow_inverse -%} inverse='{{ field.inverse_method_name }}',{%- endif -%}
+        {%- if field.allow_search -%} search='{{ field.search_method_name }}',{%- endif -%}
+        {%- if field.allow_default -%} default='{{ field.default_method_name }}',{%- endif -%})
     {% endif -%}
 {%- endmacro %}
 
+{# generate builder.ir.model.field #}
+{% macro builder_ir_model_field_rela(field) -%}
+    {%- if field.define -%}
+    {{ field.name }} = fields.{{ field.ttype.capitalize() }}(
+        {%- if field.ttype == 'many2many' -%} '{{ field.relation_model_id.model }}', '{{ field.relation_many2many_relation }}', {% if field.relation_many2many_column1 and field.relation_many2many_column2 %}'{{ field.relation_many2many_column1 }}', '{{ field.relation_many2many_column2 }}', {%- endif %}{%- endif -%}
+        {%- if field.ttype == 'many2one' -%} '{{ field.relation_model_id.model }}', {% if field.on_delete %}ondelete='{{field.on_delete}}',{% endif %}{% if field.auto_join %}auto_join=True,{% endif %}{% if field.delegate -%}delegate=True,{% endif %}{%- endif -%}
+        {%- if field.ttype == 'one2many' -%} '{{ field.relation_model_id.model }}', '{{field.relation_field}}', {%- endif -%}
+        {%- if field.required %} required=True,{%- endif -%}
+        {%- if field.readonly %} readonly=True,{%- endif -%}
+        {%- if field.field_description %} string='{{ field.field_description }}',{% endif -%} {# This should be removed??? #}
+        {%- if field.string %} string='{{ field.string }}',{%- endif -%}
+        {%- if field.help %} help='''{{ field.help }}''',{%- endif -%}
+        {%- if field.index %} index=True,{%- endif -%}
+        {%- if not field.copy %} copy=False,{%- endif -%}
+        {%- if field.related %} related='{{ field.related }}',{%- endif -%}
+        {%- if field.groups %} groups='{{ field.groups }}',{%- endif -%}
+        {%- if field.selection %} selection={{ field.selection }},{%- endif -%}
+        {%- if field.option_ids %} selection={{ field.option_ids|field_options }},{%- endif -%}
+        {%- if field.allow_compute -%} compute='{{ field.compute_method_name }}',{%- endif -%}
+        {%- if field.allow_inverse -%} inverse='{{ field.inverse_method_name }}',{%- endif -%}
+        {%- if field.allow_search -%} search='{{ field.search_method_name }}',{%- endif -%}
+        {%- if field.allow_default -%} default='{{ field.default_method_name }}',{%- endif -%})
+    {% endif -%}
+{%- endmacro %}
 
 {# generate builder.ir.cron #}
 {% macro builder_ir_cron(cron) %}

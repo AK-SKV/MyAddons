@@ -214,4 +214,10 @@
     background: rgba(246, 253, 187, 0.54) none repeat scroll 0 0;  //white none repeat scroll 0 0;
     height: inherit;
 }
+/* корректируем внешний вид заголовка записи при редактировании: убрали display: inline-block; */
+.openerp .oe_form .oe_form_field {
+	  width: 100%;
+	  padding: 2px 2px 2px 0px;
+	  vertical-align: top;
+	}
 

@@ -1,4 +1,6 @@
 eclipse.preferences.version=1
+encoding//edi_credos/models/models.py=utf-8
+encoding//l10n_ru_doc/report_helper.py=utf-8
 encoding//pofaTT_20160206/models/models_reserve.py=utf-8
 encoding//pofatt/__openerp__.py=utf-8
 encoding//pofatt/models/models.py=utf-8
